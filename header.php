@@ -67,8 +67,8 @@
 	<nav class="nav-section">
 		<div class="container">
 			<div class="nav-right">
-				<a href=""><i class="fa fa-user"></i> Login</a>
-				<a href=""><i class="fa fa-edit"></i> Register</a>
+				<a href="login.php"><i class="fa fa-user"></i> Login</a>
+				<a href="register.php"><i class="fa fa-edit"></i> Register</a>
 			</div>
 			<ul class="main-menu">
 				<li class="active"><a href="#">Home</a></li>
