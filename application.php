@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 <?php include ('header.php'); ?>
 
 <body>
@@ -79,20 +77,5 @@
                    </tbody>
                 </table>
              </div>
-</body>
 
 <?php include ('footer.php'); ?>
-
-
-=======
-<!-- Header -->
-<?php include ('header.php'); ?>
-<!-- Header End - Do Not Remove -->
-
-<!-- Your Content Start-->
-
-
-
-
-
-
