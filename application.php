@@ -96,15 +96,3 @@
 
 
 
-
-
-
-
-
-
-<!-- Your Content End-->
-
-<!-- Footer -->
-<?php include ('footer.php'); ?>
-<!-- Header End - Do Not Remove -->
->>>>>>> 805bbfb7c3fb6a7d6304741f85b7b2fd0bfcd826
