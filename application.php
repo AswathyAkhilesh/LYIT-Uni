@@ -1,7 +1,5 @@
 <?php include ('header.php'); ?>
 
-<body>
-
         <div class="container" style="width: 30%">
                 <table class="table table-striped">
                    <tbody>
