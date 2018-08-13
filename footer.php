@@ -1,5 +1,5 @@
 	<!-- Footer section -->
-	<footer class="footer-section">
+	<footer id="contact" class="footer-section">
 		<div class="container footer-top">
 			<div class="row">
 				<!-- widget -->
@@ -21,11 +21,11 @@
 					<h6 class="fw-title">USEFUL LINK</h6>
 					<div class="dobule-link">
 						<ul>
-							<li><a href="">Home</a></li>
-							<li><a href="">About us</a></li>
-							<li><a href="">Services</a></li>
-							<li><a href="">Events</a></li>
-							<li><a href="">Features</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="about.php">About us</a></li>
+							<li><a href="index.php#course">Courses</a></li>
+							<li><a href="index.php#news">News</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 						<ul>
 							<li><a href="">Policy</a></li>

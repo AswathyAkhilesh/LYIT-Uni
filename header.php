@@ -71,11 +71,11 @@
 				<a href="register.php"><i class="fa fa-edit"></i> Register</a>
 			</div>
 			<ul class="main-menu">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">COURSES</a></li>
-				<li><a href="#">blog</a></li>
-				<li><a href="#">Contact</a></li>
+				<li class="active"><a href="index.php">Home</a></li>
+				<li><a href="about.php">About Us</a></li>
+				<li><a href="index.php#course">COURSES</a></li>
+				<li><a href="index.php#news">News</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</div>
 	</nav>

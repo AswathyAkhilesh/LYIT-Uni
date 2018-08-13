@@ -168,7 +168,7 @@
 
 
 	<!-- Courses section -->
-	<section class="courses-section spad">
+	<section id="course" class="courses-section spad">
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>OUR COURSES</h3>
@@ -347,7 +347,7 @@
 
 
 	<!-- Blog section -->
-	<section class="blog-section spad">
+	<section id="news" class="blog-section spad">
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>LATEST NEWS</h3>
