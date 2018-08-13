@@ -69,7 +69,7 @@
       <div class="container tab-pane fade" id="d"><br>Depending on what type of applicant you are, the application process will differ.
          For applying to this course please click on the APPLY button.<br> <br>
 		 <div class="text-center">
-			<button type="button" class="btn btn-success" style="text-align:center">APPLY</button>
+			<button onclick="location.href='application.php';" type="button" class="btn btn-success" style="text-align:center">APPLY</button>
 		 </div>
       </div>
       <div class="container tab-pane fade" id="e">
