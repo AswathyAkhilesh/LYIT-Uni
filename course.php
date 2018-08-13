@@ -72,16 +72,18 @@
 			<button onclick="location.href='application.php';" type="button" class="btn btn-success" style="text-align:center">APPLY</button>
 		 </div>
       </div>
-      <div class="container tab-pane fade" id="e">
-         <h3>Career Pathways</h3>
+      <div class="container tab-pane fade" style="font-size:1.2em" id="e">
+	  <br>
+         <div>Career Pathways</div>
          <p>The main employers are:</p>
-         <ul>
+         <ul style="margin-left:30px;font-size:14px">
             <li>Software Companies</li>
             <li>Multinational Companies</li>
          </ul>
-         <h3>Graduate Careers</h3>
+		 <br>
+         <div>Graduate Careers</div>
          <p>Former graduates are employed in the following capacities:</p>
-         <ul>
+         <ul style="margin-left:30px;font-size:14px">
             <li>DevOps Engineer</li>
             <li>Cloud DevOps Engineer</li>
             <li>Systems Software Engineer</li>
