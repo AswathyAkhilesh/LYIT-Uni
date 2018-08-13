@@ -1,7 +1,9 @@
 <!-- Header -->
 <?php include ('header.php'); ?>
 <!-- Header End - Do Not Remove -->
-
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/course.css"/>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <div class="container">
          <div class="jumbotron" style="background-image: url('img1.jpg');color:white">
             <h1>Master of Science in DevOps </h1>

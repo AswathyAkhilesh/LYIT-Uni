@@ -1,0 +1,22 @@
+﻿ul.nav-tabs li.active a{
+	background-color:#337ab7 !important;
+        color:white !important
+        
+}
+ul.nav-tabs li:not(.active) a{
+	background-color:lightgray !important;
+        
+        
+}
+.course-details .tab-content {
+    overflow: auto;
+    padding: 0px 30px 30px 30px;
+    border: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+}
+
+.container .row{
+
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
