@@ -5,14 +5,14 @@
 				<!-- widget -->
 				<div class="col-sm-6 col-lg-3 footer-widget">
 					<div class="about-widget">
-						<img src="img/logo-light.png" alt="">
+						<img src="img/logo-light.png" alt="LYIT.edu">
 						<p>orem ipsum dolor sit amet, consecter adipiscing elite. Donec minos varius, viverra justo ut, aliquet nisl.</p>
 						<div class="social pt-1">
-							<a href=""><i class="fa fa-twitter-square"></i></a>
-							<a href=""><i class="fa fa-facebook-square"></i></a>
-							<a href=""><i class="fa fa-google-plus-square"></i></a>
-							<a href=""><i class="fa fa-linkedin-square"></i></a>
-							<a href=""><i class="fa fa-rss-square"></i></a>
+							<a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square"></i></a>
+							<a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+							<a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+							<a href="http://www.google.com" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+
 						</div>
 					</div>
 				</div>
@@ -38,7 +38,7 @@
 				</div>
 				<!-- widget -->
 				<div class="col-sm-6 col-lg-3 footer-widget">
-					<h6 class="fw-title">RECENT POST</h6>
+					<h6 class="fw-title">RECENT NEWS</h6>
 					<ul class="recent-post">
 						<li>
 							<p>Snackable study:How to break <br> up your master's degree</p>
@@ -52,7 +52,7 @@
 				</div>
 				<!-- widget -->
 				<div class="col-sm-6 col-lg-3 footer-widget">
-					<h6 class="fw-title">CONTACT</h6>
+					<h6 class="fw-title">CONTACT ADMISSIONS</h6>
 					<ul class="contact">
 						<li><p><i class="fa fa-map-marker"></i> Port Road, Letterkenny, Donegal</p></li>
 						<li><p><i class="fa fa-phone"></i> (+353) 7491 222 333</p></li>
@@ -71,6 +71,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</footer>
 	<!-- Footer section end-->
 
+	<!-- Back to Top-->
+	<a href=”#” class=”back-to-top” style=”display: inline;”> 
+	<i class=”fa fa-arrow-circle-up”></i>
+	</a>
+
 
 
 	<!--====== Javascripts & Jquery ======-->
@@ -80,6 +85,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/tools.js"></script>
 	
 </body>
 </html>

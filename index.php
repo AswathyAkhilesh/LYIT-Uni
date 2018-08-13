@@ -50,12 +50,12 @@
 					</div>
 				</div>
 				<div id="timer" class="col-lg-5 col-md-6">
-					<div class="counter">
+					<!-- <div class="counter">
 						<div class="counter-item"><h4>21</h4>Days</div>
 						<div class="counter-item"><h4>08</h4>Hrs</div>
 						<div class="counter-item"><h4>40</h4>Mins</div>
 						<div class="counter-item"><h4>56</h4>secs</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -186,7 +186,7 @@
 					<div class="course-info">
 						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
 						<h4>Certificate Course in Writing<br>for a Global Market</h4>
-						<div class="site-btn">View Modules</div>
+						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
 					</div>
 				</div>
 				<!-- course item -->
@@ -200,7 +200,7 @@
 					<div class="course-info">
 						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
 						<h4>Google AdWords: Get More<br> Customers with Search Marketing </h4>
-						<div class="site-btn">View Modules</div>
+						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
 					</div>
 				</div>
 				<!-- course item -->
@@ -214,7 +214,7 @@
 					<div class="course-info">
 						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
 						<h4>The Ultimate Drawing Course<br> Beginner to Advanced</h4>
-						<div class="site-btn">View Modules</div>
+						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
 					</div>
 				</div>
 				<!-- course item -->
@@ -228,7 +228,7 @@
 					<div class="course-info">
 						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
 						<h4>Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert</h4>
-						<div class="site-btn">View Modules</div>
+						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
 					</div>
 				</div>
 				<!-- course item -->
@@ -242,7 +242,7 @@
 					<div class="course-info">
 						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
 						<h4>Web Developer Bootcamp<br>Make web  applications</h4>
-						<div class="site-btn">View Modules</div>
+						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
 					</div>
 				</div>
 				<!-- course item -->
@@ -256,7 +256,7 @@
 					<div class="course-info">
 						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
 						<h4>How to Start an Amazon<br>FBA Store on a Tight Budget</h4>
-						<div class="site-btn">View Modules</div>
+						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
 					</div>
 				</div>
 			</div>

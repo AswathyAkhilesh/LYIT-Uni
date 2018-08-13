@@ -51,7 +51,7 @@
 			<div class="header-info">
 				<div class="hf-item">
 					<i class="fa fa-clock-o"></i>
-					<p><span>Library Hours:</span>Monday - Friday: 08 AM - 06 PM</p>
+					<p><span>Library Hours:</span>Monday - Friday: 09:30 AM - 09:30 PM</p>
 				</div>
 				<div class="hf-item">
 					<i class="fa fa-map-marker"></i>
@@ -69,6 +69,7 @@
 			<div class="nav-right">
 				<a href="login.php"><i class="fa fa-user"></i> Login</a>
 				<a href="register.php"><i class="fa fa-edit"></i> Register</a>
+				<a href="profile.php"><i class="fa fa-user"></i> Profile</a>
 			</div>
 			<ul class="main-menu">
 				<li class="active"><a href="index.php">Home</a></li>
