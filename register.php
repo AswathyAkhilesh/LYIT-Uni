@@ -68,7 +68,7 @@
                     </tr>
                     <tr>
                         <td>
-                            Town/City::
+                            Town/City:
                         </td>
                         <td>
                             <input type="textbox"><br><br>
