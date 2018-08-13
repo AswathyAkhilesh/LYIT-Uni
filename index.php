@@ -56,6 +56,7 @@
 						<div class="counter-item"><h4>40</h4>Mins</div>
 						<div class="counter-item"><h4>56</h4>secs</div>
 					</div> -->
+					<div>test</div>
 				</div>
 			</div>
 		</div>
