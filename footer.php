@@ -71,10 +71,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</footer>
 	<!-- Footer section end-->
 
-	<!-- Back to Top-->
-	<a href=”#” class=”back-to-top” style=”display: inline;”> 
-	<i class=”fa fa-arrow-circle-up”></i>
-	</a>
+	<!-- Return to Top -->
+	<a href="javascript:" id="top"><i class="fa fa-angle-up"></i></a>
 
 
 
