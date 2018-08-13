@@ -5,12 +5,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <div class="container">
-   <div class="jumbotron" style="background-image: url('img1.jpg');color:white">
-      <h1>Master of Science in DevOps </h1>
-      <h2>
+   <div class="jumbotron" style="background-image: url('img/course detail/header.jpg')">
+      <h1 style="color:white">Master of Science in DevOps </h1>
+      <h2 style="color:white">
       Course Essentials
       <h2>
-      <p>DevOps, a new organizational and cultural way of organizing development and IT operations work, is spreading rapidly – driven by mounting evidence of its benefits to the business. But reaping these gains requires rethinking application security to deliver more secure code at DevOps speed.</p>
+      <p style="color:white">DevOps, a new organizational and cultural way of organizing development and IT operations work, is spreading rapidly – driven by mounting evidence of its benefits to the business. But reaping these gains requires rethinking application security to deliver more secure code at DevOps speed.</p>
    </div>
    <h3 class="card-title" style="color:#22206f">Key Information </h3>
    <div class="row">
