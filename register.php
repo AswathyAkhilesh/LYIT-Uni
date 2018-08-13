@@ -5,107 +5,55 @@
 <!-- Your Content Start-->
 
 <section>
-    <div class="Regbox comment-form container">
-            <h1>Register Here</h1>
-            <form>
-                <table>
-                    <tr>
-                        <td> 
-                        Name:   
-                        </td>
-                        <td>
-                            <input type="textbox"><br><br>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Username:
-                        </td>
-                        <td>
-                            <input type="textbox"><br><br>
-                        </td>
-                    </tr>
-                     <tr>
-                        <td>
-                            Password:
-                        </td>
-                        <td>
-                            <input type="password"><br><br>
-                        </td>
-                    </tr>
-                     <tr>
-                        <td>
-                            Email:
-                        </td>
-                        <td>
-                            <input type="textbox" ><br><br>
-                        </td>
-                    </tr>
-                     <tr>
-                        <td>
-                            Gender:
-                        </td>
-                        <td>
-                            <input type="radio" name = "Gender">Male
-                             <input type="radio" name = "Gender">female<br><br>
-                        </td>
-                    </tr>
-                     <tr>
-                        <td>
-                            Date of of birth:
-                        </td>
-                        <td>
-                            <input type="date"><br><br>
-                        </td>
-                    </tr>
-                     <tr>
-                        <td>
-                            Address:
-                        </td>
-                        <td>
-                            <input type="textarea" rows="3"><br><br>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Town/City:
-                        </td>
-                        <td>
-                            <input type="textbox"><br><br>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            County:
-                        </td>
-                        <td>
-                            <input type="textbox"><br><br>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Country:
-                        </td>
-                        <td>
-                            <input type="textbox"><br><br>
-                        </td>
-                    </tr>
-                     <tr>
-                        <td>
-                            <input type="submit" value = "Submit">
-                        </td>
-                    </tr>
-                    
-                </table>
-            </form>
-        </div>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+      <label class="form-check-label" for="gridCheck">
+        Show Password
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
  </section>
-
-
-
-
-
-
 
 
 <!-- Your Content End-->
