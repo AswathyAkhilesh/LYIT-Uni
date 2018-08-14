@@ -62,10 +62,13 @@
         </div>
         
    <!-- <button type="submit" class="btn btn-primary" href = "login.php" >Submit</button>-->
+   <div class="site-btn text-white">
+   <a href="login.php">Submit</div>
     </form>
-    <form>
+  <!-- <form>
          <input onClick="window.location.href='http://localhost/01_LyitUni/login.php'" type="submit" Value="Submit">
-      </form>
+      </form> -->
+      <!-- <a href="login.php">Dont have an account?</a>-->
  </section>
 <br>
 
