@@ -96,18 +96,19 @@ h1{
                 <p>Username</p>
                 <input type="text" name="" placeholder = "Enter username">
                 <p>Password</p>
-                <input type="text"  name="" placeholder = "Enter password">
+                <input type="password"  name="" placeholder = "Enter password">
                 <br>
                 
                 
                 <input type="submit" name="" value="Login">
-                <br>
+                &nbsp;
                 <a href="#">Lost your Password?</a>
                 <br>
                 <a href="register.php">Dont have an account?</a>
             </form>
         </div>
 </section>
+<br>
 
 <!-- Your Content End-->
 
