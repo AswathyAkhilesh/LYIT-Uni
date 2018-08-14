@@ -62,9 +62,9 @@
          </table>
       </div>
       <div class="container tab-pane fade" id="c" >
-         <br><b>The EU and NON EU citizens have got different fee structure</b> 
-         <h6 style="color:#22206f">EU Fees: €5,000.00</h6>
-         <h6 style="color:#22206f">Non-EU Fees: €9,000.00</h6>
+         <br><div style="padding-bottom:15px"><b>The EU and NON EU citizens have got different fee structure</b></div>
+         <div style="color:#22206f;font-size:15px;padding-bottom:10px">EU Fees: €5,000.00</div>
+         <div style="color:#22206f;font-size:15px">Non-EU Fees: €9,000.00</div><br>
       </div>
       <div class="container tab-pane fade" id="d"><br>Depending on what type of applicant you are, the application process will differ.
          For applying to this course please click on the APPLY button.<br> <br>
