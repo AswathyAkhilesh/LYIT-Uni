@@ -64,7 +64,7 @@
 
 
 	<!-- Header section  -->
-	<nav class="nav-section">
+	<nav class="nav-section sticky-top">
 		<div class="container">
 			<div class="nav-right">
 				<a href="login.php"><i class="fa fa-user"></i> Login</a>
@@ -73,10 +73,10 @@
 			</div>
 			<ul class="main-menu">
 				<li class="active"><a href="index.php">Home</a></li>
-				<li><a href="about.php">About Us</a></li>
 				<li><a href="index.php#course">COURSES</a></li>
 				<li><a href="index.php#news">News</a></li>
 				<li><a href="#contact">Contact</a></li>
+				<li><a href="about.php">About Us</a></li>
 			</ul>
 		</div>
 	</nav>
