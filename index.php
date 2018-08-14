@@ -11,7 +11,7 @@
 								<div class="hs-subtitle">Award Winning UNIVERSITY</div>
 								<h2 class="hs-title">An investment in knowledge pays the best interest.</h2>
 								<p class="hs-des">Education is not just about going to school and getting a degree. It's about widening your<br> knowledge and absorbing the truth about life. Knowledge is power.</p>
-								<div class="site-btn">GET STARTED</div>
+								<div class="site-btn-hero">GET STARTED</div>
 							</div>
 						</div>
 					</div>
@@ -25,7 +25,21 @@
 								<div class="hs-subtitle">Award Winning UNIVERSITY</div>
 								<h2 class="hs-title">An investment in knowledge pays the best interest.</h2>
 								<p class="hs-des">Education is not just about going to school and getting a degree. It's about widening your<br> knowledge and absorbing the truth about life. Knowledge is power.</p>
-								<div class="site-btn">GET STARTED</div>
+								<div class="site-btn-hero">GET STARTED</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hs-item set-bg" data-setbg="img/hero-slider/3.jpg">
+				<div class="hs-text">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8">
+								<div class="hs-subtitle">Award Winning UNIVERSITY</div>
+								<h2 class="hs-title">An investment in knowledge pays the best interest.</h2>
+								<p class="hs-des">Education is not just about going to school and getting a degree. It's about widening your<br> knowledge and absorbing the truth about life. Knowledge is power.</p>
+								<div class="site-btn-hero">GET STARTED</div>
 							</div>
 						</div>
 					</div>
@@ -181,12 +195,12 @@
 					<div class="course-thumb">
 						<img src="img/course/1.jpg" alt="">
 						<div class="course-cat">
-							<span>BUSINESS</span>
+							<span>Bachelor of Science (Hons)</span>
 						</div>
 					</div>
 					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Certificate Course in Writing<br>for a Global Market</h4>
+						<h4>Applied Computing</h4>
+						<p>This level 8 programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers...</p>
 						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
 					</div>
 				</div>
@@ -195,12 +209,12 @@
 					<div class="course-thumb">
 						<img src="img/course/2.jpg" alt="">
 						<div class="course-cat">
-							<span>Marketing</span>
+							<span>Bachelor of Science (Ord)</span>
 						</div>
 					</div>
 					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Google AdWords: Get More<br> Customers with Search Marketing </h4>
+						<h4>Cloud Technology</h4>
+						<p>Our Bachelor of Science in Computing with degree award options: General Computing or Mobile Technology or Cloud Technology provides you with a range of both theoretical and practical skills to advance in the computer industry. The ethos of this three-year course is to provide you with a strong core set of...</p>
 						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
 					</div>
 				</div>
@@ -209,12 +223,12 @@
 					<div class="course-thumb">
 						<img src="img/course/3.jpg" alt="">
 						<div class="course-cat">
-							<span>DESIGN</span>
+							<span>Bachelor of Science (Ord)</span>
 						</div>
 					</div>
 					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>The Ultimate Drawing Course<br> Beginner to Advanced</h4>
+						<h4>Security & Digital Forensics</h4>
+						<p>Our Bachelor of Science in Computing with Computer Security and Digital Forensics equips you with the skills, methods and techniques that apply in Computer Security and Digital Forensics. It’s an exciting field at the forefront of technology security. We live in an age where the security of digital data has never...</p>
 						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
 					</div>
 				</div>
@@ -223,12 +237,12 @@
 					<div class="course-thumb">
 						<img src="img/course/4.jpg" alt="">
 						<div class="course-cat">
-							<span>DATABASE</span>
+							<span>Master of Science</span>
 						</div>
 					</div>
 					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert</h4>
+						<h4>DevOps</h4>
+						<p>Our Master of Science in Computing in DevOps is a one year, full-time or two year, part-time programme. DevOps is the practice of operations and development engineers participating together in the entire service lifestyle, from design through the development process to production support. DevOps is characterised...</p>
 						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
 					</div>
 				</div>
@@ -237,12 +251,12 @@
 					<div class="course-thumb">
 						<img src="img/course/5.jpg" alt="">
 						<div class="course-cat">
-							<span>PROGRAM</span>
+							<span>Master of Science</span>
 						</div>
 					</div>
 					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Web Developer Bootcamp<br>Make web  applications</h4>
+						<h4>Private Cloud Technologies</h4>
+						<p>Our Master of Science in Computing in Private Cloud Technologies will augment your existing skills and knowledge to position you for a successful and rewarding career in Private Cloud Technologies. If you already hold an honours degree in computing or an appropriate mix of academic qualifications...</p>
 						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
 					</div>
 				</div>
@@ -251,12 +265,12 @@
 					<div class="course-thumb">
 						<img src="img/course/6.jpg" alt="">
 						<div class="course-cat">
-							<span>BUSINESS</span>
+							<span>Master of Science</span>
 						</div>
 					</div>
 					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>How to Start an Amazon<br>FBA Store on a Tight Budget</h4>
+						<h4>Big Data Analytics</h4>
+						<p>Our Master of Science in Computing in Big Data Analytics is a one year, full-time or two year, part-time programme. It focuses on the processes involved in examining and interpreting large amounts of data of a variety of types to uncover hidden patterns, unknown correlations and other useful information...</p>
 						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
 					</div>
 				</div>
