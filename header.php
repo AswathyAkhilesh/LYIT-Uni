@@ -10,7 +10,7 @@
     <link href="img/favicon.png" rel="shortcut icon"/>
     
     <!-- Social Image -->
-    <meta property="og:image" content="http://link192.net/lyituni/img/cover.jpg">
+    <meta property="og:image" content="https://link192.net/lyituni/img/cover.jpg">
     <meta property="og:image:type" content="image/jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
