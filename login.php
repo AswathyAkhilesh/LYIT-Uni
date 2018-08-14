@@ -100,7 +100,9 @@ h1{
                 <br>
                 
                 
-                <input type="submit" name="" value="Login">
+               <!-- <input type="submit" name="" value="Login">-->
+                <div class="site-btn text-white">
+     <a href="profile.php">Login</div>
                 &nbsp;
                 <a href="#">Lost your Password?</a>
                 <br>
