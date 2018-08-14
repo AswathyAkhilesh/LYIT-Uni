@@ -289,8 +289,8 @@
 						<i class="ti-crown"></i>
 					</div>
 					<div class="fact-text">
-						<h2>50</h2>
-						<p>YEARS</p>
+						<h2>1971</h2>
+						<p>ESTABLISHED</p>
 					</div>
 				</div>
 				<div class="col-sm-6 col-lg-3 fact">
