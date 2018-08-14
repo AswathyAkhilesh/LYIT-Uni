@@ -125,9 +125,7 @@ ol {
 	Commom elements
 -----------------------*/
 
-/* Buttons */
-
-.site-btn {
+.site-btn-hero {
 	position: relative;
 	display: inline-block;
 	text-transform: uppercase;
@@ -137,11 +135,31 @@ ol {
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 14px;
-	border-radius: 50px;
+	border-radius: 5px;
 	min-width: 170px;
 	text-align: center;
 	border: none;
 	cursor: pointer;
+}
+
+/* Buttons */
+
+.site-btn {
+	position: relative;
+	display: block;
+	text-transform: uppercase;
+	background: #f6783a;
+	color: #fff;
+	padding: 18px 30px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 14px;
+	border-radius: 5px;
+	min-width: 170px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	margin: 0px;
 }
 
 /* Image Popup */
@@ -669,13 +687,13 @@ ol {
 	font-weight: bold;
 	color: #fff;
 	display: inline-block;
-	border-radius: 50px;
+	border-radius: 5px;
 	letter-spacing: 2px;
 }
 
 .course-item .course-info {
-	text-align: center;
-	margin: 0 -15px;
+	text-align: justify;
+	margin: 0;
 }
 
 .course-item .course-info .date {
