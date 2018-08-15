@@ -102,17 +102,21 @@ input.pw {
                 <p>Username</p>
                 <input type="text" name="" placeholder = "Enter username">
                 <p>Password</p>
-                <input type="text" class = "pw1"  name="" placeholder = "Enter password" style = "-webkit-text-security: disc"">
+                <input type="text" class = "pw1"  name="" placeholder = "Enter password" style = "-webkit-text-security: disc">
                 <br>
-                
-                
+            
                <!-- <input type="submit" name="" value="Login">-->
                 <div class="site-btn text-white">
-     <a href="profile.php">Login</div>
-                &nbsp;
-                <a href="#">Lost your Password?</a>
+                 <a href="profile.php">Login</a></div>
+                <br> 
+                <a href="#" onClick = "mine()">Lost your Password?</a>
                 <br>
                 <a href="register.php">Dont have an account?</a>
+                <script>
+                    function mine(){
+                        alert("Email has been sent!!")
+                    }
+                </script>
             </form>
         </div>
 </section>
