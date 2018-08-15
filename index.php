@@ -317,7 +317,7 @@
 					</div>
 					<div class="fact-text">
 						<h2>800+</h2>
-						<p>DAILY LESSONS</p>
+						<p>DAILY ALESSONS</p>
 					</div>
 				</div>
 			</div>
