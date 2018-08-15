@@ -61,9 +61,9 @@
                 <div class="form-group">
                     <label for="password" class="col-sm-3 control-label">Password*</label>
                     <div class="col-sm-9">
-                        <input type="password" id="password" placeholder="Password" class="form-control">&#160;&#160;;&#160;&#160;
-                        <input class="form-check-input" type="checkbox" id="passCheck">
-                         <label class="form-check-label" for="passwordChaeck"> Show Password
+                        <input type="password" id="password" placeholder="Password" class="form-control">
+                        <input class="form-check-input" type="checkbox" id="passCheck" style = "margin-left: 500px">
+                         <label class="form-check-label" for="passwordChaeck" style = "margin-left: 530px"> Show Password
                     </div>
                 </div>
                 <div class="form-group">
