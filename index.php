@@ -59,7 +59,7 @@
 						<i class="fa fa-graduation-cap"></i>
 					</div>
 					<div class="counter-content">
-						<h2>NEW Term Starts: September 1st 2018</h2>
+						<h2>NEW Term Starts: September 3rd 2018</h2>
 						<p><i class="fa fa-calendar-o"></i>Library Hours 09:30 AM - 09:30 PM</p>
 					</div>
 				</div>
@@ -298,7 +298,7 @@
 						<i class="ti-briefcase"></i>
 					</div>
 					<div class="fact-text">
-						<h2>80</h2>
+						<h2>100+</h2>
 						<p>LECTURERS</p>
 					</div>
 				</div>
@@ -307,7 +307,7 @@
 						<i class="ti-user"></i>
 					</div>
 					<div class="fact-text">
-						<h2>3500</h2>
+						<h2>4000+</h2>
 						<p>STUDENTS</p>
 					</div>
 				</div>
@@ -317,7 +317,7 @@
 					</div>
 					<div class="fact-text">
 						<h2>800+</h2>
-						<p>LESSONS</p>
+						<p>DAILY LESSONS</p>
 					</div>
 				</div>
 			</div>
