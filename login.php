@@ -88,6 +88,12 @@ h1{
     color: #ffc107;
 }
 </style>-->
+
+<style>
+input.pw { 
+    -webkit-text-security: disc; 
+}
+</style>
 <section>
     <div class="comment-form container">
             <img src="003aa.png" alt="" class = avatar>
@@ -96,7 +102,7 @@ h1{
                 <p>Username</p>
                 <input type="text" name="" placeholder = "Enter username">
                 <p>Password</p>
-                <input type="password"  name="" placeholder = "Enter password">
+                <input type="text" class = "pw1"  name="" placeholder = "Enter password" style = "-webkit-text-security: disc"">
                 <br>
                 
                 
