@@ -89,20 +89,15 @@ h1{
 }
 </style>-->
 
-<style>
-input.pw { 
-    -webkit-text-security: disc; 
-}
 </style>
 <section>
     <div class="comment-form container">
-            <img src="003aa.png" alt="" class = avatar>
             <h1>Login Here</h1>
-            <form>
+            <form name = "f"  action="login">
                 <p>Username</p>
-                <input type="text" name="" placeholder = "Enter username">
+                <input type="text" name="username" placeholder = "Enter username">
                 <p>Password</p>
-                <input type="text" class = "pw1"  name="" placeholder = "Enter password" style = "-webkit-text-security: disc">
+                <input type="text" name="password" placeholder = "Enter password" style = "-webkit-text-security: disc">
                 <br>
             
                <!-- <input type="submit" name="" value="Login">-->
@@ -114,7 +109,7 @@ input.pw {
                 <a href="register.php">Dont have an account?</a>
                 <script>
                     function mine(){
-                        alert("Email has been sent!!")
+                        alert("Email has been sent. Please create a new password.!!")
                     }
                 </script>
             </form>
