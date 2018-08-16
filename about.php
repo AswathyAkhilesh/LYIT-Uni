@@ -5,7 +5,7 @@
 <!-- Your Content Start-->
 
 <!-- About section -->
-<section class="about-section spad pt-0">
+<section class="about-section spad">
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>WELCOME TO EZUCA</h3>
