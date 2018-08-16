@@ -1,9 +1,6 @@
 <!-- Header -->
 <?php include ('header.php'); ?>
 <!-- Header End - Do Not Remove -->
-
-<!-- Your Content Start-->
-
 <style type="text/css">
 
 * { margin: 0; padding: 0; }
@@ -17,8 +14,8 @@ body { height: 100%; background-color: #FFFFFF; font: 1.2em Verdana, Arial, Helv
 
 form { margin: 25px 0 0 29px; width: 750px; padding-bottom: 30px; padding-left: 200px;}
 
-fieldset { margin: 0 0 22px 0; border: 1px solid #FFFFFF; padding: 12px 17px; background-color: #FAF8F8; }
-legend { font-size: 1.1em; background-color: #095D92; color: #FFFFFF; font-weight: bold; padding: 4px 8px; }
+fieldset { margin: 0 0 22px 0; border: 1px solid #FFFFFF; padding: 12px 17px; background-color: #FFFFFF; }
+legend { font-size: 1.1em; background-color: #f49242; color: #FFFFFF; font-weight: bold; padding: 4px 8px; width:450px }
 
 label.float { float: left; display: block; width: 250px; margin: 4px 0 0 0; clear: left;}
 label.gender { float: left; display: block; width: 440px; margin: 4px 0 0 0; clear: left;}
@@ -162,11 +159,10 @@ form br { display: none; }
 
 
 
-
-
-
 <!-- Your Content End-->
 
 <!-- Footer -->
 <?php include ('footer.php'); ?>
 <!-- Header End - Do Not Remove -->
+
+<!-- Your Content Start-->
