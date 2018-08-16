@@ -70,6 +70,7 @@
 				<a href="login.php"><i class="fa fa-user"></i> Login</a>
 				<a href="register.php"><i class="fa fa-edit"></i> Register</a>
 				<a href="profile.php"><i class="fa fa-user"></i> Profile</a>
+				<a href="admin/index.php"><i class="fa fa-home"></i> Admin</a>
 			</div>
 			<ul class="main-menu">
 				<li class="active"><a href="index.php">Home</a></li>

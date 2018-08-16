@@ -7,8 +7,14 @@
 	<meta name="keywords" content="event, lyit, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->   
-    <link href="img/favicon.png" rel="shortcut icon"/>
+    <link href="../img/favicon.png" rel="shortcut icon"/>
     
+    <!-- Social Image -->
+    <meta property="og:image" content="https://link192.net/lyituni/img/cover.jpg">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
 
@@ -34,19 +40,42 @@
 		<div class="loader"></div>
 	</div>
 
+	<!-- header section -->
+	<header class="header-section">
+		<div class="container">
+			<!-- logo -->
+			<a href="index.php" class="site-logo"><img src="../img/logo.png" alt=""></a>
+			<div class="nav-switch">
+				<i class="fa fa-bars"></i>
+			</div>
+			<div class="header-info">
+				<div class="hf-item">
+					<i class="fa fa-clock-o"></i>
+					<p><span>Library Hours:</span>Monday - Friday: 09:30 AM - 09:30 PM</p>
+				</div>
+				<div class="hf-item">
+					<i class="fa fa-map-marker"></i>
+					<p><span>Find us:</span>Port Road, Letterkenny, Donegal</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header section end-->
+
+
 	<!-- Header section  -->
 	<nav class="nav-section sticky-top">
 		<div class="container">
 			<div class="nav-right">
 				<a href="login.php"><i class="fa fa-user"></i> Login</a>
-				<a href="profile.php"><i class="fa fa-user"></i> Profile</a>
+				<a href="../index.php"><i class="fa fa-home"></i> Frontend</a>
 			</div>
 			<ul class="main-menu">
-				<a href="index.php"><img src="../img/logo-light.png"></a>
-				<li><a href="index.php">Dashboard</a></li>
-				<li><a href="#">Courses</a></li>
-				<li><a href="#">Students</a></li>
-				<li><a href="#">Interviews</a></li>
+				<li class="active"><a href="index.php">Dashboard</a></li>
+				<li><a href="index.php#course">COURSES</a></li>
+				<li><a href="index.php#news">Applicants</a></li>
+				<li><a href="#contact">Interviews</a></li>
+				<li><a href="about.php">Students</a></li>
 			</ul>
 		</div>
 	</nav>
