@@ -75,7 +75,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<a href="#" class="btn btn-primary">View Full List</a>
+					<a href="#" class="site-btn">View Full List</a>
 				</div>
 				</div>
 			</div>
@@ -87,44 +87,44 @@
 						<thead class="thead-light">
 							<tr>
 							<th scope="col">Name</th>
-							<th scope="col">View</th>
-							<th scope="col">Edit</th>
+							<th scope="col">Course</th>
+							<th scope="col">Info</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<th scope="row">Aswathy</th>
+								<td>Applied Computing</td>
 								<td><button type="button" class="btn btn-success">View</button></td>
-								<td><button type="button" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Roshni</th>
+								<td>Applied Computing</td>
 								<td><button type="button" class="btn btn-success">View</button></td>
-								<td><button type="button" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Matthew</th>
+								<td>Applied Computing</td>
 								<td><button type="button" class="btn btn-success">View</button></td>
-								<td><button type="button" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Conor</th>
+								<td>Applied Computing</td>
 								<td><button type="button" class="btn btn-success">View</button></td>
-								<td><button type="button" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Liam</th>
+								<td>Applied Computing</td>
 								<td><button type="button" class="btn btn-success">View</button></td>
-								<td><button type="button" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Ruth</th>
+								<td>Applied Computing</td>
 								<td><button type="button" class="btn btn-success">View</button></td>
-								<td><button type="button" class="btn btn-danger">Edit</button></td>
 							</tr>
 						</tbody>
 					</table>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
+					<a href="#" class="site-btn">View Full List</a>
 				</div>
 				</div>
 			</div>
@@ -136,44 +136,44 @@
 						<thead class="thead-light">
 							<tr>
 							<th scope="col">Name</th>
-							<th scope="col">View</th>
-							<th scope="col">Edit</th>
+							<th scope="col">Date</th>
+							<th scope="col">Time</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<th scope="row">Aswathy</th>
-								<td><button type="button" class="btn btn-success">View</button></td>
-								<td><button type="button" class="btn btn-danger">Edit</button></td>
+								<td>21 Aug</td>
+								<td>9.00</td>
 							</tr>
 							<tr>
 								<th scope="row">Roshni</th>
-								<td><button type="button" class="btn btn-success">View</button></td>
-								<td><button type="button" class="btn btn-danger">Edit</button></td>
+								<td>21 Aug</td>
+								<td>9.30</td>
 							</tr>
 							<tr>
 								<th scope="row">Matthew</th>
-								<td><button type="button" class="btn btn-success">View</button></td>
-								<td><button type="button" class="btn btn-danger">Edit</button></td>
+								<td>21 Aug</td>
+								<td>10.30</td>
 							</tr>
 							<tr>
 								<th scope="row">Conor</th>
-								<td><button type="button" class="btn btn-success">View</button></td>
-								<td><button type="button" class="btn btn-danger">Edit</button></td>
+								<td>21 Aug</td>
+								<td>11.00</td>
 							</tr>
 							<tr>
 								<th scope="row">Liam</th>
-								<td><button type="button" class="btn btn-success">View</button></td>
-								<td><button type="button" class="btn btn-danger">Edit</button></td>
+								<td>21 Aug</td>
+								<td>11.30</td>
 							</tr>
 							<tr>
 								<th scope="row">Ruth</th>
-								<td><button type="button" class="btn btn-success">View</button></td>
-								<td><button type="button" class="btn btn-danger">Edit</button></td>
+								<td>21 Aug</td>
+								<td>1.00</td>
 							</tr>
 						</tbody>
 					</table>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
+					<a href="#" class="site-btn">View Full List</a>
 				</div>
 				</div>
 			</div>
