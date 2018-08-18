@@ -39,6 +39,7 @@
     </div>
 	<div>
 	<h3>Key Informations</h3>
+	<br>
 	 <div class="form-group">
       <label for="textbox3"><b>Award:</b></label>
       <input type="textbox3" class="form-control" id="textbox3" name="textbox3">
