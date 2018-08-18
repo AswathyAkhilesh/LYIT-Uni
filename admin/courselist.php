@@ -1,4 +1,4 @@
-<?php include ('header.php'); ?>	  
+<?php include ('header.php'); ?>
 	  
 	  <!--Style sheet--->
 	  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
@@ -12,6 +12,8 @@
 	  
 	  <!--Script-->
 	  <script src="../js/admincourselist.js"></script>
+	  
+<!--Begin HTML design--> 
  <br>
  <h2>Course List</h2>
   <p>The below grid contains the course list, to edit a course select a course and click on the "Edit" button, to Add a new course click on the "Add" button. To view the course detail page, select a course and click on the "View" button.</p>
@@ -74,4 +76,4 @@
 	<button type="button" class="btn btn-info">View</button>
 	<button type="button" class="btn btn-info">Edit</button>
 	<button type="button" class="btn btn-info">Add</button></p>
-<?php include ('footer.php'); ?>
+	<?php include ('footer.php'); ?>
