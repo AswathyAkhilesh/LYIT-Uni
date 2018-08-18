@@ -60,8 +60,8 @@
 							</tr>
 							<tr>
 								<th scope="row">DevOps</th>
-								<td><button type="button" class="btn btn-success">View</button></td>
-								<td><button type="button" class="btn btn-danger">Edit</button></td>
+								<td><button type="button" onclick="location.href='../course.php';" class="btn btn-success">View</button></td>
+								<td><button type="button" onclick="location.href='courseedit.php';" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Cloud Technologies</th>
@@ -75,7 +75,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<a href="#" class="site-btn">View Full List</a>
+					<a href="courselist.php" class="site-btn">View Full List</a>
 				</div>
 				</div>
 			</div>
