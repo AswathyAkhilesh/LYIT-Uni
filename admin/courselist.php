@@ -1,14 +1,17 @@
 <?php include ('header.php'); ?>	  
 	  
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
+	  <!--Style sheet--->
 	  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
 	  <link rel="stylesheet" href="https://cdn.datatables.net/select/1.2.7/css/select.dataTables.min.css">
 	  <link rel="stylesheet" href="../css/admincourselist.css">
-	  <script src="../js/admincourselist.js"></script>
 	  
+	  <!--Third-party Libraries--->
 	  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 	  <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
 	  <script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+	  
+	  <!--Script-->
+	  <script src="../js/admincourselist.js"></script>
  <br>
  <h2>Course List</h2>
   <p>The below grid contains the course list, to edit a course select a course and click on the "Edit" button, to Add a new course click on the "Add" button. To view the course detail page, select a course and click on the "View" button.</p>
