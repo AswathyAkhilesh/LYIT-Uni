@@ -72,3 +72,4 @@
 	<button type="button" class="btn btn-info">View</button>
 	<button type="button" class="btn btn-info">Edit</button>
 	<button type="button" class="btn btn-info">Add</button></p>
+<?php include ('footer.php'); ?>
