@@ -1,7 +1,11 @@
 table.dataTable thead th,
 table.dataTable tfoot th {
   text-align: left;
-  color:black;
-  background-color :lightblue;
+  color:white;
+  background-color :#f6783a;
+}
+button.btn{
+color:white !important;
+  background-color :#f6783a !important;
 }
 
