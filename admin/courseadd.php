@@ -1,12 +1,15 @@
 <?php include ('header.php'); ?>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!--Third party scripts-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+  
+  <!--Initialising Text area Editor-->
   <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
 
+<!--Begin HTML design-->  
 <div class="container">
+  <br>
   <h2>Add New Course </h2>
   <p>To add a new course, please enter the following details and click on the "Save" button </p>
   <form action="/action_page.php">
@@ -58,6 +61,8 @@
     </div>
 	</div>
     <button type="submit" class="btn btn-primary">Save</button>
-  </form>
+  </form><br>
 </div>
 <?php include ('footer.php'); ?>
+
+
