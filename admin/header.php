@@ -18,6 +18,15 @@
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
 
+	<!--====== Javascripts & Jquery ======-->
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/owl.carousel.min.js"></script>
+	<script src="../js/jquery.countdown.js"></script>
+	<script src="../js/masonry.pkgd.min.js"></script>
+	<script src="../js/magnific-popup.min.js"></script>
+	<script src="../js/main.js"></script>
+	<script src="../js/tools.js"></script>
+	
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="../css/font-awesome.min.css"/>
