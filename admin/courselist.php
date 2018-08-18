@@ -4,7 +4,7 @@
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
 	  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
 	  <link rel="stylesheet" href="https://cdn.datatables.net/select/1.2.7/css/select.dataTables.min.css">
-	  <link rel="stylesheet" href="../css/course grid.css">
+	  <link rel="stylesheet" href="../css/admincourselist.css">
 	  <script src="../js/admincourselist.js"></script>
 	  
 	  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
