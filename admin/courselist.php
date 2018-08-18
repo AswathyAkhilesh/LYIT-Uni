@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <title>Course List </title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	  
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
@@ -15,12 +9,10 @@
 	  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 	  <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
 	  <script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
-	  
-
-   </head>
-   <body >
+ <br>
+ <h2>Course List</h2>
+  <p>The below grid contains the course list, to edit a course select a course and click on the "Edit" button, to Add a new course click on the "Add" button. To view the course detail page, select a course and click on the "View" button.</p>
 <table id="example" class="table table-striped table-bordered" style="width:100%">
-<!--<table id="example" class="display" style="width:100%">-->
         <thead>
             <tr>
                 <th></th>
@@ -79,5 +71,3 @@
 	<button type="button" class="btn btn-info">View</button>
 	<button type="button" class="btn btn-info">Edit</button>
 	<button type="button" class="btn btn-info">Add</button></p>
-	</body>
-	</html>
