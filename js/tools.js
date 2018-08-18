@@ -7,6 +7,13 @@ var countDownDate = new Date("Sep 3, 2018 09:30:00").getTime();
 // Update the count down every 1 second
 var x = setInterval(function() {
 
+	// Check to see if element timer is null so that pages without timer do not throw error on console
+	var timerElement = document.getElementById("timer");
+	// Returns the execution if element is null
+    if(!timerElement){
+        return;
+    }
+	
     // Get todays date and time
     var now = new Date().getTime();
     
@@ -23,7 +30,7 @@ var x = setInterval(function() {
     // document.getElementById("demo").innerHTML = days + "d " + hours + "h "
     // + minutes + "m " + seconds + "s ";
 
-    document.getElementById("timer").innerHTML = "<div class='counter'><div class='counter-item'><h4>" + days + "</h4>Days</div><div class='counter-item'><h4>" + hours + "</h4>Hrs</div><div class='counter-item'><h4>" + minutes + "</h4>Mins</div><div class='counter-item'><h4>" + seconds + "</h4>secs</div></div>";
+    timerElement.innerHTML = "<div class='counter'><div class='counter-item'><h4>" + days + "</h4>Days</div><div class='counter-item'><h4>" + hours + "</h4>Hrs</div><div class='counter-item'><h4>" + minutes + "</h4>Mins</div><div class='counter-item'><h4>" + seconds + "</h4>secs</div></div>";
     
     // If the count down is over, write some text 
     if (distance < 0) {
