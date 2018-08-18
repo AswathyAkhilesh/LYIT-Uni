@@ -1,12 +1,15 @@
 <?php include ('header.php'); ?>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!--Third party scripts-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+  
+  <!--Initialising Text area Editor-->
   <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
 
+<!--Begin HTML design-->  
 <div class="container">
+  <br>
   <h2>Edit Course Details</h2>
   <p>The form below contains course details, modify as required and click on the "Update" button to save the details.</p>
   <form action="/action_page.php">
@@ -40,8 +43,7 @@
       <label for="comment3"><b>Course Fees:</b></label>
       <textarea class="form-control" rows="5" id="comment3" name="text" tyle="padding-bottom:15px"><br>The EU and NON EU citizens have got different fee structure
 	  <div style="color:#22206f;font-size:15px;padding-bottom:10px">EU Fees: €5,000.00</div>
-         <div style="color:#22206f;font-size:15px">Non-EU Fees: €9,000.00</div><br>
-	  
+         <div style="color:#22206f;font-size:15px">Non-EU Fees: €9,000.00</div><br>	  
 	  </textarea>
 	  </div>
 	<div class="form-group">
@@ -58,8 +60,7 @@
             <li>DevOps Engineer</li>
             <li>Cloud DevOps Engineer</li>
             <li>Systems Software Engineer</li>
-         </ul>
-
+         </ul>	  
 	  </textarea>
     </div>
 	<div>
@@ -86,6 +87,6 @@
     </div>
 	</div>
     <button type="submit" class="btn btn-primary">Update</button>
-  </form>
+  </form><br>
 </div>
 <?php include ('footer.php'); ?>
