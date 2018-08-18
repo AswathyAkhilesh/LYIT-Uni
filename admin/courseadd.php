@@ -39,7 +39,6 @@
     </div>
 	<div>
 	<h3>Key Informations</h3>
-	  <br>
 	 <div class="form-group">
       <label for="textbox3"><b>Award:</b></label>
       <input type="textbox3" class="form-control" id="textbox3" name="textbox3">
@@ -61,7 +60,7 @@
       <input type="textbox7" class="form-control" id="textbox7" name="textbox7">
     </div>
 	</div>
-    <button type="submit" class="btn btn-primary">Save</button>
+    <button type="button" onclick="location.href='courselist.php';"class="site-btn text-white">Save</button>
   </form><br>
 </div>
 <?php include ('footer.php'); ?>
