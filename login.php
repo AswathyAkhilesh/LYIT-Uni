@@ -95,15 +95,15 @@ h1{
             <h1>Login Here</h1>
             <form name = "f"  action="login">
                 <p>Username</p>
-                <input type="text" name="username" placeholder = "Enter username">
+                <input type="text" name="username" required="true" placeholder = "Enter username">
                 <p>Password</p>
-                <input type="text" name="password" placeholder = "Enter password" style = "-webkit-text-security: disc">
+                <input type="text" name="password" required="true" placeholder = "Enter password" style = "-webkit-text-security: disc">
                 <br>
             
                <!-- <input type="submit" name="" value="Login">-->
                 <div class="site-btn text-white">
                  <a href="profile.php">Login</a></div>
-                <br> 
+                <br>
                 <a href="#" onClick = "mine()">Lost your Password?</a>
                 <br>
                 <a href="register.php">Dont have an account?</a>

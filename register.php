@@ -17,9 +17,9 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="lastName" class="col-sm-3 control-label">Last Name*</label>
+                    <label for="lastName" class="col-sm-3 control-label" >Last Name*</label>
                     <div class="col-sm-9">
-                        <input type="text" id="lastName" placeholder="Last Name" class="form-control" autofocus>
+                        <input type="text" id="lastName" placeholder="Last Name" required="true" class="form-control" autofocus>
                     </div>
                 </div>
 
@@ -48,20 +48,20 @@
                     <div class="form-group">
                     <label for="username" class="col-sm-3 control-label">Username* </label>
                     <div class="col-sm-9">
-                        <input type="username" id="username" placeholder="username" class="form-control">
+                        <input type="username" required="true" id="username" placeholder="username" class="form-control">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="email" class="col-sm-3 control-label">Email* </label>
                     <div class="col-sm-9">
-                        <input type="email" id="email" placeholder="Email" class="form-control" name= "email">
+                        <input type="email" id="email" required="true" placeholder="Email" class="form-control" name= "email">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="password" class="col-sm-3 control-label">Password*</label>
                     <div class="col-sm-9">
-                        <input type="password" id="password" placeholder="Password" class="form-control">
+                        <input type="password" required="true" id="password" placeholder="Password" class="form-control">
                         <input class="form-check-input" type="checkbox" id="passCheck" style = "margin-left: 500px">
                          <label class="form-check-label" for="passwordChaeck" style = "margin-left: 530px"> Show Password
                     </div>
@@ -69,13 +69,13 @@
                 <div class="form-group">
                     <label for="password" class="col-sm-3 control-label">Confirm Password*</label>
                     <div class="col-sm-9">
-                        <input type="password" id="password" placeholder="Password" class="form-control">
+                        <input type="password" id="password" required="true" placeholder="Password" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="birthDate" class="col-sm-3 control-label">Date of Birth*</label>
+                    <label for="birthDate" class="col-sm-3  control-label">Date of Birth*</label>
                     <div class="col-sm-9">
-                        <input type="date" id="birthDate" class="form-control">
+                        <input type="date" id="birthDate" required="true" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
@@ -88,22 +88,22 @@
                 <div class="form-group">
                     <label for="Address" class="col-sm-3 control-label">Address*</label>
                     <div class="col-sm-9">
-                        <input type="text" id="Address1" placeholder="Address1" class="form-control" autofocus>
+                        <input type="text" id="Address1" required="true" placeholder="Address1" class="form-control" autofocus>
                         <br>
-                        <input type="text" id="Address2" placeholder="Address2" class="form-control" autofocus>
+                        <input type="text" id="Address2" required="true" placeholder="Address2" class="form-control" autofocus>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="city" class="col-sm-3 control-label">City*</label>
                     <div class="col-sm-9">
-                        <input type="city" id="city" placeholder="City" class="form-control">
+                        <input type="city" id="city" required="true" placeholder="City" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
-                                     <label class="col-md-4 control-label">Country</label>
+                                     <label class="col-md-4 control-label">Country*</label>
                                      <div class="col-md-8 inputGroupContainer">
                                         <div class="input-group">
-                                           <span class="input-group-addon" style="max-width: 100%;"><i class="glyphicon glyphicon-list"></i></span>
+                                           <span class="input-group-addon" required="true" style="max-width: 100%;"><i class="glyphicon glyphicon-list"></i></span>
                                            <select class="selectpicker form-control">
                                                 <option value="AF">Afghanistan</option>
                                                 <option value="AX">Åland Islands</option>
@@ -357,8 +357,6 @@
                                            </select>
                                         </div>
                 
-                
-                    
                 </div> <!-- /.form-group -->
                 <div class="form-group">
                     <div class="col-sm-9 col-sm-offset-3">
@@ -367,76 +365,12 @@
                     </div>
                 </div>
                      <div class="site-btn text-white">
-                     <a href="login.php">Submit</div>
+                     <button type="submit">Submit</button>  
+                    <!-- <a href="login.php">Submit</a>-->
+                     </div>
             </form> <!-- /form -->
         </div> <!-- ./container -->
 </section>
-<!-- <form>
-    <br>
-    <div class="form-row">
-        <div class="form-group col-md-6">
-        <label for="inputUser">Username</label>
-        <input type="textarea" class="form-control" id="inputUser" placeholder="Username">
-        <br>
-        </div>
-        <div class="form-group col-md-6">
-    
-        <label for="inputPassword4">Password</label>
-        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-        &#160;&nbsp;
-        <input class="form-check-input" type="checkbox" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-            Show Password
-        </div>
-        <div class="form-group col-md-6">
-        <label for="inputEmail4">Email</label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="inputAddress">Address</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-    </div>
-    <div class="form-group">
-        <label for="inputAddress2">Address 2</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-    </div>
-    <div class="form-row">
-        <div class="form-group col-md-6">
-        <label for="inputCity">City</label>
-        <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="form-group col-md-4">
-        <label for="inputState">State</label>
-        <select id="inputState" class="form-control">
-            <option selected>Choose...</option>
-            <option>Ulster</option>
-            <option>Leinster</option>
-            <option>Connacht</option>
-            <option>Munster</option>
-        </select>
-        </div>
-        <div class="form-group col-md-2">
-        <label for="inputZip">Zip</label>
-        <input type="text" class="form-control" id="inputZip">
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="form-check">
-        
-        </label>
-        </div>
-        
-   <button type="submit" class="btn btn-primary" href = "login.php" >Submit</button>
-   <div class="site-btn text-white">
-   <a href="login.php">Submit</div>
-    </form>
-  <!-- <form>
-         <input onClick="window.location.href='http://localhost/01_LyitUni/login.php'" type="submit" Value="Submit">
-      </form> -->
-      <!-- <a href="login.php">Dont have an account?</a>
-     
- </section>-->
 <br>
 
 <!-- Your Content End-->

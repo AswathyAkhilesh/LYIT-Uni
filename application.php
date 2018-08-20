@@ -320,7 +320,8 @@
                                         <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span><input id="phoneNumber" name="phoneNumber" placeholder="Phone Number" class="form-control" required="true" value="" type="text"></div>
                                      </div>
                                   </div>
-                                  <button type="submit" class="btn btn-primary" onclick="myFunction()">Submit</button>                                  
+                                  <!--<button type="submit" class="btn btn-primary" onclick="myFunction()">Submit</button>   -->
+                                  <button type="submit" class="btn btn-primary">Submit</button>                                
                                </fieldset>
                             </form>
                          </td>  
