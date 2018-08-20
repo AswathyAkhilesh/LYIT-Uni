@@ -13,25 +13,27 @@ body { height: 100%; background-color: #FFFFFF; font: 1.2em Verdana, Arial, Helv
 
 /* ==================== Form style sheet ==================== */
 
-form { margin: 25px 0 0 29px; width: 750px; padding-bottom: 30px; padding-left: 200px;}
+form { margin: 25px 0 0 29px; width: 800px; padding-bottom: 30px; padding-left: 200px;}
 
 fieldset { margin: 0 0 22px 0; border: 1px solid #FFFFFF; padding: 12px 17px; background-color: #FAF8F8; }
-legend { font-size: 1.1em; background-color: #ff9f0f; color: #FFFFFF; font-weight: bold; padding: 4px 8px; }
+legend { font-size: 1.1em; background-color: #ff9f0f; color: #FFFFFF; font-weight: bold; padding: 4px 8px; width:450px;}
 
 label.float { float: left; display: block; width: 250px; margin: 4px 0 0 0; clear: left;}
 label { display: block; width: auto; margin: 0 0 10px 0; margin-bottom: 12px;}
 label.spam-protection { display: inline; width: auto; margin: 0; }
 
+label.gender { float: left; display: block; width: 440px; margin: 4px 0 0 0; clear: left;}
+
 input.inp-text, textarea, input.choose, input.answer { border: 1px solid #909090; padding: 6px; padding-top: 12px;}
 input.inp-text { width: 450px; margin: 0 0 8px 0;  margin-bottom: 15px;}
-textarea { width: 700px; height: 150px; margin: 0 0 12px 0; display: block; }
+textarea { width: 450px; height: 150px; margin: 0 0 12px 0; display: block; }
 
-label.int-date{float: left; display: block; width: 150px; margin: 0 0 0 0; clear: left; padding: 6px; padding-top: 12px;}
-label.int-time{float: left; display: block; width: 150px; margin: 0 0 0 320px; clear: left; padding: 6px; padding-top: 12px;}
+label.int-date{float: left; display: block; width: auto; margin: 0 0 0 0; clear: left; padding: 6px; padding-top: 12px;}
+label.int-time{float: left; display: block; width: auto; margin: 0 0 0 0; clear: left; padding: 6px; padding-top: 12px;}
 
 
-input.inp-date { width: 100px; margin: 0 250px 0 0;  margin-bottom: 15px; padding: 6px; padding-top: 12px;}
-input.inp-time { width: 100px; margin: 0 0 0 0;  margin-bottom: 15px; padding: 6px; padding-top: 12px;}
+input.inp-date { width: 150px; margin: 0 0 0 0;  margin-bottom: 15px; padding: 6px; padding-top: 12px;}
+input.inp-time { width: 130px; margin: 0 0 0 0;  margin-bottom: 15px; padding: 6px; padding-top: 12px;}
 
 input[type = "submit"]{
     border: none;
@@ -82,10 +84,10 @@ form br { display: none; }
 		
 		<fieldset>
 		<legend>Interview:</legend>
-				<label for="int-date" class="int-date"><strong>Interview Date</strong></label>
-				<input class="inp-date" name="int-date" id="int-date" type="text" size="30" />
+				<label for="int-date" class="int-date"><strong>Interview Date & Time</strong></label>
+				<input class="inp-date" name="int-date" id="int-date" type="date" size="30" />
 
-				<label for="int-time" class="int-time"><strong>Interview Time</strong></label>
+				<!--<label for="int-time" class="int-time"><strong>Time</strong></label>-->
 				<input class="inp-time" name="int-time" id="int-time" type="text" size="30" />
 				
 				<label for="course" class="float"><strong>Course Selected</strong></label><br />
@@ -105,10 +107,13 @@ form br { display: none; }
 				<label for="last-name" class="float"><strong>Last Name:</strong></label><br />
 				<input class="inp-text" name="last-name"  id="last-name" type="text" size="30"  />
 				
-				<label for="Gender" class="float"><strong>Primarly Identified as:</strong></label><br />
-				<input class="gender" type="radio" name="gender" value="male" /> Male
-				<input class="gender" type="radio" name="gender" value="female" /> Female
+				<div>
+				<label for="Gender" class="gender"><strong>Primarly Identified as: &nbsp;</strong>  
+				<input class="gender" type="radio" name="gender" value="male" / > Male 
+				<input class="gender" type="radio" name="gender" value="female" /> Female 
 				<input class="gender" type="radio" name="gender" value="other" /> Prefer Not To Disclose
+				</label> 
+				</div>
 				
 				
 				<label for="dob" class="float"><strong>Date of Birth:</strong></label><br />
