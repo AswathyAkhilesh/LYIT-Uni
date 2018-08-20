@@ -12,7 +12,8 @@
 <!--Begin HTML design--> 
 <br>
 <h2>Interview List</h2>
-<p>The below grid contains the applicant list, to view an applicant select an applicant and click on the "view" button</p>
+<p>The below grid contains the applicant list, to view an applicant select an applicant and click on the "view" button.</p>
+<p>Time allocated for each interview is 20 min and a break time of  10 min is allocated between each interview.</p>
 <table id="example" class="table table-striped table-bordered" style="width:100%">
    <thead>
       <tr>
