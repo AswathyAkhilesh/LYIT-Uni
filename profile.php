@@ -15,7 +15,7 @@ body { height: 100%; background-color: #FFFFFF; font: 1.2em Verdana, Arial, Helv
 form { margin: 25px 0 0 29px; width: 750px; padding-bottom: 30px; padding-left: 200px;}
 
 fieldset { margin: 0 0 22px 0; border: 1px solid #FFFFFF; padding: 12px 17px; background-color: #FFFFFF; }
-legend { font-size: 1.1em; background-color: #f49242; color: #FFFFFF; font-weight: bold; padding: 4px 8px; width:451px }
+legend { font-size: 1.1em; background-color: #f49242; color: #FFFFFF; font-weight: bold; padding: 4px 8px; width:450px }
 
 label.float { float: left; display: block; width: 250px; margin: 4px 0 0 0; clear: left;}
 label.gender { float: left; display: block; width: 440px; margin: 4px 0 0 0; clear: left;}
@@ -30,9 +30,31 @@ textarea { width: 400px; height: 150px; margin: 0 0 12px 0; display: block; }
 
 .datafile{color: #FFFFFF;}
 
+input[type = "submit"]{
+    border: none;
+    outline: none;
+    height:30px;
+	width: 80px;
+    background: #ff9f0f;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px; margin: 0 0 0 23px;
+}
+
+input[type = "button"]{
+    border: none;
+    outline: none;
+    height:30px;
+	width: 80px;
+    background: #ff9f0f;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
 input.choose { margin: 0 2px 0 0; }
 input.answer { width: 40px; margin: 0 0 0 10px; }
-input.submit-button { font: 1.4em Georgia, "Times New Roman", Times, serif; letter-spacing: 1px; display: block; margin: 23px 0 0 0; }
+
 
 form br { display: none; }
 
@@ -119,7 +141,7 @@ form br { display: none; }
 		<!--<p><input class="upload-button" type="upload-button" alt="UPLOAD" id="upload-button" name="UPLOAD" value="Upload" disabled /></p>-->
 		
 		<input class="edit-button" type="button" alt="edit-button" id="edit-button" name="edit-button" value="Edit" onclick="kk1()"/>
-		<p><input class="submit-button" type="submit" alt="SUBMIT" id="submit" name="Submit" value="Update"  /></p>
+		<input class="submit-button" type="submit" alt="SUBMIT" id="submit" name="Submit" value="Update"  />
 		
 
 		
