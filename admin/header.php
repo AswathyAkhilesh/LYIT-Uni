@@ -82,9 +82,9 @@
 			<ul class="main-menu">
 				<li class="active"><a href="index.php">Dashboard</a></li>
 				<li><a href="courselist.php">COURSES</a></li>
-				<li><a href="applicantList.php">Applicants</a></li>
-				<li><a href="interviewList.php">Interviews</a></li>
-				<li><a href="studentsList.php">Students</a></li>
+				<li><a href="applicant.php">Applicants</a></li>
+				<li><a href="interviewlist.php">Interviews</a></li>
+				<li><a href="students.php">Students</a></li>
 			</ul>
 		</div>
 	</nav>
