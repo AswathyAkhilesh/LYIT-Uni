@@ -45,18 +45,18 @@
 						<tbody>
 							<tr>
 								<th scope="row">Applied Computing</th>
-								<td><button type="button" onclick="location.href='../course.php';" class="btn btn-success">View</button></td>
-								<td><button type="button" onclick="location.href='courseedit.php';" class="btn btn-danger">Edit</button></td>
+								<td><button type="button" class="btn btn-success">View</button></td>
+								<td><button type="button" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Cloud Technology</th>
-								<td><button type="button" onclick="location.href='../course.php';" class="btn btn-success">View</button></td>
-								<td><button type="button" onclick="location.href='courseedit.php';" class="btn btn-danger">Edit</button></td>
+								<td><button type="button" class="btn btn-success">View</button></td>
+								<td><button type="button" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Security</th>
-								<td><button type="button" onclick="location.href='../course.php';" class="btn btn-success">View</button></td>
-								<td><button type="button" onclick="location.href='courseedit.php';" class="btn btn-danger">Edit</button></td>
+								<td><button type="button" class="btn btn-success">View</button></td>
+								<td><button type="button" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">DevOps</th>
@@ -65,13 +65,13 @@
 							</tr>
 							<tr>
 								<th scope="row">Cloud Technologies</th>
-								<td><button type="button" onclick="location.href='../course.php';" class="btn btn-success">View</button></td>
-								<td><button type="button" onclick="location.href='courseedit.php';" class="btn btn-danger">Edit</button></td>
+								<td><button type="button" class="btn btn-success">View</button></td>
+								<td><button type="button" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Big Data</th>
-								<td><button type="button" onclick="location.href='../course.php';" class="btn btn-success">View</button></td>
-								<td><button type="button" onclick="location.href='courseedit.php';" class="btn btn-danger">Edit</button></td>
+								<td><button type="button" class="btn btn-success">View</button></td>
+								<td><button type="button" class="btn btn-danger">Edit</button></td>
 							</tr>
 						</tbody>
 					</table>
@@ -95,36 +95,36 @@
 							<tr>
 								<th scope="row">Aswathy</th>
 								<td>Applied Computing</td>
-								<td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View</button></td>
+								<td><button type="button" class="btn btn-success">View</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Roshni</th>
 								<td>Applied Computing</td>
-								<td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View</button></td>
+								<td><button type="button" class="btn btn-success">View</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Matthew</th>
 								<td>Applied Computing</td>
-								<td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View</button></td>
+								<td><button type="button" class="btn btn-success">View</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Conor</th>
 								<td>Applied Computing</td>
-								<td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View</button></td>
+								<td><button type="button" class="btn btn-success">View</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Liam</th>
 								<td>Applied Computing</td>
-								<td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View</button></td>
+								<td><button type="button" class="btn btn-success">View</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Ruth</th>
 								<td>Applied Computing</td>
-								<td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View</button></td>
+								<td><button type="button" class="btn btn-success">View</button></td>
 							</tr>
 						</tbody>
 					</table>
-					<a href="applicantList.php" class="site-btn">View Full List</a>
+					<a href="#" class="site-btn">View Full List</a>
 				</div>
 				</div>
 			</div>
@@ -173,7 +173,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<a href="interviewList.php" class="site-btn">View Full List</a>
+					<a onclick="location.href='\interviewlist.php';" class="site-btn">View Full List</a>
 				</div>
 				</div>
 			</div>
