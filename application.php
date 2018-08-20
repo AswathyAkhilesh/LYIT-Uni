@@ -9,7 +9,7 @@
                                <fieldset>
                                   <div class="form-group">
                                      <label class="col-md-4 control-label">First Name</label>
-                                     <div class="col-md-8 inputGroupContainer">
+                                     <div class="col-md-8 inputGroupContainer" >
                                         <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input id="firstName" name="firstName" placeholder="First Name" class="form-control" required="true" value="" type="text"></div>
                                      </div>
                                   </div>
