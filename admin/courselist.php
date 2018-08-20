@@ -14,32 +14,33 @@
 	  <script src="../js/admincourselist.js"></script>
 	  
 <!--Begin HTML design--> 
- <br>
- <h2>Course List</h2>
-  <p>The below grid contains the course list, to edit a course select a course and click on the "Edit" button, to Add a new course click on the "Add" button. To view the course detail page, select a course and click on the "View" button.</p>
-<table id="example" class="table table-striped table-bordered" style="width:100%">
+<section class="container">
+    <br>
+    <h2>Course List</h2>
+    <p>The below grid contains the course list, to edit a course select a course and click on the "Edit" button, to Add a new course click on the "Add" button. To view the course detail page, select a course and click on the "View" button.
+    </p>
+    <table id="example" class="table table-striped table-bordered" style="width:100%">
         <thead>
             <tr>
                 <th></th>
-				<th>Course Code</th>
+                <th>Course Code</th>
                 <th>Course Name</th>
-				<th>Study Mode</th>
-				<th>Award</th>
-				<th>Credit</th>
+                <th>Study Mode</th>
+                <th>Award</th>
+                <th>Credit</th>
                 <th>Application Deadline</th>
             </tr>
         </thead>
         <tbody>
-	            <tr>
+            <tr>
                 <td></td>
-				<td>COOD1</td>
+                <td>COOD1</td>
                 <td>Master of Science in DevOps</td>
                 <td>Full-time and Part-time</td>
                 <td>Masters</td>
                 <td>30</td>
                 <td>24 August</td>
             </tr>
-
             <tr>
                 <td></td>
                 <td>COOD2</td>
@@ -47,7 +48,7 @@
                 <td>Full-time and Part-time</td>
                 <td>Masters</td>
                 <td>30</td>
-				<td>24 August</td>
+                <td>24 August</td>
             </tr>
             <tr>
                 <td></td>
@@ -56,7 +57,7 @@
                 <td>Full-time and Part-time</td>
                 <td>Masters</td>
                 <td>30</td>
-				<td>24 August</td>
+                <td>24 August</td>
             </tr>
             <tr>
                 <td></td>
@@ -65,15 +66,15 @@
                 <td>Full-time and Part-time</td>
                 <td>Masters</td>
                 <td>30</td>
-				<td>24 August</td>
+                <td>24 August</td>
             </tr>
-			
         </tbody>
-       
     </table>
-	<br>
-	<p align="center">
-	<button type="button" onclick="location.href='../course.php';" class="btn btn-info">View</button>
-	<button type="button" onclick="location.href='courseedit.php';" class="btn btn-info">Edit</button>
-	<button type="button" onclick="location.href='courseadd.php';"class="btn btn-info">Add</button></p>
-	<?php include ('footer.php'); ?>
+    <br>
+    <p align="center">
+        <button type="button" onclick="location.href='../course.php';" class="btn btn-info">View</button>
+        <button type="button" onclick="location.href='courseedit.php';" class="btn btn-info">Edit</button>
+        <button type="button" onclick="location.href='courseadd.php';"class="btn btn-info">Add</button>
+    </p>
+</section>
+<?php include ('footer.php'); ?>
