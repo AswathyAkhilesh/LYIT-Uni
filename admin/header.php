@@ -81,10 +81,10 @@
 			</div>
 			<ul class="main-menu">
 				<li class="active"><a href="index.php">Dashboard</a></li>
-				<li><a href="index.php#course">COURSES</a></li>
-				<li><a href="index.php#news">Applicants</a></li>
-				<li><a href="#contact">Interviews</a></li>
-				<li><a href="about.php">Students</a></li>
+				<li><a href="courselist.php">COURSES</a></li>
+				<li><a href="applicant.php">Applicants</a></li>
+				<li><a href="interview.php">Interviews</a></li>
+				<li><a href="students.php">Students</a></li>
 			</ul>
 		</div>
 	</nav>
