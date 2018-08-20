@@ -15,7 +15,7 @@ body { height: 100%; background-color: #FFFFFF; font: 1.2em Verdana, Arial, Helv
 form { margin: 25px 0 0 29px; width: 750px; padding-bottom: 30px; padding-left: 200px;}
 
 fieldset { margin: 0 0 22px 0; border: 1px solid #FFFFFF; padding: 12px 17px; background-color: #FFFFFF; }
-legend { font-size: 1.1em; background-color: #f49242; color: #FFFFFF; font-weight: bold; padding: 4px 8px; width:450px }
+legend { font-size: 1.1em; background-color: #f6783a;; color: #FFFFFF; font-weight: bold; padding: 4px 8px; width:450px }
 
 label.float { float: left; display: block; width: 250px; margin: 4px 0 0 0; clear: left;}
 label.gender { float: left; display: block; width: 440px; margin: 4px 0 0 0; clear: left;}
@@ -35,7 +35,7 @@ input[type = "submit"]{
     outline: none;
     height:30px;
 	width: 80px;
-    background: #ff9f0f;
+    background:#f6783a;;
     color: #fff;
     font-size: 18px;
     border-radius: 5px; margin: 0 0 0 23px;
@@ -46,7 +46,7 @@ input[type = "button"]{
     outline: none;
     height:30px;
 	width: 80px;
-    background: #ff9f0f;
+    background: #f6783a;;
     color: #fff;
     font-size: 18px;
     border-radius: 5px;
