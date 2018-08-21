@@ -1,7 +1,10 @@
 <?php include ('header.php'); ?>
 
 <Section class="container spad">
-    <h5 class="card-title">Applicants List</h5>
+    <div class="section-title text-center">
+        <h3>Applicants List</h3>
+        <p>Let students be creative and make a difference.</p>
+    </div>
     <table class="table table-hover table-bordered">
         <thead class="thead-light">
             <tr>
