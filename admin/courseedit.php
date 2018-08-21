@@ -2,7 +2,7 @@
 
   <!--Third party scripts-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+  <script src="../js/nicEdit-latest.js" type="text/javascript"></script>
   
   <!--Initialising Text area Editor-->
   <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
