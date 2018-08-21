@@ -1,4 +1,30 @@
 <?php include ('header.php'); ?>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Course', 'Percentage'],
+          ['DevOps Masters',     11],
+          ['Applied Computing',      7],
+          ['Cloud & Green',  4],
+          ['Security & Digital Forensics', 2],
+          ['BSC (ord)',    2]
+        ]);
+
+        var options = {
+          title: 'Registration By Percentage'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
 	
 <!-- About section -->
 	<section class="about-section spad">
@@ -7,6 +33,9 @@
 				<h3>WELCOME TO LYIT DASHBOARD</h3>
 				<p>Let students be creative and make a difference.</p>
 			</div>
+
+
+
 			<div class="row">
 				<div class="col-lg-6 about-text">
 					<h5>About us</h5>
@@ -20,10 +49,16 @@
 						<li><i class="fa fa-check-square-o"></i> The University's core values are as follows:freedom of thought.</li>
 					</ul>
 				</div>
+
+
+
 				<div class="col-lg-6 pt-5 pt-lg-0">
-					<img src="../img/about.jpg" alt="">
+					<div id="piechart" style="width: 100%; height: 360px; border: 1px solid black;"></div>
 				</div>
 			</div>
+
+
+
 		</div>
 	</section>
 	<!-- About section end-->
