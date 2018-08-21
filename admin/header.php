@@ -59,12 +59,8 @@
 			</div>
 			<div class="header-info">
 				<div class="hf-item">
-					<i class="fa fa-clock-o"></i>
-					<p><span>Library Hours:</span>Monday - Friday: 09:30 AM - 09:30 PM</p>
-				</div>
-				<div class="hf-item">
-					<i class="fa fa-map-marker"></i>
-					<p><span>Find us:</span>Port Road, Letterkenny, Donegal</p>
+					<i class="fa fa-user"></i>
+					<p><span>Admin Area</span><?php echo "The time is " . date("h:i a") . " " . date("l Y/m/d") . "<br>";?></p>
 				</div>
 			</div>
 		</div>
