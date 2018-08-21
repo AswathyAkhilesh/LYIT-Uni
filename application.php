@@ -1,5 +1,5 @@
 <?php include ('header.php'); ?>
-
+<section class="container spad">
         <div class="container" style="width: 30%">
                 <table class="table table-striped">
                    <tbody>
@@ -329,6 +329,7 @@
                    </tbody>
                 </table>
              </div>
+</section>             
 
 <script>
 

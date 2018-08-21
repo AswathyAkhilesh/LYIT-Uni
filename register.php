@@ -365,8 +365,8 @@
                     </div>
                 </div>
                      <div class="site-btn text-white">
-                     <button type="submit">Submit</button>  
-                    <!-- <a href="login.php">Submit</a>-->
+                     <!-- <button type="submit">Submit</button>   -->
+                    <a href="login.php">Submit</a>
                      </div>
             </form> <!-- /form -->
         </div> <!-- ./container -->

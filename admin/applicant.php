@@ -1,7 +1,7 @@
 <?php include ('header.php'); ?>
 
 
-<section Class="container">
+<section Class="container spad">
 
     
     <div class="panel panel-info" style = "padding-top: 50px">
@@ -85,11 +85,15 @@
                 </tbody>
                 </table>
 
-            <div style = "padding-bottom: 50px; padding-top: 50px">
-                <div class="site-btn text-white"><a href="interview.php">Schedule Interview Date & Time</a> </div> 
-            </div>
+					<a href="applicantlist.php" class="site-btn text-white">Schedule Interview</a>
+
             
 
         </section>
+
+<script>
+
+
+</script>
 
 <?php include ('footer.php'); ?>
