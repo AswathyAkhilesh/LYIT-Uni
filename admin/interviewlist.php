@@ -10,6 +10,7 @@
 <!--Script-->
 <script src="../js/admincourselist.js"></script>
 <!--Begin HTML design--> 
+<Section class="container spad">
 <br>
 <h2>Interview List</h2>
 <p>The below grid contains the applicant list, to view an applicant select an applicant and click on the "view" button.</p>
@@ -72,4 +73,5 @@
 <p align="center">
    <button type="button" onclick="location.href='\interview.php';" class="btn btn-info">View</button>
 </p>
+</section>
 <?php include ('footer.php'); ?>

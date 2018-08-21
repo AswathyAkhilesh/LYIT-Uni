@@ -14,7 +14,7 @@
 	  <script src="../js/admincourselist.js"></script>
 	  
 <!--Begin HTML design--> 
-<section class="container">
+<section class="container spad">
     <br>
     <h2>Course List</h2>
     <p>The below grid contains the course list, to edit a course select a course and click on the "Edit" button, to Add a new course click on the "Add" button. To view the course detail page, select a course and click on the "View" button.

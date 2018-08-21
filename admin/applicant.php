@@ -1,7 +1,7 @@
 <?php include ('header.php'); ?>
 
 
-<section>
+<section Class="container">
 
     
     <div class="panel panel-info" style = "padding-top: 50px">
@@ -14,7 +14,7 @@
             <div class="col-md-1 col-md-1 ">  </div>
                 
                 
-            <div class=" col-md-9 col-lg-9 " style = "padding-top: 30px"> 
+            <div class=" col-md-9 col-lg-12 " style = "padding-top: 30px"> 
             <table class="table table-user-information">
                 <thead>
                     <h4 style = "padding-left: 10px">Personal Details<h4>
@@ -86,7 +86,7 @@
                 </table>
 
             <div style = "padding-bottom: 50px; padding-top: 50px">
-                <div class="site-btn text-white"><a href="">Schedule Interview Date & Time</a> </div> 
+                <div class="site-btn text-white"><a href="interview.php">Schedule Interview Date & Time</a> </div> 
             </div>
             
 

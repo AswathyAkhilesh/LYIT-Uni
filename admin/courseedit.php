@@ -8,7 +8,7 @@
   <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
 
 <!--Begin HTML design-->  
-<div class="container">
+<div class="container spad">
   <br>
   <h2>Edit Course Details</h2>
   <p>The form below contains course details, modify as required and click on the "Update" button to save the details.</p>

@@ -80,9 +80,9 @@
 				<a href="../index.php"><i class="fa fa-home"></i> Frontend</a>
 			</div>
 			<ul class="main-menu">
-				<li class="active"><a href="index.php">Dashboard</a></li>
+				<li><a href="index.php">Dashboard</a></li>
 				<li><a href="courselist.php">COURSES</a></li>
-				<li><a href="applicant.php">Applicants</a></li>
+				<li><a href="applicantlist.php">Applicants</a></li>
 				<li><a href="interviewlist.php">Interviews</a></li>
 				<li><a href="students.php">Students</a></li>
 			</ul>

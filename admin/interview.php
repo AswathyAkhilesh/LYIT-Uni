@@ -76,7 +76,7 @@ form br { display: none; }
 
 
 <body>
-
+<section class="container spad">
 	<form action="file:///C:/Users/Roshni/Desktop/division-blue/validation.html" method="post">
 
 
@@ -184,7 +184,7 @@ form br { display: none; }
 </script>
 
 	</form>
-
+</section>
 	<script type="text/javascript">
     function kk1()
     {

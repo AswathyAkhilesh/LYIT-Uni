@@ -8,7 +8,7 @@
   <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
 
 <!--Begin HTML design-->  
-<div class="container">
+<div class="container spad">
   <br>
   <h2>Add New Course </h2>
   <p>To add a new course, please enter the following details and click on the "Save" button </p>
