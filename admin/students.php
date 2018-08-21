@@ -1,7 +1,9 @@
 <?php include ('header.php'); ?>
 
 <Section class="container spad">
-    <h5 class="card-title">Students List</h5>
+    <div class="section-title text-center">
+        <h3>Students List</h3>
+    </div>
     <table class="table table-hover table-bordered">
         <thead class="thead-light">
             <tr>
