@@ -78,9 +78,14 @@
                         <td>PhD in something at Letterkenny Institute of Technology</td>
                     </tr>
                     <tr>
+                        <td>Degree Classification:</td>
+                        <td>2.1</td>
+                    </tr>
+                    <tr>
                         <td>Work Experience:</td>
                         <td>5 years in retail. 2 years in computing.</td>
                     </tr>
+                    
                     
                 </tbody>
                 </table>
