@@ -60,7 +60,7 @@
 			<div class="header-info">
 				<div class="hf-item">
 					<i class="fa fa-user"></i>
-					<p><span>Admin Area</span><?php echo "The time is " . date("h:i a") . " " . date("l Y/m/d") . "<br>";?></p>
+					<p><span>Admin Area</span><?php echo "The time is " . date("h:i a") . " " . date("l d/m/Y") . "<br>";?></p>
 				</div>
 			</div>
 		</div>
