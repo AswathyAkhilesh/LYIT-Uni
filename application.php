@@ -1,4 +1,4 @@
-<?php include ('header.php'); ?>
+<?php include ('includes/header.php'); ?>
 <section class="container spad">
         <div class="container" style="width: 30%">
         <h2 style = "padding-bottom: 20px">Course Title Here</h2>
@@ -343,4 +343,4 @@ function myFunction() {
 
 
 
-<?php include ('footer.php'); ?>
+<?php include ('includes/footer.php'); ?>

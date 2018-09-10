@@ -1,4 +1,4 @@
-<?php include ('header.php'); ?>
+<?php include ('includes/header.php'); ?>
 
 	<!-- Hero section -->
 	<section class="hero-section">
@@ -448,5 +448,5 @@
 	</section>
 	<!-- Newsletter section end -->	
 
-<?php include ('footer.php'); ?>
+<?php include ('includes/footer.php'); ?>
 

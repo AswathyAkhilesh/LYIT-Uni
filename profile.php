@@ -1,5 +1,5 @@
 <!-- Header -->
-<?php include ('header.php'); ?>
+<?php include ('includes/header.php'); ?>
 <!-- Header End - Do Not Remove -->
 <style type="text/css">
 
@@ -184,7 +184,5 @@ form br { display: none; }
 <!-- Your Content End-->
 
 <!-- Footer -->
-<?php include ('footer.php'); ?>
+<?php include ('includes/footer.php'); ?>
 <!-- Header End - Do Not Remove -->
-
-<!-- Your Content Start-->

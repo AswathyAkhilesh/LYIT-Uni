@@ -1,5 +1,5 @@
 <!-- Header -->
-<?php include ('header.php'); ?>
+<?php include ('includes/header.php'); ?>
 <!-- Header End - Do Not Remove -->
 <link rel="stylesheet" href="css/course.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -94,5 +94,5 @@
 <br>
 </div>
 <!-- Footer -->
-<?php include ('footer.php'); ?>
+<?php include ('includes/footer.php'); ?>
 <!-- Header End - Do Not Remove -->

@@ -1,5 +1,5 @@
 <!-- Header -->
-<?php include ('header.php'); ?>
+<?php include ('includes/header.php'); ?>
 <!-- Header End - Do Not Remove -->
 
 <!-- Your Content Start-->
@@ -86,5 +86,5 @@
 <!-- Your Content End-->
 
 <!-- Footer -->
-<?php include ('footer.php'); ?>
+<?php include ('includes/footer.php'); ?>
 <!-- Header End - Do Not Remove -->
