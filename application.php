@@ -21,27 +21,15 @@
                                      </div>
                                   </div>
                                   <div class="form-group">
-                                     <label class="col-md-6 control-label">Address Line 1</label>
+                                     <label class="col-md-6 control-label">Address</label>
                                      <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="addressLine1" name="addressLine1" placeholder="Address Line 1" class="form-control" required="true" value="" type="text"></div>
-                                     </div>
-                                  </div>
-                                  <div class="form-group">
-                                     <label class="col-md-6 control-label">Address Line 2</label>
-                                     <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="addressLine2" name="addressLine2" placeholder="Address Line 2" class="form-control" required="true" value="" type="text"></div>
+                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="addressLine1" name="addressLine1" placeholder="Address" class="form-control" required="true" value="" type="text"></div>
                                      </div>
                                   </div>
                                   <div class="form-group">
                                      <label class="col-md-6 control-label">City</label>
                                      <div class="col-md-8 inputGroupContainer">
                                         <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="city" name="city" placeholder="City" class="form-control" required="true" value="" type="text"></div>
-                                     </div>
-                                  </div>
-                                  <div class="form-group">
-                                     <label class="col-md-6 control-label">County</label>
-                                     <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="county" name="county" placeholder="County" class="form-control" required="true" value="" type="text"></div>
                                      </div>
                                   </div>
                                   <div class="form-group">
