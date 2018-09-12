@@ -33,6 +33,12 @@
                                      </div>
                                   </div>
                                   <div class="form-group">
+                                     <label class="col-md-6 control-label">County</label>
+                                     <div class="col-md-8 inputGroupContainer">
+                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="county" name="county" placeholder="County" class="form-control" required="true" value="" type="text"></div>
+                                     </div>
+                                  </div>
+                                  <div class="form-group">
                                      <label class="col-md-6 control-label">EirCode (Optional)</label>
                                      <div class="col-md-8 inputGroupContainer">
                                         <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="eircode" name="eircode" placeholder="EirCode" class="form-control" value="" type="text"></div>
