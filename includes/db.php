@@ -12,8 +12,9 @@ foreach($db as $key => $value) {
 }
 
 $connection = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
-    if($connection) {
-        echo 'Database is connected';
-    }
-
+    // if($connection) {
+    //     echo 'Database is connected';
+    // }else{
+    //     echo 'problem with database connection';
+    // }
 ?>
