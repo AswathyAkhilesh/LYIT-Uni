@@ -71,11 +71,20 @@
 	<nav class="nav-section sticky-top">
 		<div class="container">
 			<div class="nav-right">
-				<a href="login.php"><i class="fa fa-lock"></i> Login</a>
-				<a href="includes/logout.php"><i class="fa fa-unlock"></i> Logout</a>
-				<a href="register.php"><i class="fa fa-edit"></i> Register</a>
-				<a href="profile.php"><i class="fa fa-user"></i> Profile</a>
-				<a href="admin/"><i class="fa fa-home"></i> Admin</a>
+
+				<?php
+				if (isset($_SESSION['db_firstName'])) {
+					echo "<a href='profile.php'> Profile</a>" ;
+				} else {
+					echo "<a href='register.php'> Register</a>" ;
+                } ?>
+
+				<?php
+				if (!isset($_SESSION['db_firstName'])) {
+					echo "<a href='login.php'> Login</a>" ;
+				} else {
+					echo "<a href='includes/logout.php'> Logout</a>" ;
+                } ?>
 			</div>
 			<ul class="main-menu">
 				<li class="active"><a href="index.php">Home</a></li>
