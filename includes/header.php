@@ -73,14 +73,14 @@
 			<div class="nav-right">
 
 				<?php
-				if (isset($_SESSION['db_firstName'])) {
+				if (isset($_SESSION['db_userRole'])) {
 					echo "<a href='profile.php'> Profile</a>" ;
 				} else {
 					echo "<a href='register.php'> Register</a>" ;
                 } ?>
 
 				<?php
-				if (!isset($_SESSION['db_firstName'])) {
+				if (!isset($_SESSION['db_userRole'])) {
 					echo "<a href='login.php'> Login</a>" ;
 				} else {
 					echo "<a href='includes/logout.php'> Logout</a>" ;
