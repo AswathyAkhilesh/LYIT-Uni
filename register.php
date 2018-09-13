@@ -4,21 +4,21 @@
 
 <!-- Your Content Start-->
 
-<section class = 'container'>
-<div class="container">
+<section class = 'container spad'>
+    <div class="container">
+        <h1>Registration</h1><br>
             <form class="form-horizontal" role="form">
             <br>
-                <h2>Registration</h2>
                 <br>
                 <div class="form-group">
                     <label for="firstName" class="col-sm-3 control-label">First Name*</label>
-                    <div class="col-sm-9">
+                    <div>
                         <input type="text" id="firstName" placeholder="First Name" class="form-control" autofocus>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="lastName" class="col-sm-3 control-label" >Last Name*</label>
-                    <div class="col-sm-9">
+                    <div>
                         <input type="text" id="lastName" placeholder="Last Name" required="true" class="form-control" autofocus>
                     </div>
                 </div>
@@ -29,17 +29,17 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <label class="radio-inline">
-                                    <input type="radio" id="Radio" value="Female"> Female 
+                                    <input type="radio" name="Radio" value="Female"> Female 
                                 </label>
                             </div>
                             <div class="col-sm-4">
                                 <label class="radio-inline">
-                                    <input type="radio" id="Radio" value="Male"> Male
+                                    <input type="radio" name="Radio" value="Male"> Male
                                 </label>
                             </div>
                             <div class="col-sm-4">
                                 <label class="radio-inline">
-                                    <input type="radio" id="Radio" value="prefer"> Not To Disclose
+                                    <input type="radio" name="Radio" value="prefer"> Not To Disclose
                                 </label>
                             </div>
                         </div>
@@ -47,20 +47,20 @@
                     <br>
                     <div class="form-group">
                     <label for="username" class="col-sm-3 control-label">Username* </label>
-                    <div class="col-sm-9">
+                    <div>
                         <input type="username" required="true" id="username" placeholder="username" class="form-control">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="email" class="col-sm-3 control-label">Email* </label>
-                    <div class="col-sm-9">
+                    <div>
                         <input type="email" id="email" required="true" placeholder="Email" class="form-control" name= "email">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="password" class="col-sm-3 control-label">Password*</label>
-                    <div class="col-sm-9">
+                    <div>
                         <input type="password" required="true" id="password" placeholder="Password" class="form-control">
                         <input class="form-check-input" type="checkbox" id="passCheck" style = "margin-left: 500px">
                          <label class="form-check-label" for="passwordChaeck" style = "margin-left: 530px"> Show Password
@@ -68,26 +68,26 @@
                 </div>
                 <div class="form-group">
                     <label for="password" class="col-sm-3 control-label">Confirm Password*</label>
-                    <div class="col-sm-9">
+                    <div>
                         <input type="password" id="password" required="true" placeholder="Password" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="birthDate" class="col-sm-3  control-label">Date of Birth*</label>
-                    <div class="col-sm-9">
+                    <div>
                         <input type="date" id="birthDate" required="true" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="phoneNumber" class="col-sm-3 control-label">Phone number </label>
-                    <div class="col-sm-9">
+                    <div>
                         <input type="phoneNumber" id="phoneNumber" placeholder="Phone number" class="form-control">
                         <span class="help-block text-danger small">*Your phone number won't be disclosed anywhere </span>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="Address" class="col-sm-3 control-label">Address*</label>
-                    <div class="col-sm-9">
+                    <div>
                         <input type="text" id="Address1" required="true" placeholder="Address1" class="form-control" autofocus>
                         <br>
                         <input type="text" id="Address2" required="true" placeholder="Address2" class="form-control" autofocus>
@@ -95,13 +95,13 @@
                 </div>
                 <div class="form-group">
                     <label for="city" class="col-sm-3 control-label">City*</label>
-                    <div class="col-sm-9">
+                    <div>
                         <input type="city" id="city" required="true" placeholder="City" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
                                      <label class="col-md-4 control-label">Country*</label>
-                                     <div class="col-md-8 inputGroupContainer">
+                                     <div class="inputGroupContainer">
                                         <div class="input-group">
                                            <span class="input-group-addon" required="true" style="max-width: 100%;"><i class="glyphicon glyphicon-list"></i></span>
                                            <select class="selectpicker form-control">
@@ -359,7 +359,7 @@
                 
                 </div> <!-- /.form-group -->
                 <div class="form-group">
-                    <div class="col-sm-9 col-sm-offset-3">
+                    <div>
                     <br>
                         <span class="help-block">*Required fields</span>
                     </div>
