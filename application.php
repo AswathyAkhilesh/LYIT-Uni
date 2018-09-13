@@ -1,54 +1,80 @@
 <?php include ('includes/header.php'); ?>
 <section class="container spad">
-        <div class="container" style="width: 30%">
-        <h2 style = "padding-bottom: 20px">Course Title Here</h2>
-                <table>
-                   <tbody>
-                      <tr>
-                         <td colspan="1">
-                            <form class="well form-horizontal">
-                               <fieldset>
-                                  <div class="form-group">
-                                     <label class="col-md-6 control-label">First Name</label>
-                                     <div class="col-md-8 inputGroupContainer" >
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input id="firstName" name="firstName" placeholder="First Name" class="form-control" required="true" value="" type="text"></div>
-                                     </div>
-                                  </div>
-                                  <div class="form-group">
-                                     <label class="col-md-6 control-label">Last Name</label>
-                                     <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input id="lastName" name="lastName" placeholder="Last Name" class="form-control" required="true" value="" type="text"></div>
-                                     </div>
-                                  </div>
-                                  <div class="form-group">
-                                     <label class="col-md-6 control-label">Address</label>
-                                     <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="addressLine1" name="addressLine1" placeholder="Address" class="form-control" required="true" value="" type="text"></div>
-                                     </div>
-                                  </div>
-                                  <div class="form-group">
-                                     <label class="col-md-6 control-label">City</label>
-                                     <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="city" name="city" placeholder="City" class="form-control" required="true" value="" type="text"></div>
-                                     </div>
-                                  </div>
-                                  <div class="form-group">
-                                     <label class="col-md-6 control-label">County</label>
-                                     <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="county" name="county" placeholder="County" class="form-control" required="true" value="" type="text"></div>
-                                     </div>
-                                  </div>
-                                  <div class="form-group">
-                                     <label class="col-md-6 control-label">EirCode (Optional)</label>
-                                     <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="eircode" name="eircode" placeholder="EirCode" class="form-control" value="" type="text"></div>
-                                     </div>
-                                  </div>
-                                  <div class="form-group">
-                                     <label class="col-md-6 control-label">Country</label>
+        
+        
+        
+        <div class="form-group">
+                <h2 style = "padding-bottom: 35px; padding-left: 15px">Course Title Here</h2>
+                    <label for="firstName" class="col-sm-3 control-label">First Name*</label>
+                    <div class="col-sm-9">
+                        <input type="text" id="firstName" value="<?php echo $_SESSION['db_firstName'] ?>" class="form-control" autofocus>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="lastName" class="col-sm-3 control-label" >Last Name*</label>
+                    <div class="col-sm-9">
+                        <input type="text" id="lastName" value="<?php echo $_SESSION['db_lastName'] ?>" required="true" class="form-control" autofocus>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-3">Identified as*</label>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" name="Radio" value="Female"> Female 
+                                </label>
+                            </div>
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" name="Radio" value="Male"> Male
+                                </label>
+                            </div>
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" name="Radio" value="prefer"> Not To Disclose
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                <div class="form-group">
+                    <label for="email" class="col-sm-3 control-label">Email* </label>
+                    <div class="col-sm-9">
+                        <input type="text" id="email" required="true" value="<?php echo $_SESSION['db_email'] ?>" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="birthDate" class="col-sm-3  control-label">Date of Birth*</label>
+                    <div class="col-sm-9">
+                        <input type="date" id="birthDate" required="true" class="form-control" value = "<?php echo $_SESSION['db_dob'] ?>">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber" class="col-sm-3 control-label">Phone number </label>
+                    <div class="col-sm-9">
+                        <input type="phoneNumber" id="phoneNumber" value="<?php echo $_SESSION['db_phoneNumber'] ?>" class="form-control">
+                        <span class="help-block text-danger small">*Your phone number won't be disclosed anywhere </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Address" class="col-sm-3 control-label">Address*</label>
+                    <div class="col-sm-9">
+                        <input type="text" id="Address1" required="true" value="<?php echo $_SESSION['db_address'] ?>" class="form-control" autofocus>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="city" class="col-sm-3 control-label">City*</label>
+                    <div class="col-sm-9">
+                        <input type="city" id="city" required="true" value="<?php echo $_SESSION['db_city'] ?>" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                                     <label class="col-md-4 control-label">Country*</label>
                                      <div class="col-md-8 inputGroupContainer">
                                         <div class="input-group">
-                                           <span class="input-group-addon" style="max-width: 100%;"><i class="glyphicon glyphicon-list"></i></span>
+                                           <span class="input-group-addon" required="true" style="max-width: 100%;"><i class="glyphicon glyphicon-list"></i></span>
                                            <select class="selectpicker form-control">
                                                 <option value="AF">Afghanistan</option>
                                                 <option value="AX">Åland Islands</option>
@@ -301,28 +327,37 @@
                                                 <option value="ZW">Zimbabwe</option>
                                            </select>
                                         </div>
-                                     </div>
-                                  </div>
-                                  <div class="form-group">
-                                     <label class="col-md-6 control-label">Email</label>
-                                     <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span><input id="email" name="email" placeholder="Email" class="form-control" required="true" value="" type="text"></div>
-                                     </div>
-                                  </div>
-                                  <div class="form-group">
-                                     <label class="col-md-6 control-label">Phone Number</label>
-                                     <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span><input id="phoneNumber" name="phoneNumber" placeholder="Phone Number" class="form-control" required="true" value="" type="text"></div>
-                                     </div>
-                                  </div>
-                                  <!--<button type="submit" class="btn btn-primary" onclick="myFunction()">Submit</button>   -->
-                                  <button type="submit" class="btn btn-primary">Submit</button>                                
-                               </fieldset>
-                            </form>
-                         </td>  
-                      </tr>
-                   </tbody>
-                </table>
+                                        <br>
+                <div class="form-group">
+                    <label class="control-label col-sm-6">Do you have the necessary qualifications? *</label>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" name="qualRadio" value="Yes"> Yes 
+                                </label>
+                            </div>
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" name="qualRadio" value="No"> No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                                        
+                </div> <!-- /.form-group -->
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                    <br>
+                        <span class="help-block">*Required fields</span>
+                    </div>
+                </div>
+                     <div class="site-btn text-white">
+                     <!-- <button type="submit">Submit</button>   -->
+                    <a href="login.php">Submit</a>
+                     </div>
+            </form> <!-- /form -->
              </div>
 </section>             
 
