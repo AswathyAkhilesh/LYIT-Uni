@@ -26,6 +26,14 @@ if(isset($_POST['login'])) {
         $db_firstName = $row['firstName']; // Display Result
         $db_lastName = $row['lastName']; // Display Result
         $db_userRole = $row['userRole']; // Display Result
+        $db_email = $row['email']; // Display Result
+        $db_dob = $row['dob']; // Display Result
+        $db_phoneNumber = $row['phoneNumber']; // Display Result
+        $db_address = $row['address']; // Display Result
+        $db_city = $row['city']; // Display Result
+        $db_county = $row['county']; // Display Result
+        $db_eirCode = $row['eirCode']; // Display Result
+        $db_country = $row['country']; // Display Result
     }
 
     if(password_verify($password,$db_password)) {
@@ -36,6 +44,14 @@ if(isset($_POST['login'])) {
         $_SESSION['db_firstName'] = $db_firstName;
         $_SESSION['db_lastName'] = $db_lastName;
         $_SESSION['db_userRole'] = $db_userRole;
+        $_SESSION['db_email'] = $db_email;
+        $_SESSION['db_dob'] = $db_dob;
+        $_SESSION['db_phoneNumber'] = $db_phoneNumber;
+        $_SESSION['db_address'] = $db_address;
+        $_SESSION['db_city'] = $db_city;
+        $_SESSION['db_county'] = $db_county;
+        $_SESSION['db_eirCode'] = $db_eirCode;
+        $_SESSION['db_country'] = $db_country;
         header("Location: ../profile.php");
     } else {
         header("Location: ../register.php");   
