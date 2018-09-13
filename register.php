@@ -29,17 +29,17 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <label class="radio-inline">
-                                    <input type="radio" id="femaleRadio" value="Female">Female 
+                                    <input type="radio" id="Radio" value="Female"> Female 
                                 </label>
                             </div>
                             <div class="col-sm-4">
                                 <label class="radio-inline">
-                                    <input type="radio" id="maleRadio" value="Male">Male
+                                    <input type="radio" id="Radio" value="Male"> Male
                                 </label>
                             </div>
                             <div class="col-sm-4">
                                 <label class="radio-inline">
-                                    <input type="radio" id="otherRadio" value="prefer"> Not To Disclose
+                                    <input type="radio" id="Radio" value="prefer"> Not To Disclose
                                 </label>
                             </div>
                         </div>
