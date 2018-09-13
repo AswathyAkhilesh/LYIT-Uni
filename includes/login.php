@@ -28,7 +28,7 @@ if(isset($_POST['login'])) {
         $db_userRole = $row['userRole']; // Display Result
     }
 
-    if($username !== $db_username && $password !== db_password) {
+    if($username === $db_username && $password === db_password) {
         header("Location: ../index.php");
     } else if ($username == $db_username && $password == $db_password) {
         $_SESSION['db_id'] = $db_id;
