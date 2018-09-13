@@ -70,7 +70,11 @@ form br { display: none; }
 <body>
 
 	<!--  ==================== Added By Liam ==================== -->
-	<div class="container spad"><h2>Welcome: <?php echo $_SESSION['db_firstName'] ?> <small><?php echo $_SESSION['db_userRole'] ?></small></h2></div>
+	<div class="container spad"><h2>
+		Welcome: <?php echo $_SESSION['db_firstName'] ?> 
+		<?php echo $_SESSION['db_lastName'] ?> 
+		<small><?php echo $_SESSION['db_userRole'] ?></small>
+	</h2></div>
 	<!--  ==================== End Added By Liam ==================== -->
 
 	<form action="file:///C:/Users/Roshni/Desktop/division-blue/validation.html" method="post">
@@ -80,13 +84,10 @@ form br { display: none; }
 		<fieldset>
 			<legend>Personal:</legend>
 				<label for="First-Name" class="float"><strong>First Name:</strong></label><br />
-				<input class="inp-text" name="input-first-name" id="input-first-name" type="text" size="30" disabled /><br />
-
-				<label for="middle-name" class="float"><strong>Middle Name:</strong></label><br />
-				<input class="inp-text" name="input-Middle-name"  id="input-middle-name" type="text" size="30"disabled  />
+				<input class="inp-text" name="input-first-name" id="input-first-name" type="text" placeholder="<?php echo $_SESSION['db_firstName'] ?>" size="30" disabled /><br />
 				
 				<label for="last-name" class="float"><strong>Last Name:</strong></label><br />
-				<input class="inp-text" name="last-name"  id="last-name" type="text" size="30"disabled  />
+				<input class="inp-text" name="last-name"  id="last-name" type="text" placeholder="<?php echo $_SESSION['db_lastName'] ?>" size="30" disabled  />
 				<br>
 				<div>
 				<label for="Gender" class="gender"><strong>Primarly Identified as: &nbsp;</strong>  
@@ -99,11 +100,12 @@ form br { display: none; }
 				
 				<label for="dob" class="float"><strong>Date of Birth:</strong></label><br />
 				<input class="inp-text" name="dob" id="dob" type="date" size="30" value="" min="1950-01-01" max="2018-12-31" disabled />
+				
 				<label for="e-mail" class="float"><strong>E-Mail:</strong></label><br />
-				<input class="inp-text" name="e-mail"  id="e-mail" type="text" size="30" disabled />
+				<input class="inp-text" name="e-mail"  id="e-mail" type="text" size="30" placeholder="<?php echo $_SESSION['db_email'] ?>" disabled />
 				
 				<label for="mobile-no" class="float"><strong>Mobile No:</strong></label><br />
-				<input class="inp-text" name="mobile-no"  id="mobile-no" type="text" size="30" disabled  />
+				<input class="inp-text" name="mobile-no"  id="mobile-no" type="text" size="30" placeholder="<?php echo '0' . $_SESSION['db_phoneNumber'] ?>" disabled  />
 		</fieldset> 
 		<!-- ============================== Fieldset 2 end ============================== -->
 
@@ -112,25 +114,25 @@ form br { display: none; }
 		<fieldset>
 		<legend>Address:</legend>
 			<label for="adrdess1" class="float"><strong>Address Line 1</strong></label><br />
-				<input class="inp-text" name="input-adrdess1" id="input-adrdess1" type="text" size="30" disabled/><br />
+				<input class="inp-text" name="input-adrdess1" id="input-adrdess1" type="text" size="30" placeholder="<?php echo $_SESSION['db_address'] ?>" disabled/><br />
 
-				<label for="adrdess2" class="float"><strong>Address Line 2</strong></label><br />
-				<input class="inp-text" name="input-adrdess2"  id="input-adrdess2" type="text" size="30"disabled  />
+				<!-- <label for="adrdess2" class="float"><strong>Address Line 2</strong></label><br />
+				<input class="inp-text" name="input-adrdess2"  id="input-adrdess2" type="text" size="30"disabled  /> -->
 				
 				<!--<label for="adrdess3" class="float"><strong>Address Line 3</strong></label><br />
 				<input class="inp-text" name="input-adrdess3"  id="input-adrdess3" type="text" size="30" disabled /> -->
 				
 				<label for="city" class="float"><strong>City:</strong></label><br />
-				<input class="inp-text" name="input-city"  id="input-city" type="text" size="30" disabled />
+				<input class="inp-text" name="input-city"  id="input-city" type="text" size="30" placeholder="<?php echo $_SESSION['db_city'] ?>" disabled />
 				
-				<label for="Zip-code" class="float"><strong>Zip Code:</strong></label><br />
-				<input class="inp-text" name="input-code"  id="input-code" type="text" size="30"disabled />
+				<label for="Zip-code" class="float"><strong>Eir Code:</strong></label><br />
+				<input class="inp-text" name="input-code"  id="input-code" type="text" size="30" placeholder="<?php echo $_SESSION['db_eirCode'] ?>" disabled />
 				
 				<label for="county" class="float"><strong>County:</strong></label><br />
-				<input class="inp-text" name="county"  id="county" type="text" size="30"disabled />
+				<input class="inp-text" name="county"  id="county" type="text" size="30" placeholder="<?php echo $_SESSION['db_county'] ?>" disabled />
 				
 				<label for="country" class="float"><strong>Country:</strong></label><br />
-				<input class="inp-text" name="country"  id="country" type="text" size="30" disabled />
+				<input class="inp-text" name="country"  id="country" type="text" size="30" placeholder="<?php echo $_SESSION['db_country'] ?>" disabled />
 				
 				
 		</fieldset>
@@ -161,7 +163,7 @@ form br { display: none; }
     function kk1()
     {
         document.getElementById("input-first-name").disabled  = false;
-		document.getElementById("input-middle-name").disabled  = false;
+		//document.getElementById("input-middle-name").disabled  = false;
 		document.getElementById("last-name").disabled  = false;
 		document.getElementById("dob").disabled  = false;
 		document.getElementById("input-adrdess1").disabled  = false;
