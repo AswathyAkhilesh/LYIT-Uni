@@ -1,4 +1,6 @@
 <?php include ('includes/db.php'); ?>
+<?php ob_start(); ?>
+<?php session_start(); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -69,10 +71,11 @@
 	<nav class="nav-section sticky-top">
 		<div class="container">
 			<div class="nav-right">
-				<a href="login.php"><i class="fa fa-user"></i> Login</a>
+				<a href="login.php"><i class="fa fa-lock"></i> Login</a>
+				<a href="includes/logout.php"><i class="fa fa-unlock"></i> Logout</a>
 				<a href="register.php"><i class="fa fa-edit"></i> Register</a>
 				<a href="profile.php"><i class="fa fa-user"></i> Profile</a>
-				<a href="admin/login.php"><i class="fa fa-home"></i> Admin</a>
+				<a href="admin/"><i class="fa fa-home"></i> Admin</a>
 			</div>
 			<ul class="main-menu">
 				<li class="active"><a href="index.php">Home</a></li>

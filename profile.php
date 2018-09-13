@@ -1,5 +1,6 @@
 <!-- Header -->
 <?php include ('includes/header.php'); ?>
+
 <!-- Header End - Do Not Remove -->
 <style type="text/css">
 
@@ -67,6 +68,10 @@ form br { display: none; }
 
 
 <body>
+
+	<!--  ==================== Added By Liam ==================== -->
+	<div class="container spad"><h2>Welcome: <?php echo $_SESSION['db_firstName'] ?> <small><?php echo $_SESSION['db_userRole'] ?></small></h2></div>
+	<!--  ==================== End Added By Liam ==================== -->
 
 	<form action="file:///C:/Users/Roshni/Desktop/division-blue/validation.html" method="post">
 
