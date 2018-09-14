@@ -66,11 +66,21 @@
          <div style="color:#22206f;font-size:15px;padding-bottom:10px">EU Fees: €5,000.00</div>
          <div style="color:#22206f;font-size:15px">Non-EU Fees: €9,000.00</div><br>
       </div>
-      <div class="container tab-pane fade" id="d"><br>Depending on what type of applicant you are, the application process will differ.
-         For applying to this course please click on the APPLY button.<br> <br>
-		 <div class="text-center">
-			<button onclick="location.href='application.php';" type="button" class="btn btn-success" style="text-align:center">APPLY</button>
+      <div class="container tab-pane fade text-center" id="d"><br>Depending on what type of applicant you are, the application process will differ.<br>
+         <!-- Liam - Edit Start -->
+         <div>
+         <?php
+            if (isset($_SESSION['db_userRole'])) {
+                echo "To applying to this course please click on the APPLY button.<br> <br>" ;
+                echo "<div class='btn btn-success text-white'> <a href='application.php'>Apply</a> </div> ";
+            } else {
+                echo "As you are <strong>NOT</strong> logged in, please <strong>Login</strong> or <strong>Register</strong> to Apply for this course<br><br>" ;
+                echo "<div class='btn btn-success text-white'> <a href='login.php'>Login</a> </div> ";
+                echo " ";
+                echo "<div class='btn btn-info text-white'> <a href='register.php'>Register</a> </div> ";
+            } ?>
 		 </div>
+         <!-- Liam - Edit End -->
       </div>
       <div class="container tab-pane fade" style="font-size:1.2em" id="e">
 	  <br>
