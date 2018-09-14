@@ -243,7 +243,7 @@
 					<div class="course-info">
 						<h4>DevOps</h4>
 						<p>Our Master of Science in Computing in DevOps is a one year, full-time or two year, part-time programme. DevOps is the practice of operations and development engineers participating together in the entire service lifestyle, from design through the development process to production support. DevOps is characterised...</p>
-						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
+						<div class="site-btn text-white"><a href="course.php?id=1">More Information</a></div>
 					</div>
 				</div>
 				<!-- course item -->
