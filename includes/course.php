@@ -1,7 +1,8 @@
 <?php
-
-    $query = "SELECT * FROM courses WHERE id = 1 ";// Get course details
-    $select_course_query = mysqli_query($connection ,$query);
+if (isset($_GET['id'])) {
+	    $id = $_GET['id'];
+        $query = "SELECT * FROM courses WHERE id = '{$id}' ";// Get course details from course table
+		$select_course_query = mysqli_query($connection ,$query);
     if(!$select_course_query) {
         die("QUERY FAILED". mysqli_error($connection));
     }
@@ -20,4 +21,7 @@
 		$db_credit = $row['credit']; // Display Result	
 		$db_applicationdeadline = $row['applicationdeadline']; // Display Result			
     }
+} else {
+    // Fallback behaviour goes here
+}
 ?>
