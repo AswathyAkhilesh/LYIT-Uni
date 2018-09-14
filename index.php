@@ -1,5 +1,5 @@
 <?php include ('includes/header.php'); ?>
-
+<?php include ('includes/courseindex.php'); ?>
 	<!-- Hero section -->
 	<section class="hero-section">
 		<div class="hero-slider owl-carousel">
