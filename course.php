@@ -1,5 +1,6 @@
 <!-- Header -->
 <?php include ('includes/header.php'); ?>
+<?php include ('includes/course.php'); ?>
 <!-- Header End - Do Not Remove -->
 <link rel="stylesheet" href="css/course.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
