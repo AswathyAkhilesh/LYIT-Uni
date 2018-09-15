@@ -229,7 +229,7 @@
 					<div class="course-info">
 						<h4>Security & Digital Forensics</h4>
 						<p>Our Bachelor of Science in Computing with Computer Security and Digital Forensics equips you with the skills, methods and techniques that apply in Computer Security and Digital Forensics. It’s an exciting field at the forefront of technology security. We live in an age where the security of digital data has never...</p>
-						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
+						<div class="site-btn text-white"><a href="course.php?id=<?php echo$db_security ?>">More Information</a></div>
 					</div>
 				</div>
 				<!-- course item -->
