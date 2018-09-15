@@ -215,7 +215,7 @@
 					<div class="course-info">
 						<h4>Cloud Technology</h4>
 						<p>Our Bachelor of Science in Computing with degree award options: General Computing or Mobile Technology or Cloud Technology provides you with a range of both theoretical and practical skills to advance in the computer industry. The ethos of this three-year course is to provide you with a strong core set of...</p>
-						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
+						<div class="site-btn text-white"><a href="course.php?id=<?php echo$db_cloudtechnology ?>">More Information</a></div>
 					</div>
 				</div>
 				<!-- course item -->
