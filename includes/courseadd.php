@@ -13,5 +13,9 @@ if(isset($_POST['save'])) {
 	$duration= $_POST['textbox5'];
 	$studymode= $_POST['textbox6'];
 	$applicationdeadline= $_POST['textbox7'];
+
+    $query = "INSERT INTO `courses` ( `coursecode`, `coursename`, `bannerdescription`, `coursedetails`, `entryrequirements`, `coursefees`, `jobs`, `duration`, `studymode`, `award`, `credit`, `applicationdeadline`) VALUES
+ ('{$coursecode}','{$coursename}','{$banner}','{$coursedetails}','{$entryrequirements}','{$fee}','{$job}','{$duration}','{$studymode}','{$award}',{$credit},'{$applicationdeadline}' )";
+    $select_user_query = mysqli_query($connection ,$query);
 }
 ?>
