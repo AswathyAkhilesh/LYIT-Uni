@@ -1,3 +1,4 @@
+<?php include ('db.php'); ?>
 <?php
  
 /*
@@ -19,25 +20,31 @@
  */
  
 // DB table to use
-$table = '';
+$table = 'courses';
  
 // Table's primary key
-$primaryKey = '';
+$primaryKey = 'id';
  
 // Array of database columns which should be read and sent back to DataTables.
 // The `db` parameter represents the column name in the database, while the `dt`
 // parameter represents the DataTables column identifier. In this case simple
 // indexes
 $columns = array(
-	array( 'db' => 'id', 'dt' => 'id' )
+	array( 'db' => 'id', 'dt' => 'id' ),
+    array( 'db' => 'coursecode', 'dt' => 'coursecode' ),
+    array( 'db' => 'coursename', 'dt' => 'coursename' ),
+    array( 'db' => 'studymode', 'dt' => 'studymode' ),
+    array( 'db' => 'award', 'dt' => 'award' ),
+	array( 'db' => 'credit', 'dt' => 'credit' ),
+	array( 'db' => 'applicationdeadline', 'dt' => 'applicationdeadline' )
 );
  
 // SQL server connection information
 $sql_details = array(
-    'user' => '',
-    'pass' => '',
-    'db'   => '',
-    'host' => ''
+    'user' => $db['db_user'],
+    'pass' => $db['db_pass'],
+    'db'   => $db['db_name'],
+    'host' => $db['db_host']
 );
  
  
