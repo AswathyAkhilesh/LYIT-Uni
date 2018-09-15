@@ -271,7 +271,7 @@
 					<div class="course-info">
 						<h4>Big Data Analytics</h4>
 						<p>Our Master of Science in Computing in Big Data Analytics is a one year, full-time or two year, part-time programme. It focuses on the processes involved in examining and interpreting large amounts of data of a variety of types to uncover hidden patterns, unknown correlations and other useful information...</p>
-						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
+						<div class="site-btn text-white"><a href="course.php?id=<?php echo$db_bigdata ?>">More Information</a></div>
 					</div>
 				</div>
 			</div>

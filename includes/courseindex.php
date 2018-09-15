@@ -50,4 +50,14 @@
     while($row = mysqli_fetch_array($select_courseid_query)) {
         $db_private = $row['id']; // Display Result			
     }
+	
+	$querybigdata = "SELECT * FROM courses WHERE coursecode = 'COOD6' ";// Check if the user exists
+    $select_courseid_query = mysqli_query($connection ,$querybigdata);
+    if(!$select_courseid_query) {
+        die("QUERY FAILED". mysqli_error($connection));
+    }
+
+    while($row = mysqli_fetch_array($select_courseid_query)) {
+        $db_bigdata = $row['id']; // Display Result			
+    }
 ?>
