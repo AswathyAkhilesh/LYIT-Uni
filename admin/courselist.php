@@ -31,44 +31,6 @@
                 <th>Application Deadline</th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <td></td>
-                <td>COOD1</td>
-                <td>Master of Science in DevOps</td>
-                <td>Full-time and Part-time</td>
-                <td>Masters</td>
-                <td>30</td>
-                <td>24 August</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>COOD2</td>
-                <td>Applied Computing</td>
-                <td>Full-time and Part-time</td>
-                <td>Masters</td>
-                <td>30</td>
-                <td>24 August</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>COOD3</td>
-                <td>Cloud Technology</td>
-                <td>Full-time and Part-time</td>
-                <td>Masters</td>
-                <td>30</td>
-                <td>24 August</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>COOD3</td>
-                <td>Security</td>
-                <td>Full-time and Part-time</td>
-                <td>Masters</td>
-                <td>30</td>
-                <td>24 August</td>
-            </tr>
-        </tbody>
     </table>
     <br>
     <p align="center">
