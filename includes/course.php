@@ -1,5 +1,3 @@
-<?php ob_start(); ?>
-<?php session_start(); ?>
 <?php
 if (isset($_GET['id'])) {
 	    $id = $_GET['id'];
