@@ -61,8 +61,8 @@
       <input type="textbox7" class="form-control" id="textbox7" name="textbox7">
     </div>
 	</div>
-    <button type="button" onclick="location.href='courselist.php';"class="site-btn text-white">Save</button>
-  </form><br>
+    <button type="submit" name="save" class="site-btn text-white">Save</button>
+	</form><br>
 </div>
 <?php include ('footer.php'); ?>
 
