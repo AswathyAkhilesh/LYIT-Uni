@@ -2,13 +2,7 @@
 <?php ob_start(); ?>
 <?php session_start(); ?>
 
-<?php 
 
-if(!isset($_SESSION['userRole'])) {
-	header("Location: login.php");
-}
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">

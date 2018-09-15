@@ -34,6 +34,7 @@ if(isset($_POST['login'])) {
         $db_county = $row['county']; // Display Result
         $db_eirCode = $row['eirCode']; // Display Result
         $db_country = $row['country']; // Display Result
+        $db_userRole= $row['userRole']; // Display Result
     }
 
     if(password_verify($password,$db_password)) {
