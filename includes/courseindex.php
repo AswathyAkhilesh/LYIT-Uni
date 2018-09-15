@@ -1,5 +1,3 @@
-<?php ob_start(); ?>
-<?php session_start(); ?>
 <?php
     $querydevops = "SELECT * FROM courses WHERE coursecode = 'COOD1' ";
     $select_courseid_query = mysqli_query($connection ,$querydevops);
