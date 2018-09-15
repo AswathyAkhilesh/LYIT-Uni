@@ -42,5 +42,8 @@ function viewcourse(){
 }
 
 function editcourse(){
-
+	var rowData = table.rows( { selected: true } ).data()[0];	
+	if(!rowData)
+		return;
+	window.location.href = "courseEdit.php?id=" + rowData.id;
 }
