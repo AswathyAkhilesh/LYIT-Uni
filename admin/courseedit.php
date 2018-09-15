@@ -12,7 +12,7 @@
   <br>
   <h2>Edit Course Details</h2>
   <p>The form below contains course details, modify as required and click on the "Update" button to save the details.</p>
-  <form action="/action_page.php">
+  <form action="../includes/courseedit.php" method="post">
     <div class="form-group">
       <label for="textbox1"><b>Course Code:</b></label>
       <input type="text" class="form-control" id="textbox1" name="textbox1" value="<?php echo $db_coursecode ?>">
@@ -65,7 +65,7 @@
       <input type="textbox7" class="form-control" id="textbox7" name="textbox7" value="<?php echo $db_applicationdeadline ?>">
     </div>
 	</div>
-    <button type="button" onclick="location.href='courselist.php';" class="site-btn text-white">Update</button>
-  </form><br>
+    <button type="submit" name="update" class="site-btn text-white">Update</button>
+	</form><br>
 </div>
 <?php include ('footer.php'); ?>
