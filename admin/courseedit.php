@@ -1,5 +1,5 @@
 <?php include ('header.php'); ?>
-
+<?php include ('../includes/courseedit.php'); ?>
   <!--Third party scripts-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="../js/nicEdit-latest.js" type="text/javascript"></script>
