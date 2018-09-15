@@ -22,4 +22,23 @@ if (isset($_GET['id'])) {
 		$db_applicationdeadline = $row['applicationdeadline']; // Display Result			
     }
 } 
+if(isset($_POST['update'])) {
+	include 'db.php';
+    $coursecode = $_POST['textbox1'];
+    $coursename= $_POST['textbox2'];
+	$coursedetails= $_POST['comment1'];
+	$entryrequirements= $_POST['comment2'];
+	$fee= $_POST['comment3'];
+	$job= $_POST['comment4'];
+	$banner= $_POST['comment5'];
+	$award= $_POST['textbox3'];
+	$credit= $_POST['textbox4'];
+	$duration= $_POST['textbox5'];
+	$studymode= $_POST['textbox6'];
+	$applicationdeadline= $_POST['textbox7'];
+
+    $query = "UPDATE `courses` SET `coursecode` = '{$coursecode}', `coursename` = '{$coursename}', `bannerdescription` = '{$banner}', `coursedetails` = '{$coursedetails}', `entryrequirements` = '{$entryrequirements}', `coursefees` = '{$fee}', `jobs` = '{$job}', `duration` = '{$duration}', `studymode` = '{$studymode}', `award` = '{$award}', `credit` = {$credit}, `applicationdeadline` = '{$applicationdeadline}' WHERE `courses`.`id` = {$id}";
+    $select_user_query = mysqli_query($connection ,$query);
+
+}
 ?>
