@@ -1,5 +1,5 @@
 <?php
-if (isset($_GET['id'])) {
+if (!isset($_POST['update']) && isset($_GET['id'])) {
 	    $id = $_GET['id'];
         $query = "SELECT * FROM courses WHERE id = '{$id}' ";// Get course details from course table
 		$select_course_query = mysqli_query($connection ,$query);
