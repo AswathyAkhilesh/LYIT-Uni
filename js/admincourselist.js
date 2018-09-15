@@ -29,3 +29,10 @@ $(document).ready(function() {
         order: [[ 1, 'asc' ]]
     } );
 } );
+
+function viewcourse(){
+	var rowData = table.rows( { selected: true } ).data()[0];	
+	if(!rowData)
+		return;
+	window.location.href = "../course.php?id=" + rowData.id;
+}
