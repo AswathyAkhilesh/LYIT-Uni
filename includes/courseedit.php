@@ -24,6 +24,7 @@ if (isset($_GET['id'])) {
 } 
 if(isset($_POST['update'])) {
 	include 'db.php';
+	$id =$_POST['hiddenid'];
     $coursecode = $_POST['textbox1'];
     $coursename= $_POST['textbox2'];
 	$coursedetails= $_POST['comment1'];
@@ -39,6 +40,5 @@ if(isset($_POST['update'])) {
 
     $query = "UPDATE `courses` SET `coursecode` = '{$coursecode}', `coursename` = '{$coursename}', `bannerdescription` = '{$banner}', `coursedetails` = '{$coursedetails}', `entryrequirements` = '{$entryrequirements}', `coursefees` = '{$fee}', `jobs` = '{$job}', `duration` = '{$duration}', `studymode` = '{$studymode}', `award` = '{$award}', `credit` = {$credit}, `applicationdeadline` = '{$applicationdeadline}' WHERE `courses`.`id` = {$id}";
     $select_user_query = mysqli_query($connection ,$query);
-
 }
 ?>

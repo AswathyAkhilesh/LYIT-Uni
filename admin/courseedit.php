@@ -13,6 +13,7 @@
   <h2>Edit Course Details</h2>
   <p>The form below contains course details, modify as required and click on the "Update" button to save the details.</p>
   <form action="../includes/courseedit.php" method="post">
+    <input type="hidden" name="hiddenid" id="hiddenid" value="<?php echo $_GET['id'] ?>" />
     <div class="form-group">
       <label for="textbox1"><b>Course Code:</b></label>
       <input type="text" class="form-control" id="textbox1" name="textbox1" value="<?php echo $db_coursecode ?>">
