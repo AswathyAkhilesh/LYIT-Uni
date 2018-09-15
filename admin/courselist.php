@@ -35,7 +35,7 @@
     <br>
     <p align="center">
         <button type="button" id="view" class="btn btn-info">View</button>
-        <button type="button" onclick="location.href='courseedit.php';" class="btn btn-info">Edit</button>
+        <button type="button" id="edit" class="btn btn-info">Edit</button>
         <button type="button" onclick="location.href='courseadd.php';"class="btn btn-info">Add</button>
     </p>
 </section>

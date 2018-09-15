@@ -4,6 +4,10 @@ $(document).ready(function() {
         viewcourse();
     });
 	
+	$("#edit").click(function(){
+        editcourse();
+    });
+	
     table = $('#example').DataTable( {
 		"processing": true,
         "serverSide": true,
@@ -35,4 +39,8 @@ function viewcourse(){
 	if(!rowData)
 		return;
 	window.location.href = "../course.php?id=" + rowData.id;
+}
+
+function editcourse(){
+
 }
