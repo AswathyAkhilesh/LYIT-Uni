@@ -12,7 +12,7 @@
   <br>
   <h2>Add New Course </h2>
   <p>To add a new course, please enter the following details and click on the "Save" button </p>
-  <form action="/action_page.php">
+  <form action="../includes/courseadd.php" method="post">
     <div class="form-group">
       <label for="textbox1"><b>Course Code:</b></label>
       <input type="text" class="form-control" id="textbox1" name="textbox1" >
