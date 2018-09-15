@@ -1,5 +1,9 @@
 var table;
 $(document).ready(function() {
+	$("#view").click(function(){
+        viewcourse();
+    });
+	
     table = $('#example').DataTable( {
 		"processing": true,
         "serverSide": true,
