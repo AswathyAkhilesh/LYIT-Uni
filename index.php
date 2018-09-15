@@ -201,7 +201,7 @@
 					<div class="course-info">
 						<h4>Applied Computing</h4>
 						<p>This level 8 programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers...</p>
-						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
+						<div class="site-btn text-white"><a href="course.php?id=<?php echo$db_appliedcomputing ?>">More Information</a></div>
 					</div>
 				</div>
 				<!-- course item -->
