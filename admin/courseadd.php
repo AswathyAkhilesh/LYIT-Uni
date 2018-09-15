@@ -23,19 +23,19 @@
     </div>
 	<div class="form-group">
       <label for="comment1"><b>Course Details and Modules:</b></label>
-      <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+      <textarea class="form-control" rows="5" id="comment1" name="comment1"></textarea>
     </div>
 	<div class="form-group">
       <label for="comment2"><b>Entry Requirements:</b></label>
-      <textarea class="form-control" rows="5" id="comment2" name="text"></textarea>
+      <textarea class="form-control" rows="5" id="comment2" name="comment2"></textarea>
     </div>
 	<div class="form-group">
       <label for="comment3"><b>Course Fees:</b></label>
-      <textarea class="form-control" rows="5" id="comment3" name="text"></textarea>
+      <textarea class="form-control" rows="5" id="comment3" name="comment3"></textarea>
     </div>
 	<div class="form-group">
       <label for="comment4"><b>Jobs:</b></label>
-      <textarea class="form-control" rows="5" id="comment4" name="text"></textarea>
+      <textarea class="form-control" rows="5" id="comment4" name="comment4"></textarea>
     </div>
 	<div class="form-group">
       <label for="comment5"><b>Banner:</b></label>
@@ -66,7 +66,7 @@
     </div>
 	</div>
     <button type="submit" name="save" class="site-btn text-white">Save</button>
-	</form><br>
+  </form><br>
 </div>
 <?php include ('footer.php'); ?>
 
