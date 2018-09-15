@@ -257,7 +257,7 @@
 					<div class="course-info">
 						<h4>Private Cloud Technologies</h4>
 						<p>Our Master of Science in Computing in Private Cloud Technologies will augment your existing skills and knowledge to position you for a successful and rewarding career in Private Cloud Technologies. If you already hold an honours degree in computing or an appropriate mix of academic qualifications...</p>
-						<div class="site-btn text-white"><a href="course.php">More Information</a></div>
+						<div class="site-btn text-white"><a href="course.php?id=<?php echo$db_private ?>">More Information</a></div>
 					</div>
 				</div>
 				<!-- course item -->
