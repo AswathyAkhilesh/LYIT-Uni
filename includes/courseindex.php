@@ -30,4 +30,14 @@
     while($row = mysqli_fetch_array($select_courseid_query)) {
         $db_cloudtechnology = $row['id']; // Display Result			
     }
+	
+	$querysecurity = "SELECT * FROM courses WHERE coursecode = 'COOD4' ";// Check if the user exists
+    $select_courseid_query = mysqli_query($connection ,$querysecurity);
+    if(!$select_courseid_query) {
+        die("QUERY FAILED". mysqli_error($connection));
+    }
+
+    while($row = mysqli_fetch_array($select_courseid_query)) {
+        $db_security = $row['id']; // Display Result			
+    }
 ?>
