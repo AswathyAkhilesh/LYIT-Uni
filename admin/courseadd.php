@@ -37,6 +37,10 @@
       <label for="comment4"><b>Jobs:</b></label>
       <textarea class="form-control" rows="5" id="comment4" name="text"></textarea>
     </div>
+	<div class="form-group">
+      <label for="comment5"><b>Banner:</b></label>
+      <textarea class="form-control" rows="5" id="comment5" name="comment5"></textarea>
+    </div>
 	<div>
 	<h3>Key Informations</h3>
 	<br>
