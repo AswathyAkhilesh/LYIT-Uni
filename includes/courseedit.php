@@ -40,5 +40,12 @@ if(isset($_POST['update'])) {
 
     $query = "UPDATE `courses` SET `coursecode` = '{$coursecode}', `coursename` = '{$coursename}', `bannerdescription` = '{$banner}', `coursedetails` = '{$coursedetails}', `entryrequirements` = '{$entryrequirements}', `coursefees` = '{$fee}', `jobs` = '{$job}', `duration` = '{$duration}', `studymode` = '{$studymode}', `award` = '{$award}', `credit` = {$credit}, `applicationdeadline` = '{$applicationdeadline}' WHERE `courses`.`id` = {$id}";
     $select_user_query = mysqli_query($connection ,$query);
+    if(!$select_user_query) {
+        die("QUERY FAILED". mysqli_error($connection));
+    }
+	else
+	{
+		header("Location: ../admin/courselist.php");
+	}
 }
 ?>
