@@ -40,4 +40,14 @@
     while($row = mysqli_fetch_array($select_courseid_query)) {
         $db_security = $row['id']; // Display Result			
     }
+	
+	$queryprivate = "SELECT * FROM courses WHERE coursecode = 'COOD5' ";// Check if the user exists
+    $select_courseid_query = mysqli_query($connection ,$queryprivate);
+    if(!$select_courseid_query) {
+        die("QUERY FAILED". mysqli_error($connection));
+    }
+
+    while($row = mysqli_fetch_array($select_courseid_query)) {
+        $db_private = $row['id']; // Display Result			
+    }
 ?>
