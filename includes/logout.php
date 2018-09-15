@@ -15,6 +15,7 @@ $_SESSION['db_city'] = null;
 $_SESSION['db_county'] = null;
 $_SESSION['db_eirCode'] = null;
 $_SESSION['db_country'] = null;
+$_SESSION['db_userRole'] = null;
 
 header("Location: ../index.php");
 
