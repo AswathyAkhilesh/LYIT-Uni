@@ -120,8 +120,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`userID`, `username`, `password`, `firstName`, `lastName`, `gender`, `email`, `dob`, `phoneNumber`, `address`, `city`, `county`, `eirCode`, `country`, `userRole`) VALUES
-(1, 'liamwho', 'password', 'Liam', 'Whorriskey', 'male', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'main street', 'letterkenny', 'donegal', 'F92A324', 'ireland', 'student');
-
+(1, 'liamwho', 'password', 'Liam', 'Whorriskey', 'male', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'main street', 'letterkenny', 'donegal', 'F92A324', 'ireland', 'student'),
+(2,'Roshni','password','Roshni','Umesh','female','roshni.umesh@gmail.com','1984-09-22 00:00:00',456789,'mountain top','letterkenny','donegal','F45678w3','Ireland','student');
 --
 -- Indexes for dumped tables
 --
