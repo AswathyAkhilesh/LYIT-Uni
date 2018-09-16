@@ -8,7 +8,7 @@
 <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
 <script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
 <!--Script-->
-<script src="../js/admincourselist.js"></script>
+<script src="../js/admininterviewlist.js"></script>
 <!--Begin HTML design--> 
 <Section class="container spad">
 <br>
@@ -24,54 +24,10 @@
          <th>Date</th>
          <th>Time</th>
       </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td></td>
-         <td>Aswathy</td>
-         <td>Devops</td>
-         <td>21 Aug</td>
-         <td>9.00 AM</td>
-      </tr>
-      <tr>
-         <td></td>
-         <td>Roshni</td>
-         <td>Devops</td>
-         <td>21 Aug</td>
-         <td>9.30 AM</td>
-      </tr>
-      <tr>
-         <td></td>
-         <td>Matthew</td>
-         <td>Devops</td>
-         <td>21 Aug</td>
-         <td>10.00 AM</td>
-      </tr>
-      <tr>
-         <td></td>
-         <td>Conor</td>
-         <td>Devops</td>
-         <td>21 Aug</td>
-         <td>10.30 AM</td>
-      </tr>
-      <tr>
-         <td></td>
-         <td>Liam</td>
-         <td>Devops</td>
-         <td>21 Aug</td>
-         <td>11.00 AM</td>
-      </tr>
-      <tr>
-         <td></td>
-         <td>Ruth</td>
-         <td>Devops</td>
-         <td>21 Aug</td>
-         <td>11.30 AM</td>
-      </tr>
-   </tbody>
+   </thead>   
 </table>
 <p align="center">
-   <button type="button" onclick="location.href='\interview.php';" class="btn btn-info">View</button>
+   <button type="button" id="view" class="btn btn-info">View</button>
 </p>
 </section>
 <?php include ('footer.php'); ?>
