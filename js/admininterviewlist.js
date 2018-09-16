@@ -1,0 +1,36 @@
+var table;
+$(document).ready(function() {
+	$("#view").click(function(){
+        viewcourse();
+    });
+	
+    table = $('#example').DataTable( {
+		"processing": true,
+        "serverSide": true,
+        "ajax": "../includes/datatableinterviewlist.php",
+        "columns": [
+            { "data": null, "defaultContent": "" },
+            { "data": "Name" },
+            { "data": "CourseName" },
+            { "data": "date" },
+            { "data": "Time" }
+        ],
+        columnDefs: [ {
+            orderable: false,
+            className: 'select-checkbox',
+            targets:   0
+        } ],
+        select: {
+            style:    'os',
+            selector: 'td:first-child'
+        },
+        order: [[ 1, 'asc' ]]
+    } );
+} );
+
+function viewcourse(){
+	var rowData = table.rows( { selected: true } ).data()[0];	
+	if(!rowData)
+		return;
+	window.location.href = "../admin/interview.php?id=" + rowData.id;
+}
