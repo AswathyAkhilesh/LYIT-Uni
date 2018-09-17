@@ -78,7 +78,7 @@ form br { display: none; }
 	<!--  ==================== End Added By Liam ==================== -->
 
 	<!--form action="file:///C:/Users/Roshni/Desktop/division-blue/validation.html" method="post"-->
-	<form action="../includes/profileupdate.php" method="post">
+	<form action="includes/profileupdate.php" method="post">
 
 		<!-- ============================== Fieldset 2 ============================== -->
 		<fieldset>

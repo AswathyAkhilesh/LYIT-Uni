@@ -16,7 +16,7 @@
 
                 <div class="form-group">
                     <p>Password</p>
-                    <input type="text" name="password" required="true" placeholder = "Enter password">
+                    <input type="password" name="password" required="true" placeholder = "Enter password">
                 </div>
 
                 <div class="input-group-btn site-btn text-white">
