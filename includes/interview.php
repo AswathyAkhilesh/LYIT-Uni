@@ -5,7 +5,7 @@ if(isset($_GET['id'])) {
 
     $userID = $_GET['id'];
 
-    $query = "SELECT * FROM users WHERE userID = {$userID}"; // Get user details
+    $query = "SELECT b.CourseName, b.Date, b.Time,a.* FROM users a inner join interviews b on a.userID = b.userID WHERE a.userID = {$userID}"; // Get user details
     $select_user_query = mysqli_query($connection ,$query);
     if(!$select_user_query) {
         die("QUERY FAILED". mysqli_error($connection));
@@ -27,5 +27,8 @@ if(isset($_GET['id'])) {
         $db_userRole= $row['userRole']; // Display Result
 		$db_highestQual= $row['highestQual']; // Display Result
 		$db_workExp= $row['workExp']; // Display Result
+		$db_courseName = $row['CourseName'];
+		$db_date = $row['Date'];
+		$db_time =  $row['Time'];
     }  
 }
