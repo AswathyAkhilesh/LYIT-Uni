@@ -85,13 +85,13 @@ form br { display: none; }
 		<fieldset>
 		<legend>Interview:</legend>
 				<label for="int-date" class="int-date"><strong>Interview Date & Time</strong></label>
-				<input class="inp-date" name="int-date" id="int-date" type="date" size="30" />
+				<input class="inp-date" name="int-date" id="int-date" type="date"  value="<?php echo date('Y-m-d', strtotime($db_date)) ?>"  size="30" />
 
 				<!--<label for="int-time" class="int-time"><strong>Time</strong></label>-->
-				<input class="inp-time" name="int-time" id="int-time" type="text" size="30" />
+				<input class="inp-time" name="int-time" id="int-time" type="text"  value="<?php echo $db_time ?>" size="30" />
 				
 				<label for="course" class="float"><strong>Course Selected</strong></label><br />
-				<input class="inp-text" name="input-course" id="input-course" type="text" size="30" /><br />
+				<input class="inp-text" name="input-course" id="input-course" type="text"  value="<?php echo $db_courseName ?>"  size="30" /><br />
 				
 				
 		</fieldset>
