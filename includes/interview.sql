@@ -116,6 +116,7 @@ CREATE TABLE `users` (
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `firstName` varchar(50) NOT NULL,
+  `middleName` varchar(100) NOT NULL,
   `lastName` varchar(100) NOT NULL,
   `gender` varchar(100) NOT NULL,
   `email` varchar(255) NOT NULL,
@@ -126,15 +127,18 @@ CREATE TABLE `users` (
   `county` varchar(255) NOT NULL,
   `eirCode` varchar(7) NOT NULL,
   `country` varchar(255) NOT NULL,
-  `userRole` varchar(255) NOT NULL
+  `userRole` varchar(255) NOT NULL,
+  `highestQual` varchar(500) NOT NULL,
+  `workExp` varchar(500) NOT NULL
+  
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`userID`, `username`, `password`, `firstName`, `lastName`, `gender`, `email`, `dob`, `phoneNumber`, `address`, `city`, `county`, `eirCode`, `country`, `userRole`) VALUES
-(1, 'liamwho', 'password', 'Liam', 'Whorriskey', 'male', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'main street', 'letterkenny', 'donegal', 'F92A324', 'ireland', 'student');
+INSERT INTO `users` (`userID`, `username`, `password`, `firstName`, `lastName`, `gender`, `email`, `dob`, `phoneNumber`, `address`, `city`, `county`, `eirCode`, `country`, `userRole`,`highestQual`,`workExp`) VALUES
+(1, 'liamwho', 'password', 'Liam', 'Whorriskey', 'male', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'main street', 'letterkenny', 'donegal', 'F92A324', 'ireland', 'student','Level9','fouryear');
 
 --
 -- Indexes for dumped tables
