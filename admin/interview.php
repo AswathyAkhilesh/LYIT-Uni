@@ -163,10 +163,10 @@ form br { display: none; }
 				
 		</fieldset>
 		
-		<fieldset>
+		<!--fieldset>
 			<legend>Interview Feedback</legend>
 			<textarea name="comments" id="comments" cols="30" rows="5" title="Note or message"></textarea><br />
-		</fieldset>
+		</fieldset-->
 			
 		
 		<!-- ============================== Fieldset 3 end ============================== -->
