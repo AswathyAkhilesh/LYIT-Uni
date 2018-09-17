@@ -4,6 +4,7 @@
 <?php 
 if(isset($_POST['update'])) { 
     $firstname = $_POST['input-first-name'];
+	$middlename = $_POST['input-Middle-name'];
     $lastname= $_POST['last-name'];
 	$gender= $_POST['gender'];
 	$dob= $_POST['dob'];
@@ -14,7 +15,7 @@ if(isset($_POST['update'])) {
 	$county= $_POST['county'];
     $eircode= $_POST['input-code'];
 	$country= $_POST['country'];
-    $query = "UPDATE users SET firstName='{$firstname}',lastName='{$lastname}',gender='{$gender}',email='{$email}',dob='{$dob}',phoneNumber={$mobileno},address='{$address}',city='{$city}',county='{$county}',eirCode='{$eircode}',country='{$country}' where userID={$_SESSION['db_id']}";
+    $query = "UPDATE users SET firstName='{$firstname}',middleName='{$middlename}',lastName='{$lastname}',gender='{$gender}',email='{$email}',dob='{$dob}',phoneNumber={$mobileno},address='{$address}',city='{$city}',county='{$county}',eirCode='{$eircode}',country='{$country}' where userID={$_SESSION['db_id']}";
     $select_user_query = mysqli_query($connection ,$query);
     if(!$select_user_query) {
         die("QUERY FAILED". mysqli_error($connection));
