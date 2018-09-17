@@ -13,6 +13,7 @@ if(isset($_GET['id'])) {
 
     while($row = mysqli_fetch_array($select_user_query)) {
         $db_firstName = $row['firstName']; // Display Result
+		$db_middleName = $row['middleName']; // Display Result
         $db_lastName = $row['lastName']; // Display Result
         $db_email = $row['email']; // Display Result
         $db_dob = $row['dob']; // Display Result
