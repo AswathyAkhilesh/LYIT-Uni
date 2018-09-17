@@ -25,5 +25,7 @@ if(isset($_SESSION['db_id'])) {
         $db_eirCode = $row['eirCode']; // Display Result
         $db_country = $row['country']; // Display Result
         $db_userRole= $row['userRole']; // Display Result
+		$db_highestQual= $row['higestQual']; // Display Result
+		$db_workExp= $row['workExp']; // Display Result
     }  
 }
