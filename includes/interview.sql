@@ -103,8 +103,8 @@ INSERT INTO `interviews` (`interviewID`, `userID`, `courseID`, `date`, `Name`, `
 (2, '2', '12', '12 Aug', 'Roshni', 'Devops', '9.40 AM'),
 (3, '3', '12', '12 Aug', 'Matthew', 'Devops', '10.10 AM'),
 (4, '4', '12', '12 Aug', 'Aswathy', 'Devops', '10.40 AM'),
-(5, '5', '12', '12 Aug', 'Conor', 'Devops', '11.10 AM'),
-(6, '6', '12', '12 Aug', 'John', 'Devops', '11.40 AM');
+(5, '5', '12', '12 Aug', 'Conor', 'Devops', '11.10 AM');
+
 
 -- --------------------------------------------------------
 
