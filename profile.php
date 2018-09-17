@@ -85,7 +85,8 @@ form br { display: none; }
 			<legend>Personal:</legend>
 				<label for="First-Name" class="float"><strong>First Name:</strong></label><br />
 				<input class="inp-text" name="input-first-name" id="input-first-name" type="text" value="<?php echo $db_firstName ?>" size="30" disabled /><br />
-				
+				<label for="middle-name" class="float"><strong>Middle Name:</strong></label><br />
+				<input class="inp-text" name="input-Middle-name"  id="input-middle-name" type="text" value="<?php echo $db_middleName ?>" size="30" disabled />
 				<label for="last-name" class="float"><strong>Last Name:</strong></label><br />
 				<input class="inp-text" name="last-name"  id="last-name" type="text" value="<?php echo $db_lastName ?>" size="30" disabled  />
 				<br>
