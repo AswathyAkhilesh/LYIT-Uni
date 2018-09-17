@@ -24,5 +24,7 @@ if(isset($_GET['id'])) {
         $db_eirCode = $row['eirCode']; // Display Result
         $db_country = $row['country']; // Display Result
         $db_userRole= $row['userRole']; // Display Result
+		$db_highestQual= $row['highestQual']; // Display Result
+		$db_workExp= $row['workExp']; // Display Result
     }  
 }
