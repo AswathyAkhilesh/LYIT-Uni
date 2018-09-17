@@ -103,7 +103,13 @@ CREATE TABLE `interviews` (
 --
 
 INSERT INTO `interviews` (`interviewID`, `userID`, `courseID`, `date`, `Name`, `CourseName`, `Time`) VALUES
-(1, '1', '12', '12 Aug', 'Liam', 'Devops', '9.00 AM');
+(1, '1', '12', '12 Aug', 'Liam', 'Devops', '9.00 AM'),
+(2, '2', '12', '12 Aug', 'Roshni', 'Devops', '9.40 AM'),
+(3, '3', '12', '12 Aug', 'Matthew', 'Devops', '10.10 AM'),
+(4, '4', '12', '12 Aug', 'Aswathy', 'Devops', '10.40 AM'),
+(5, '5', '12', '12 Aug', 'Conor', 'Devops', '11.10 AM'),
+(6, '6', '12', '12 Aug', 'John', 'Devops', '11.40 AM');
+
 
 -- --------------------------------------------------------
 
@@ -137,9 +143,13 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`userID`, `username`, `password`, `firstName`, `lastName`, `gender`, `email`, `dob`, `phoneNumber`, `address`, `city`, `county`, `eirCode`, `country`, `userRole`,`highestQual`,`workExp`) VALUES
-(1, 'liamwho', 'password', 'Liam', 'Whorriskey', 'male', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'main street', 'letterkenny', 'donegal', 'F92A324', 'ireland', 'student','Level9','fouryear');
-
+INSERT INTO `users` (`userID`, `username`, `password`, `firstName`,`middleName` `lastName`, `gender`, `email`, `dob`, `phoneNumber`, `address`, `city`, `county`, `eirCode`, `country`, `userRole`,`highestQual`,`workExp`) VALUES
+(1, 'liamwho', 'password', 'Liam', 'Whorriskey', 'male', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'Main Street', 'Letterkenny', 'Donegal', 'F92A324', 'Ireland', 'student','Level9','4 years'),
+(2,'roshni','password', 'Roshni','Kalasyam', 'Umesh', 'female', 'roshni.umesh@gmail.com', '1984-09-22 00:00:00', 456789, 'Thornberry', 'Letterkenny', 'Donegal','F45678W','Ireland', 'student','Level9','2 years'),
+(3, 'matthew', 'password', 'Matthew', 'Bergin', 'male', 'matthew@gmail.com', '1992-09-15 00:00:00', 234567, 'FoxHills', 'Letterkenny', 'Donegal', 'F2346WK', 'Ireland', 'student', 'Level9', '3Years'),
+(4, 'aswathy', 'password', 'Aswathy', 'Akhilesh', 'female', 'aswathy@gmail.com', '1986-07-25 00:00:00', 23689, 'MountainTop', 'Letterkenny', 'Donegal', 'W3456H', 'Ireland', 'student', 'Level9', '4 years'),
+(5, 'conor', 'password', 'Conor', 'Dorrian', 'male', 'conor@gmail.com', '1990-05-12 00:00:00', 4568989, 'Glentain Close', 'Letterkenny', 'Donegal', 'F4567Q', 'Ireland', 'student', 'Level9', '3 years'),
+(6, 'joe', 'password', 'John', 'Joe', 'Morgan', 'male', 'joe@gmail.com', '1981-01-22 00:00:00', 237658, 'Gortlee Road', 'Letterkenny', 'Donegal', 'F23679K', 'Ireland', 'student', 'Level9', '6 years');
 --
 -- Indexes for dumped tables
 --
