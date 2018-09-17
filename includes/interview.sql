@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 15, 2018 at 01:31 PM
+-- Generation Time: Sep 17, 2018 at 09:40 PM
 -- Server version: 10.1.34-MariaDB
 -- PHP Version: 7.2.8
 
@@ -84,10 +84,6 @@ INSERT INTO `courses` (`id`, `coursecode`, `coursename`, `bannerdescription`, `c
 -- Table structure for table `interviews`
 --
 
---
--- Table structure for table `interviews`
---
-
 CREATE TABLE `interviews` (
   `interviewID` int(25) NOT NULL,
   `userID` varchar(255) NOT NULL,
@@ -109,7 +105,6 @@ INSERT INTO `interviews` (`interviewID`, `userID`, `courseID`, `date`, `Name`, `
 (4, '4', '12', '12 Aug', 'Aswathy', 'Devops', '10.40 AM'),
 (5, '5', '12', '12 Aug', 'Conor', 'Devops', '11.10 AM'),
 (6, '6', '12', '12 Aug', 'John', 'Devops', '11.40 AM');
-
 
 -- --------------------------------------------------------
 
@@ -136,29 +131,22 @@ CREATE TABLE `users` (
   `userRole` varchar(255) NOT NULL,
   `highestQual` varchar(500) NOT NULL,
   `workExp` varchar(500) NOT NULL
-  
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`userID`, `username`, `password`, `firstName`,`middleName` `lastName`, `gender`, `email`, `dob`, `phoneNumber`, `address`, `city`, `county`, `eirCode`, `country`, `userRole`,`highestQual`,`workExp`) VALUES
-(1, 'liamwho', 'password', 'Liam', 'Whorriskey', 'male', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'Main Street', 'Letterkenny', 'Donegal', 'F92A324', 'Ireland', 'student','Level9','4 years'),
-(2,'roshni','password', 'Roshni','Kalasyam', 'Umesh', 'female', 'roshni.umesh@gmail.com', '1984-09-22 00:00:00', 456789, 'Thornberry', 'Letterkenny', 'Donegal','F45678W','Ireland', 'student','Level9','2 years'),
-(3, 'matthew', 'password', 'Matthew', 'Bergin', 'male', 'matthew@gmail.com', '1992-09-15 00:00:00', 234567, 'FoxHills', 'Letterkenny', 'Donegal', 'F2346WK', 'Ireland', 'student', 'Level9', '3Years'),
-(4, 'aswathy', 'password', 'Aswathy', 'Akhilesh', 'female', 'aswathy@gmail.com', '1986-07-25 00:00:00', 23689, 'MountainTop', 'Letterkenny', 'Donegal', 'W3456H', 'Ireland', 'student', 'Level9', '4 years'),
-(5, 'conor', 'password', 'Conor', 'Dorrian', 'male', 'conor@gmail.com', '1990-05-12 00:00:00', 4568989, 'Glentain Close', 'Letterkenny', 'Donegal', 'F4567Q', 'Ireland', 'student', 'Level9', '3 years'),
-(6, 'joe', 'password', 'John', 'Joe', 'Morgan', 'male', 'joe@gmail.com', '1981-01-22 00:00:00', 237658, 'Gortlee Road', 'Letterkenny', 'Donegal', 'F23679K', 'Ireland', 'student', 'Level9', '6 years');
+INSERT INTO `users` (`userID`, `username`, `password`, `firstName`, `middleName`, `lastName`, `gender`, `email`, `dob`, `phoneNumber`, `address`, `city`, `county`, `eirCode`, `country`, `userRole`, `highestQual`, `workExp`) VALUES
+(1, 'liamwho', 'password', 'Liam', 'J', 'Whorriskey', 'male', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'Main Street', 'Letterkenny', 'Donegal', 'F92A324', 'Ireland', 'student', 'Level 9', 'yes'),
+(2, 'roshni', 'password', 'Roshni', 'A', 'Surname', 'female', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'Main Street', 'Letterkenny', 'Donegal', 'F92A324', 'Ireland', 'student', 'Level 9', 'yes'),
+(3, 'conor', 'password', 'Conor', 'A', 'Surname', 'male', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'Main Street', 'Letterkenny', 'Donegal', 'F92A324', 'Ireland', 'student', 'Level 9', 'yes'),
+(4, 'aswathy', 'password', 'Aswathy', 'A', 'Surname', 'female', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'Main Street', 'Letterkenny', 'Donegal', 'F92A324', 'Ireland', 'student', 'Level 9', 'yes'),
+(5, 'matthew', 'password', 'Matthew', 'A', 'Surname', 'male', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'Main Street', 'Letterkenny', 'Donegal', 'F92A324', 'Ireland', 'student', 'Level 9', 'yes');
+
 --
 -- Indexes for dumped tables
 --
-
---
--- Indexes for table `admin`
---
-ALTER TABLE `admin`
-  ADD PRIMARY KEY (`adminID`);
 
 --
 -- Indexes for table `users`
@@ -174,7 +162,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `userID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `userID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
