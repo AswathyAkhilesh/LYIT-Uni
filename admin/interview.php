@@ -155,10 +155,10 @@ form br { display: none; }
 				<input class="inp-text" name="input-course" id="input-course" type="text" size="30" /><br /> -->
 
 				<label for="qualification" class="float"><strong>Highest Qualification Achieved</strong></label><br />
-				<input class="inp-text" name="input-qualification"  id="input-qualification" type="text" size="30"  />
+				<input class="inp-text" name="input-qualification"  id="input-qualification" type="text" size="30" value="<?php echo $db_highestQual ?>" disabled />
 				
 				<label for="experience" class="float"><strong>Work Experience if any</strong></label><br />
-				<input class="inp-text" name="input-experience"  id="input-experience" type="text" size="30"  />
+				<input class="inp-text" name="input-experience"  id="input-experience" type="text" size="30" value="<?php echo $db_workExp ?>" disabled  />
 				
 				
 		</fieldset>
