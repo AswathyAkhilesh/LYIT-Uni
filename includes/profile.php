@@ -13,6 +13,7 @@ if(isset($_SESSION['db_id'])) {
 
     while($row = mysqli_fetch_array($select_user_query)) {
         $db_firstName = $row['firstName']; // Display Result
+		$db_middleName = $row['middleName']; // Display Result
         $db_lastName = $row['lastName']; // Display Result
         $db_userRole = $row['userRole']; // Display Result
         $db_email = $row['email']; // Display Result
@@ -25,7 +26,7 @@ if(isset($_SESSION['db_id'])) {
         $db_eirCode = $row['eirCode']; // Display Result
         $db_country = $row['country']; // Display Result
         $db_userRole= $row['userRole']; // Display Result
-		$db_highestQual= $row['higestQual']; // Display Result
+		$db_highestQual= $row['highestQual']; // Display Result
 		$db_workExp= $row['workExp']; // Display Result
     }  
 }
