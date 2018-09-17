@@ -102,7 +102,7 @@ form br { display: none; }
 				<input class="inp-text" name="input-first-name" id="input-first-name" type="text" value="<?php echo $db_firstName ?>" size="30" disabled /><br />
 
 				<label for="middle-name" class="float"><strong>Middle Name:</strong></label><br />
-				<input class="inp-text" name="input-Middle-name"  id="input-middle-name" type="text" size="30"  />
+				<input class="inp-text" name="input-Middle-name"  id="input-middle-name" type="text" size="30" value="<?php echo $db_middleName ?>" size="30" disabled />  
 				
 				<label for="last-name" class="float"><strong>Last Name:</strong></label><br />
 				<input class="inp-text" name="last-name"  id="last-name" type="text" value="<?php echo $db_lastName ?>" size="30" disabled  />
@@ -124,11 +124,11 @@ form br { display: none; }
 				<label for="mobile-no" class="float"><strong>Mobile No:</strong></label><br />
 				<input class="inp-text" name="mobile-no" id="mobile-no" type="number" max="0999999999" value="<?php echo $db_phoneNumber ?>" disabled  />
 				
-				<label for="adrdess1" class="float"><strong>Address Line 1</strong></label><br />
+				<label for="adrdess1" class="float"><strong>Address Line </strong></label><br />
 				<input class="inp-text" name="input-address1" id="input-address1" type="text" size="30" value="<?php echo $db_address ?>" disabled/><br />
 
-				<label for="adrdess2" class="float"><strong>Address Line 2</strong></label><br />
-				<input class="inp-text" name="input-adrdess2"  id="input-adrdess2" type="text" size="30"  />
+				<!--label for="adrdess2" class="float"><strong>Address Line 2</strong></label><br />
+				<input class="inp-text" name="input-adrdess2"  id="input-adrdess2" type="text" size="30"  />-->
 				
 				<!--<label for="adrdess3" class="float"><strong>Address Line 3</strong></label><br />
 				<input class="inp-text" name="input-adrdess3"  id="input-adrdess3" type="text" size="30" disabled /> -->
