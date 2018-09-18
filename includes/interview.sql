@@ -118,7 +118,6 @@ ALTER TABLE `interviews`
 
 -- --------------------------------------------------------
 
-
 --
 -- Table structure for table `applicants`
 --
@@ -136,11 +135,11 @@ CREATE TABLE `applicants` (
 --
 
 INSERT INTO `applicants` (`applicantID`, `userID`, `courseID`, `FirstName`, `CourseName`) VALUES
-(1, '1', '1', 'Liam', 'Devops'),
-(2, '2', '1', 'Roshni', 'Devops'),
-(3, '3', '1', 'Conor', 'Devops'),
-(4, '4', '1', 'Aswathy', 'Devops'),
-(5, '5', '1', 'Matthew', 'Devops');
+(1, '1', '12', 'Liam', 'Devops'),
+(2, '2', '12', 'Roshni', 'Devops'),
+(3, '3', '12', 'Conor', 'Devops'),
+(4, '4', '12', 'Aswathy', 'Devops'),
+(5, '5', '12', 'Matthew', 'Devops');
 
 --
 -- Indexes for dumped tables
@@ -150,7 +149,8 @@ INSERT INTO `applicants` (`applicantID`, `userID`, `courseID`, `FirstName`, `Cou
 -- Indexes for table `applicants`
 --
 ALTER TABLE `applicants`
-  ADD PRIMARY KEY (`applicantID`);
+  ADD PRIMARY KEY (`applicantID`),
+  ADD UNIQUE KEY `userID` (`userID`,`courseID`);
 
 --
 -- AUTO_INCREMENT for dumped tables
