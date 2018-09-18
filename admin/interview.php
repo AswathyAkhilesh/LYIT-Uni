@@ -172,9 +172,9 @@ form br { display: none; }
 		<!-- ============================== Fieldset 3 end ============================== -->
 		<!--<p><input class="upload-button" type="upload-button" alt="UPLOAD" id="upload-button" name="UPLOAD" value="Upload" disabled /></p>-->
 		
-		<input class="save-button" type="button" alt="save-button" id="save-button" name="save-button" value="Save" onclick="kk1()"/>
-		<input class="accept-button" type="submit" alt="SUBMIT" id="submit-accept" name="Submit" value="Accept"  />
-		<input class="decline-button" type="submit" alt="SUBMIT" id="submit-decline" name="Submit" value="Decline"  />
+		<!--input class="save-button" type="button" alt="save-button" id="save-button" name="save-button" value="Save" onclick="kk1()"/-->
+		<input class="accept-button" type="submit" alt="SUBMIT" id="submit-accept" name="Submit" value="Accept" onclick="javascript:alert('An email has been sent to the applicant')" />
+		<input class="decline-button" type="submit" alt="SUBMIT" id="submit-decline" name="Submit" value="Decline" onclick="javascript:alert('Sorry try again')"   />
 		
 
 		
