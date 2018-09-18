@@ -20,18 +20,17 @@
  */
  
 // DB table to use
-$table = 'interviews';
+$table = 'applicants';
  
 // Table's primary key
 $primaryKey = 'userID';
  
 // Array of database columns which should be read and sent back to DataTables.
 // The `db` parameter represents the column name in the database, while the `dt`
-// parameter represents the DataTables column identifier. In this case simple
-// indexes
+// parameter represents the DataTables column identifier.
 $columns = array(
 	array( 'db' => 'userID', 'dt' => 'id' ),
-    array( 'db' => 'Name', 'dt' => 'Name' ),
+    array( 'db' => 'FirstName', 'dt' => 'FirstName' ),
     array( 'db' => 'CourseName', 'dt' => 'CourseName' )
 
 );
