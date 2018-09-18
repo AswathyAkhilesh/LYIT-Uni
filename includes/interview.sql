@@ -80,7 +80,7 @@ INSERT INTO `courses` (`id`, `coursecode`, `coursename`, `bannerdescription`, `c
 
 -- --------------------------------------------------------
 
---
+
 -- Table structure for table `interviews`
 --
 
@@ -95,21 +95,29 @@ CREATE TABLE `interviews` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `interviews`
+-- Indexes for dumped tables
 --
 
-INSERT INTO `interviews` (`interviewID`, `userID`, `courseID`, `date`, `Name`, `CourseName`, `Time`) VALUES
-(1, '1', '1', '12 Aug', 'Liam', 'Devops', '9.00 AM'),
-(2, '2', '1', '12 Aug', 'Roshni', 'Devops', '9.40 AM'),
-(3, '3', '1', '12 Aug', 'Conor', 'Devops', '10.10 AM'),
-(4, '4', '1', '12 Aug', 'Aswathy', 'Devops', '10.40 AM'),
-(5, '5', '1', '12 Aug', 'Matthew', 'Devops', '11.10 AM');
+--
+-- Indexes for table `interviews`
+--
+ALTER TABLE `interviews`
+  ADD PRIMARY KEY (`interviewID`),
+  ADD UNIQUE KEY `userID` (`userID`,`courseID`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `interviews`
+--
+ALTER TABLE `interviews`
+  MODIFY `interviewID` int(25) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 
 -- --------------------------------------------------------
 
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `applicants`
