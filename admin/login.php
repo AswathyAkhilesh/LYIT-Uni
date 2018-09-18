@@ -1,3 +1,8 @@
+
+<?php include ('../includes/db.php'); ?>
+<?php ob_start(); ?>
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -88,28 +93,48 @@
 
 
 <!-- Your Content Start-->
-<!-- Admin Login -->
-<section>
-<form class = "comment-form container">
-<br>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="f rm-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-check">
-  </div>
-  <div class="site-btn text-white">
-     <a href="index.php">Login</a>
-     </div>
- <br> 
-</form>
+
+<section class="spad">
+    <div class="comment-form container">
+            <h1>Login Here</h1><br>
+            <form action="loginAdmin.php" method="post">
+                
+                <div class="form-group">
+                    <p>Username</p>
+                    <input type="text" name="username" required="true" placeholder = "Enter username">
+                </div>
+
+                <div class="form-group">
+                    <p>Password</p>
+                    <input type="password" name="password" required="true" placeholder = "Enter password">
+                </div>
+
+                <div class="input-group-btn site-btn text-white">
+                    <input type="submit" name="loginAdmin">
+                </div>
+
+            </form>
+
+            <!-- <div class="site-btn text-white">
+                <a href="profile.php">Login</a>
+            </div> -->
+            <br>
+            
+            <a href="#" onClick = "mine()">Lost your Password?</a>
+            <br>
+            <a href="register.php">Dont have an account?</a>
+            <script>
+                function mine(){
+                    alert("Email has been sent. Please create a new password.!!")
+                }
+            </script>
+        </div>
 </section>
+<br>
+
 <!-- Your Content End-->
 
 <!-- Footer -->
 <?php include ('footer.php'); ?>
 <!-- Header End - Do Not Remove -->
+
