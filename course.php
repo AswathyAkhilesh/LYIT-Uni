@@ -54,7 +54,7 @@
          <?php
             if (isset($_SESSION['db_userRole'])) {
                 echo "To applying to this course please click on the APPLY button.<br> <br>" ;
-                echo "<div class='btn btn-success text-white'> <a href='application.php'>Apply</a> </div> ";
+                echo "<div class='btn btn-success text-white'> <a href='application.php?id=$id'>Apply</a> </div> ";
             } else {
                 echo "As you are <strong>NOT</strong> logged in, please <strong>Login</strong> or <strong>Register</strong> to Apply for this course<br><br>" ;
                 echo "<div class='btn btn-success text-white'> <a href='login.php'>Login</a> </div> ";
