@@ -99,11 +99,11 @@ CREATE TABLE `interviews` (
 --
 
 INSERT INTO `interviews` (`interviewID`, `userID`, `courseID`, `date`, `Name`, `CourseName`, `Time`) VALUES
-(1, '1', '12', '12 Aug', 'Liam', 'Devops', '9.00 AM'),
-(2, '2', '12', '12 Aug', 'Roshni', 'Devops', '9.40 AM'),
-(3, '3', '12', '12 Aug', 'Matthew', 'Devops', '10.10 AM'),
-(4, '4', '12', '12 Aug', 'Aswathy', 'Devops', '10.40 AM'),
-(5, '5', '12', '12 Aug', 'Conor', 'Devops', '11.10 AM');
+(1, '1', '1', '12 Aug', 'Liam', 'Devops', '9.00 AM'),
+(2, '2', '1', '12 Aug', 'Roshni', 'Devops', '9.40 AM'),
+(3, '3', '1', '12 Aug', 'Conor', 'Devops', '10.10 AM'),
+(4, '4', '1', '12 Aug', 'Aswathy', 'Devops', '10.40 AM'),
+(5, '5', '1', '12 Aug', 'Matthew', 'Devops', '11.10 AM');
 
 
 -- --------------------------------------------------------
@@ -112,7 +112,7 @@ INSERT INTO `interviews` (`interviewID`, `userID`, `courseID`, `date`, `Name`, `
 -- --------------------------------------------------------
 
 --
--- Table structure for table `Applicants`
+-- Table structure for table `applicants`
 --
 
 CREATE TABLE `applicants` (
@@ -121,19 +121,38 @@ CREATE TABLE `applicants` (
   `courseID` varchar(255) NOT NULL,
   `FirstName` varchar(20) NOT NULL,
   `CourseName` varchar(40) NOT NULL
-  ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `interviews`
+-- Dumping data for table `applicants`
 --
 
-INSERT INTO `applicants` (`applicantID`, `userID`, `courseID`, `firstName`, `CourseName`) VALUES
-(1, '1', '12', 'Liam', 'Devops' ),
-(2, '2', '12', 'Roshni', 'Devops'),
-(3, '3', '12', 'Conor', 'Devops' ),
-(4, '4', '12', 'Aswathy', 'Devops'),
-(5, '5', '12', 'Matthew', 'Devops');
+INSERT INTO `applicants` (`applicantID`, `userID`, `courseID`, `FirstName`, `CourseName`) VALUES
+(1, '1', '1', 'Liam', 'Devops'),
+(2, '2', '1', 'Roshni', 'Devops'),
+(3, '3', '1', 'Conor', 'Devops'),
+(4, '4', '1', 'Aswathy', 'Devops'),
+(5, '5', '1', 'Matthew', 'Devops');
 
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `applicants`
+--
+ALTER TABLE `applicants`
+  ADD PRIMARY KEY (`applicantID`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `applicants`
+--
+ALTER TABLE `applicants`
+  MODIFY `applicantID` int(25) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 -- --------------------------------------------------------
 
