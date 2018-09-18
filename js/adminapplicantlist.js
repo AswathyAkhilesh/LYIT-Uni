@@ -10,7 +10,7 @@ $(document).ready(function() {
         "ajax": "../includes/datatableapplicantlist.php",
         "columns": [
             { "data": null, "defaultContent": "" },
-            { "data": "Name" },
+            { "data": "FirstName" },
             { "data": "CourseName" }
            
         ],
