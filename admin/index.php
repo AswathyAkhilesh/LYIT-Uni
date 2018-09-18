@@ -73,40 +73,26 @@
 						<thead class="thead-light">
 							<tr>
 							<th scope="col">Course</th>
-							<th scope="col">View</th>
-							<th scope="col">Edit</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<th scope="row">Applied Computing</th>
-								<td><button type="button" onclick="location.href='../course.php';" class="btn btn-success">View</button></td>
-								<td><button type="button" onclick="location.href='courseedit.php';" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Cloud Technology</th>
-								<td><button type="button" onclick="location.href='../course.php';" class="btn btn-success">View</button></td>
-								<td><button type="button" onclick="location.href='courseedit.php';" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Security</th>
-								<td><button type="button" onclick="location.href='../course.php';" class="btn btn-success">View</button></td>
-								<td><button type="button" onclick="location.href='courseedit.php';" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">DevOps</th>
-								<td><button type="button" onclick="location.href='../course.php';" class="btn btn-success">View</button></td>
-								<td><button type="button" onclick="location.href='courseedit.php';" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Cloud Technologies</th>
-								<td><button type="button" onclick="location.href='../course.php';" class="btn btn-success">View</button></td>
-								<td><button type="button" onclick="location.href='courseedit.php';" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Big Data</th>
-								<td><button type="button" onclick="location.href='../course.php';" class="btn btn-success">View</button></td>
-								<td><button type="button" onclick="location.href='courseedit.php';" class="btn btn-danger">Edit</button></td>
 							</tr>
 						</tbody>
 					</table>

@@ -31,13 +31,13 @@ public class DBConnect {
     
     public void getData(){
         try{
-            String query = "select * from users";
+            String query = "select * from users where userRole = 'admin'";
             rs = st.executeQuery(query);
             System.out.println("Records from Database");
             while (rs.next()){
                 String name= rs.getString("firstName");
                 String surname = rs.getString("lastName");
-                System.out.println("Full Name: " +name +" " +surname);
+                System.out.println(name +" " +surname);
             }
         }catch(Exception ex){
             System.out.println("Error: "+ex);
