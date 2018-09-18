@@ -108,6 +108,35 @@ INSERT INTO `interviews` (`interviewID`, `userID`, `courseID`, `date`, `Name`, `
 
 -- --------------------------------------------------------
 
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Applicants`
+--
+
+CREATE TABLE `applicants` (
+  `applicantID` int(25) NOT NULL,
+  `userID` varchar(255) NOT NULL,
+  `courseID` varchar(255) NOT NULL,
+  `FirstName` varchar(20) NOT NULL,
+  `CourseName` varchar(40) NOT NULL
+  ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `interviews`
+--
+
+INSERT INTO `applicants` (`applicantID`, `userID`, `courseID`, `firstName`, `CourseName`) VALUES
+(1, '1', '12', 'Liam', 'Devops' ),
+(2, '2', '12', 'Roshni', 'Devops'),
+(3, '3', '12', 'Conor', 'Devops' ),
+(4, '4', '12', 'Aswathy', 'Devops'),
+(5, '5', '12', 'Matthew', 'Devops');
+
+
+-- --------------------------------------------------------
+
 --
 -- Table structure for table `users`
 --
