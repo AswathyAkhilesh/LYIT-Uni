@@ -1,51 +1,30 @@
 <?php include ('header.php'); ?>
-
+<!--Style sheet--->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/select/1.2.7/css/select.dataTables.min.css">
+<link rel="stylesheet" href="../css/admincourselist.css">
+<!--Third-party Libraries--->
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+<script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+<!--Script-->
+<script src="../js/adminapplicantlist.js"></script>
+<!--Begin HTML design--> 
 <Section class="container spad">
-    <div class="section-title text-center">
-        <h3>Applicants List</h3>
-        <p>Let students be creative and make a difference.</p>
-    </div>
-    <table class="table table-hover table-bordered">
-        <thead class="thead-light">
-            <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Course</th>
-            <th scope="col">More Information</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">Aswathy</th>
-                <td>Applied Computing</td>
-                <td><button type="button" onclick="location.href='applicant.php?=<?php echo $db_userID ?>';" class="btn btn-success">View Detail</button></td>
-            </tr>
-            <tr>
-                <th scope="row">Roshni</th>
-                <td>Applied Computing</td>
-                <td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View Detail</button></td>
-            </tr>
-            <tr>
-                <th scope="row">Matthew</th>
-                <td>Applied Computing</td>
-                <td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View Detail</button></td>
-            </tr>
-            <tr>
-                <th scope="row">Conor</th>
-                <td>Applied Computing</td>
-                <td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View Detail</button></td>
-            </tr>
-            <tr>
-                <th scope="row">Liam</th>
-                <td>Applied Computing</td>
-                <td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View Detail</button></td>
-            </tr>
-            <tr>
-                <th scope="row">Ruth</th>
-                <td>Applied Computing</td>
-                <td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View Detail</button></td>
-            </tr>
-        </tbody>
-    </table>
+<br>
+<h2>Applicant List</h2>
+<p>The below grid contains the applicant list, to schedule invertiew for an applicant select an applicant and click on the "Schedule" button.</p>
+<table id="example" class="table table-striped table-bordered" style="width:100%">
+   <thead>
+      <tr>
+         <th></th>
+         <th>Name</th>
+         <th>Course Name</th>
+      </tr>
+   </thead>   
+</table>
+<p align="center">
+   <button type="button" id="view" class="btn btn-info">Schedule</button>
+</p>
 </section>
-
 <?php include ('footer.php'); ?>
