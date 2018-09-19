@@ -1,4 +1,5 @@
 <?php include 'db.php'; ?>
+<?php include 'course.php'; ?>
 <?php ob_start(); ?>
 <?php session_start(); ?>
 <?php 
@@ -23,7 +24,7 @@ if(isset($_POST['update'])) {
     }
 	else
 	{
-		header("Location: ../application.php");
+		header("Location: ../application.php?id=$id");
 	} 
 }
 ?>

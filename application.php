@@ -6,7 +6,12 @@
         
 <form action="includes/applicationupdate.php" method="post">  
         <div class="form-group">
+                <input type="hidden" name="hiddenid" id="hiddenid" value="<?php echo $_GET['id'] ?>" />
+                <input type="hidden" name="coursename" id="coursename" value="<?php echo $db_coursename ?>" />
+                <input type="hidden" name="userID" id="userID" value="<?php echo $db_userID ?>" />
+                
                 <h2 style = "padding-bottom: 35px; padding-left: 15px"><?php echo ($db_coursename)?></h2>
+                
                 <h3 style = "padding-bottom: 35px; padding-left: 15px">Ensure details below are correct before applying</h3>
                     <label for="firstName" class="col-sm-3 control-label">First Name*</label>
                     <div class="col-sm-9">

@@ -1,4 +1,6 @@
 <?php include ('header.php'); ?>
+<?php include ('../includes/profile.php'); ?>
+<?php include ('../includes/course.php'); ?>
 
 
 <section Class="container spad">
@@ -22,73 +24,45 @@
                 <tbody>
                     <tr>
                         <td>First Name:</td>
-                        <td>Matthew</td>
+                        <td><?php echo $db_firstName ?></td>
                     </tr>
                     <tr>
                         <td>Surname:</td>
-                        <td>Bergin</td>
+                        <td><?php echo $db_lastName ?></td>
                     </tr>
                     <tr>
                         <td>Date of Birth:</td>
-                        <td>15/09/1992</td>
+                        <td><?php echo $db_dob ?></td>
                     </tr>
                     <tr>
                         <td>Identify as:</td>
-                        <td>Male</td>
+                        <td><?php echo $db_gender ?></td>
                     </tr>
                     <tr>
                         <td>Address 1:</td>
-                        <td>123 Fake street</td>
-                    </tr>
-                    <tr>
-                        <td>Address 2:</td>
-                        <td>Fake Place</td>
+                        <td><?php echo $db_address ?></td>
                     </tr>
                     <tr>
                         <td>County:</td>
-                        <td>Donegal</td>
+                        <td><?php echo $db_county ?></td>
                     </tr>
                     <tr>
                         <td>Country:</td>
-                        <td>Ireland</td>
+                        <td><?php echo $db_country ?></td>
                     </tr>
                     <tr>
                         <td>Email:</td>
-                        <td><a href="mailto:email@email.com">email@email.com</a></td>
+                        <td><?php echo $db_email ?></td>
                     </tr>
                         <td>Phone Number:</td>
-                        <td>123456789</td>     
+                        <td><?php echo $db_phoneNumber ?></td>     
                     </tr>
                      
                     </tbody>
                     </table>
 
                 
-                <table class="table table-user-information">
-                <thead>
-                    <h4 style = "padding-left: 10px">Application Details<h4>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Applied Course:</td>
-                        <td>Cloud Technology</td>
-                    </tr>
-                    <tr>
-                        <td>Qualifications:</td>
-                        <td>PhD in something at Letterkenny Institute of Technology</td>
-                    </tr>
-                    <tr>
-                        <td>Degree Classification:</td>
-                        <td>2.1</td>
-                    </tr>
-                    <tr>
-                        <td>Work Experience:</td>
-                        <td>5 years in retail. 2 years in computing.</td>
-                    </tr>
-                    
-                    
-                </tbody>
-                </table>
+                
 
 					<a href="applicantlist.php" class="site-btn text-white">Schedule Interview</a>
 
