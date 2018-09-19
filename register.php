@@ -61,7 +61,7 @@
                         <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
                     </div>         -->
                     <div class="form-group">
-                        <label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+                        <label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#" onClick = "terms()">Terms of Use?</a> &amp; <a href="#" onClick = "privacy()">Privacy Policy</a></label>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-success btn-lg btn-block" name="register">Register Now</button>
@@ -83,3 +83,13 @@
 <!-- Footer -->
 <?php include ('includes/footer.php'); ?>
 <!-- Header End - Do Not Remove -->
+
+
+<script>
+    function terms(){
+        alert("Terms of Use Displayed here.!!")
+    }
+    function privacy(){
+        alert("Privacy Policy Displayed here.!!")
+    }
+</script>

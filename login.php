@@ -18,13 +18,13 @@
 
     .reg p {
         text-align: center;
-        color: green;
+        color: white;
         text-transform: uppercase;
         font-size: 30px;
         font-weight: bold;
         margin: auto;
         width: 50%;
-        border: 3px solid green;
+        border: 3px solid white;
         padding: 20px;
         margin: 0;
         position: absolute;
