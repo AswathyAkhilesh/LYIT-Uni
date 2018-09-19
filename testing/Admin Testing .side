@@ -1,0 +1,305 @@
+{
+  "id": "5147e4fb-bf08-4ab8-94ae-f48d02a9f262",
+  "version": "1.1",
+  "name": "Admin Testing ",
+  "url": "http://localhost",
+  "tests": [{
+    "id": "feb56896-7474-469d-992a-da48b03fbef2",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "b27a819c-7c4c-4ce6-84c3-1c0030eead16",
+    "name": "View Applicants List",
+    "commands": [{
+      "id": "3c6b9d5c-4c5f-443f-be65-84939547600e",
+      "comment": "",
+      "command": "open",
+      "target": "/LYIT-Uni/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba2291c7-ff2d-4b05-920f-d4223536ed34",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Admin",
+      "targets": [
+        ["linkText=Admin", "linkText"],
+        ["css=div.copyright > div.container > a", "css"],
+        ["xpath=//a[contains(text(),'Admin')]", "xpath:link"],
+        ["xpath=//footer[@id='contact']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'admin/')]", "xpath:href"],
+        ["xpath=//footer/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea2dca14-f1e3-479c-a487-87edb46fc8e6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Applicants')]",
+      "targets": [
+        ["xpath=//a[contains(text(),'Applicants')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'applicantlist.php')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a07ebb8b-45f7-40dc-bbb9-fdd558dce2d4",
+    "name": "View Applicant Information",
+    "commands": [{
+      "id": "f58fc73b-8c06-4a19-bb86-02d140f8ca58",
+      "comment": "",
+      "command": "open",
+      "target": "/LYIT-Uni/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dcb60fb-f031-48c1-b991-0051d9e79c45",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Admin",
+      "targets": [
+        ["linkText=Admin", "linkText"],
+        ["css=div.copyright > div.container > a", "css"],
+        ["xpath=//a[contains(text(),'Admin')]", "xpath:link"],
+        ["xpath=//footer[@id='contact']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'admin/')]", "xpath:href"],
+        ["xpath=//footer/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73f7352f-975f-46b4-b1e9-bf62fe5ec1d9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Applicants')]",
+      "targets": [
+        ["xpath=//a[contains(text(),'Applicants')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'applicantlist.php')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67d3d3ee-20c5-4cbd-ae2b-f85cc2ff58cf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//table[@id='example']/tbody/tr[4]/td",
+      "targets": [
+        ["xpath=//table[@id='example']/tbody/tr[4]/td", "xpath:idRelative"],
+        ["xpath=//tr[4]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a252d12-1b77-4f86-850b-9e8a690fe7e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=view",
+      "targets": [
+        ["id=view", "id"],
+        ["css=#view", "css"],
+        ["xpath=//button[@id='view']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a82b7bc8-709a-460b-b667-1a6b1e0c4409",
+    "name": "View Course List",
+    "commands": [{
+      "id": "60373648-9820-4d70-bdf6-b71237afeef1",
+      "comment": "",
+      "command": "open",
+      "target": "/LYIT-Uni/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa80fa7e-6878-400d-b6a3-9caa9500eaf4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Admin",
+      "targets": [
+        ["linkText=Admin", "linkText"],
+        ["css=div.copyright > div.container > a", "css"],
+        ["xpath=//a[contains(text(),'Admin')]", "xpath:link"],
+        ["xpath=//footer[@id='contact']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'admin/')]", "xpath:href"],
+        ["xpath=//footer/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe70923f-d5bb-4a11-897f-61d460755c3a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=COURSES",
+      "targets": [
+        ["linkText=COURSES", "linkText"],
+        ["xpath=//a[contains(text(),'COURSES')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'courselist.php')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e35beb66-6132-489d-89f1-d8df333b99ac",
+    "name": "View Course Information",
+    "commands": [{
+      "id": "fdbb44a8-113c-4554-b09b-b3090cc830fb",
+      "comment": "",
+      "command": "open",
+      "target": "/LYIT-Uni/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a51a59db-9d5f-4bf6-9c2d-06e16f35a4b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Admin",
+      "targets": [
+        ["linkText=Admin", "linkText"],
+        ["css=div.copyright > div.container > a", "css"],
+        ["xpath=//a[contains(text(),'Admin')]", "xpath:link"],
+        ["xpath=//footer[@id='contact']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'admin/')]", "xpath:href"],
+        ["xpath=//footer/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90d7b571-34cf-45ce-b4c5-33738b46fabb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=COURSES",
+      "targets": [
+        ["linkText=COURSES", "linkText"],
+        ["xpath=//a[contains(text(),'COURSES')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'courselist.php')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e2a455a-fbdb-4fe5-9614-5311982d1e3c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//table[@id='example']/tbody/tr/td",
+      "targets": [
+        ["xpath=//table[@id='example']/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec1d41a6-3805-476b-9b3a-ed64a638ec47",
+      "comment": "",
+      "command": "click",
+      "target": "id=view",
+      "targets": [
+        ["id=view", "id"],
+        ["css=#view", "css"],
+        ["xpath=//button[@id='view']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eb078497-07e1-448a-bde5-3538c5ead52b",
+    "name": "View Interview List",
+    "commands": [{
+      "id": "4648c6ae-50a1-447b-ae1b-7fd977350101",
+      "comment": "",
+      "command": "open",
+      "target": "/LYIT-Uni/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aee93cf3-4529-4cfc-bc17-765ab812ab33",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Admin",
+      "targets": [
+        ["linkText=Admin", "linkText"],
+        ["css=div.copyright > div.container > a", "css"],
+        ["xpath=//a[contains(text(),'Admin')]", "xpath:link"],
+        ["xpath=//footer[@id='contact']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'admin/')]", "xpath:href"],
+        ["xpath=//footer/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5614a7d2-8e37-4f10-ba4d-2d826f742bdf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Interviews')]",
+      "targets": [
+        ["xpath=//a[contains(text(),'Interviews')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'interviewlist.php')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fd3affe9-a137-45e9-8854-b47574497e27",
+    "name": "View Interview Details",
+    "commands": [{
+      "id": "73e65b00-7c60-4076-8abb-518ef717539b",
+      "comment": "",
+      "command": "open",
+      "target": "/LYIT-Uni/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c41e0ef0-a5d6-4977-9576-7e2150243637",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Admin",
+      "targets": [
+        ["linkText=Admin", "linkText"],
+        ["css=div.copyright > div.container > a", "css"],
+        ["xpath=//a[contains(text(),'Admin')]", "xpath:link"],
+        ["xpath=//footer[@id='contact']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'admin/')]", "xpath:href"],
+        ["xpath=//footer/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "262c7fe8-008d-4f76-bd86-8403bd30116a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Interviews')]",
+      "targets": [
+        ["xpath=//a[contains(text(),'Interviews')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'interviewlist.php')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51eb03c5-5534-4c3f-ba36-a286cf8172a4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//table[@id='example']/tbody/tr/td",
+      "targets": [
+        ["xpath=//table[@id='example']/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6058fd57-12c6-4c68-a262-2f1797b279ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=view",
+      "targets": [
+        ["id=view", "id"],
+        ["css=#view", "css"],
+        ["xpath=//button[@id='view']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d0bd0813-73ab-412b-9707-42a3ead9ef4a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["feb56896-7474-469d-992a-da48b03fbef2"]
+  }],
+  "urls": ["http://localhost/"],
+  "plugins": []
+}
