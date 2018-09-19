@@ -99,6 +99,8 @@ echo $count_6;
 	</section>
 	<!-- About section end-->
 
+	
+
 	<section class="container spad">
 		<div class="row">
 			<div class="col-sm-4">
@@ -112,24 +114,15 @@ echo $count_6;
 							</tr>
 						</thead>
 						<tbody>
-							<tr>
-								<th scope="row">Applied Computing</th>
-							</tr>
-							<tr>
-								<th scope="row">Cloud Technology</th>
-							</tr>
-							<tr>
-								<th scope="row">Security</th>
-							</tr>
-							<tr>
-								<th scope="row">DevOps</th>
-							</tr>
-							<tr>
-								<th scope="row">Cloud Technologies</th>
-							</tr>
-							<tr>
-								<th scope="row">Big Data</th>
-							</tr>
+							<?php 
+								$query = "SELECT * FROM courses";
+								$select_all = mysqli_query($connection, $query);
+								while($row = mysqli_fetch_array($select_all)) {
+									echo "<tr>";
+									echo "<td>" . $row['coursename'] . "</td>";
+									echo "</tr>";
+								}
+							?>
 						</tbody>
 					</table>
 					<a href="courselist.php" class="site-btn text-white">View Full List</a>
@@ -148,30 +141,16 @@ echo $count_6;
 							</tr>
 						</thead>
 						<tbody>
-							<tr>
-								<th scope="row">Aswathy</th>
-								<td>Applied Computing</td>
-							</tr>
-							<tr>
-								<th scope="row">Roshni</th>
-								<td>Applied Computing</td>
-							</tr>
-							<tr>
-								<th scope="row">Matthew</th>
-								<td>Applied Computing</td>
-							</tr>
-							<tr>
-								<th scope="row">Conor</th>
-								<td>Applied Computing</td>
-							</tr>
-							<tr>
-								<th scope="row">Liam</th>
-								<td>Applied Computing</td>
-							</tr>
-							<tr>
-								<th scope="row">Ruth</th>
-								<td>Applied Computing</td>
-							</tr>
+							<?php 
+								$query = "SELECT * FROM applicants LIMIT 6";
+								$select_all = mysqli_query($connection, $query);
+								while($row = mysqli_fetch_array($select_all)) {
+									echo "<tr>";
+									echo "<td>" . $row['FirstName'] . "</td>";
+									echo "<td>" . $row['CourseName'] . "</td>";
+									echo "</tr>";
+								}
+							?>
 						</tbody>
 					</table>
 					<a href="applicantlist.php" class="site-btn text-white">View Full List</a>
@@ -191,12 +170,18 @@ echo $count_6;
 							</tr>
 						</thead>
 						<tbody>
-							<tr>
-								<th scope="row">Aswathy</th>
-								<td>21 Aug</td>
-								<td>9.00</td>
-							</tr>
-							<tr>
+							<?php 
+								$query = "SELECT * FROM applicants LIMIT 6";
+								$select_all = mysqli_query($connection, $query);
+								while($row = mysqli_fetch_array($select_all)) {
+									echo "<tr>";
+									echo "<td>" . $row['FirstName'] . "</td>";
+									echo "<td>" . $row['CourseName'] . "</td>";
+									echo "<td>" . $row['CourseName'] . "</td>";
+									echo "</tr>";
+								}
+							?>
+							<!-- <tr>
 								<th scope="row">Roshni</th>
 								<td>21 Aug</td>
 								<td>9.30</td>
@@ -220,7 +205,7 @@ echo $count_6;
 								<th scope="row">Ruth</th>
 								<td>21 Aug</td>
 								<td>1.00</td>
-							</tr>
+							</tr> -->
 						</tbody>
 					</table>
 					<a href="interviewlist.php" class="site-btn text-white">View Full List</a>
