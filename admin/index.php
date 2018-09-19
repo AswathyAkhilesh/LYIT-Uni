@@ -69,9 +69,6 @@ echo $count_6;
 				<h3>WELCOME TO LYIT DASHBOARD</h3>
 				<p>Let students be creative and make a difference.</p>
 			</div>
-
-
-
 			<div class="row">
 				<div class="col-lg-6 about-text">
 					<h5>About us</h5>
@@ -85,16 +82,10 @@ echo $count_6;
 						<li><i class="fa fa-check-square-o"></i> The University's core values are as follows:freedom of thought.</li>
 					</ul>
 				</div>
-
-
-
 				<div class="col-lg-6 pt-5 pt-lg-0">
 					<div id="piechart" style="width: 100%; height: 360px; border: 1px solid black;"></div>
 				</div>
 			</div>
-
-
-
 		</div>
 	</section>
 	<!-- About section end-->
@@ -181,31 +172,6 @@ echo $count_6;
 									echo "</tr>";
 								}
 							?>
-							<!-- <tr>
-								<th scope="row">Roshni</th>
-								<td>21 Aug</td>
-								<td>9.30</td>
-							</tr>
-							<tr>
-								<th scope="row">Matthew</th>
-								<td>21 Aug</td>
-								<td>10.30</td>
-							</tr>
-							<tr>
-								<th scope="row">Conor</th>
-								<td>21 Aug</td>
-								<td>11.00</td>
-							</tr>
-							<tr>
-								<th scope="row">Liam</th>
-								<td>21 Aug</td>
-								<td>11.30</td>
-							</tr>
-							<tr>
-								<th scope="row">Ruth</th>
-								<td>21 Aug</td>
-								<td>1.00</td>
-							</tr> -->
 						</tbody>
 					</table>
 					<a href="interviewlist.php" class="site-btn text-white">View Full List</a>
