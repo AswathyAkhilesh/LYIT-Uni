@@ -1,5 +1,40 @@
 <?php include ('header.php'); ?>
 
+<?php
+
+$query = "SELECT * from applicants WHERE courseID = 1";// Get course details from course table
+$select_all = mysqli_query($connection, $query);
+$count_1 = mysqli_num_rows($select_all);
+echo $count_1;
+
+$query = "SELECT * from applicants WHERE courseID = 2";// Get course details from course table
+$select_all = mysqli_query($connection, $query);
+$count_2 = mysqli_num_rows($select_all);
+echo $count_2;
+
+$query = "SELECT * from applicants WHERE courseID = 3";// Get course details from course table
+$select_all = mysqli_query($connection, $query);
+$count_3 = mysqli_num_rows($select_all);
+echo $count_3;
+
+$query = "SELECT * from applicants WHERE courseID = 4";// Get course details from course table
+$select_all = mysqli_query($connection, $query);
+$count_4 = mysqli_num_rows($select_all);
+echo $count_4;
+
+$query = "SELECT * from applicants WHERE courseID = 5";// Get course details from course table
+$select_all = mysqli_query($connection, $query);
+$count_5 = mysqli_num_rows($select_all);
+echo $count_5;
+
+$query = "SELECT * from applicants WHERE courseID = 6";// Get course details from course table
+$select_all = mysqli_query($connection, $query);
+$count_6 = mysqli_num_rows($select_all);
+echo $count_6;
+?>
+
+
+
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
@@ -9,11 +44,12 @@
 
         var data = google.visualization.arrayToDataTable([
           ['Course', 'Percentage'],
-          ['DevOps Masters',     11],
-          ['Applied Computing',      7],
-          ['Cloud & Green',  4],
-          ['Security & Digital Forensics', 2],
-          ['BSC (ord)',    2]
+          ['Applied Computing',     <?php echo $count_1 ?>],
+          ['Cloud Technology',      <?php echo $count_2 ?>],
+          ['Security & Digital Forensics',  <?php echo $count_3 ?>],
+          ['DevOps Masters', <?php echo $count_4 ?>],
+          ['Private Cloud Technologies',    <?php echo $count_5 ?>],
+		  ['Big Data Analytics',    <?php echo $count_6 ?>]
         ]);
 
         var options = {
@@ -109,40 +145,32 @@
 							<tr>
 							<th scope="col">Name</th>
 							<th scope="col">Course</th>
-							<th scope="col">Info</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<th scope="row">Aswathy</th>
 								<td>Applied Computing</td>
-								<td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View</button></td>
-
 							</tr>
 							<tr>
 								<th scope="row">Roshni</th>
 								<td>Applied Computing</td>
-								<td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Matthew</th>
 								<td>Applied Computing</td>
-								<td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Conor</th>
 								<td>Applied Computing</td>
-								<td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Liam</th>
 								<td>Applied Computing</td>
-								<td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View</button></td>
 							</tr>
 							<tr>
 								<th scope="row">Ruth</th>
 								<td>Applied Computing</td>
-								<td><button type="button" onclick="location.href='applicant.php';" class="btn btn-success">View</button></td>
 							</tr>
 						</tbody>
 					</table>
