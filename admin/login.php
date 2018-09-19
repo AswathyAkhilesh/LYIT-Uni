@@ -82,10 +82,9 @@
 			</div>
 			<ul class="main-menu">
 				<li><a href="index.php">Dashboard</a></li>
-				<li><a href="courselist.php">COURSES</a></li>
+				<!-- <li><a href="courselist.php">COURSES</a></li>
 				<li><a href="applicantlist.php">Applicants</a></li>
-				<li><a href="interviewlist.php">Interviews</a></li>
-				<li><a href="students.php">Students</a></li>
+				<li><a href="interviewlist.php">Interviews</a></li> -->
 			</ul>
 		</div>
 	</nav>

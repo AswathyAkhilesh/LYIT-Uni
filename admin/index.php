@@ -5,32 +5,32 @@
 $query = "SELECT * from applicants WHERE courseID = 1";// Get course details from course table
 $select_all = mysqli_query($connection, $query);
 $count_1 = mysqli_num_rows($select_all);
-echo $count_1;
+// echo $count_1;
 
 $query = "SELECT * from applicants WHERE courseID = 2";// Get course details from course table
 $select_all = mysqli_query($connection, $query);
 $count_2 = mysqli_num_rows($select_all);
-echo $count_2;
+// echo $count_2;
 
 $query = "SELECT * from applicants WHERE courseID = 3";// Get course details from course table
 $select_all = mysqli_query($connection, $query);
 $count_3 = mysqli_num_rows($select_all);
-echo $count_3;
+// echo $count_3;
 
 $query = "SELECT * from applicants WHERE courseID = 4";// Get course details from course table
 $select_all = mysqli_query($connection, $query);
 $count_4 = mysqli_num_rows($select_all);
-echo $count_4;
+// echo $count_4;
 
 $query = "SELECT * from applicants WHERE courseID = 5";// Get course details from course table
 $select_all = mysqli_query($connection, $query);
 $count_5 = mysqli_num_rows($select_all);
-echo $count_5;
+// echo $count_5;
 
 $query = "SELECT * from applicants WHERE courseID = 6";// Get course details from course table
 $select_all = mysqli_query($connection, $query);
 $count_6 = mysqli_num_rows($select_all);
-echo $count_6;
+// echo $count_6;
 ?>
 
 
