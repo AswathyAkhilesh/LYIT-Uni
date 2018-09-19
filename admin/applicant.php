@@ -1,5 +1,5 @@
 <?php include ('header.php'); ?>
-<?php include ('../includes/profile.php'); ?>
+<?php include ('../includes/applicant.php'); ?>
 <?php include ('../includes/course.php'); ?>
 
 
