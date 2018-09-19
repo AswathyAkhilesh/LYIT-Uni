@@ -1,4 +1,6 @@
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.sql.*;
 
 /*
@@ -31,7 +33,7 @@ public class DBConnect {
     
     public void getData(){
         try{
-            String query = "select * from users where userRole = 'admin'";
+            String query = "select * from users where userRole = 'student'";
             rs = st.executeQuery(query);
             System.out.println("Records from Database");
             while (rs.next()){
@@ -39,6 +41,19 @@ public class DBConnect {
                 String surname = rs.getString("lastName");
                 System.out.println(name +" " +surname);
             }
+            //
+            
+            BufferedWriter br = new BufferedWriter(new FileWriter("admin.csv"));
+            StringBuilder sb = new StringBuilder();
+            while (rs.next()){
+                sb.append(rs.getString("firstName"));
+                sb.append(" ");
+                sb.append(rs.getString("lastName"));
+            }
+            br.write(sb.toString());
+            br.close();
+            
+            //
         }catch(Exception ex){
             System.out.println("Error: "+ex);
         }
