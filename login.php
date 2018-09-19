@@ -4,41 +4,68 @@
 
 <!-- Your Content Start-->
 
-<section class="spad">
-    <div class="comment-form container">
-            <h1>Login Here</h1><br>
-            <form action="includes/login.php" method="post">
-                
-                <div class="form-group">
-                    <p>Username</p>
-                    <input type="text" name="username" required="true" placeholder = "Enter username">
-                </div>
+<style>
+    .formBG {
+        background: #e1e1e1;
+    }
 
-                <div class="form-group">
-                    <p>Password</p>
-                    <input type="password" name="password" required="true" placeholder = "Enter password">
-                </div>
+    .reg {
+        background-image: url("img/encroll-img.jpg");
+        background-size: 760px auto;  
+        position: relative;
+        min-height: 200px;
+    }
 
-                <div class="input-group-btn site-btn text-white">
-                    <input type="submit" name="login">
-                </div>
+    .reg p {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: bold;
+        margin: auto;
+        width: 50%;
+        border: 3px solid white;
+        padding: 20px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>
 
-            </form>
-
-            <!-- <div class="site-btn text-white">
-                <a href="profile.php">Login</a>
-            </div> -->
-            <br>
-            
-            <a href="#" onClick = "mine()">Lost your Password?</a>
-            <br>
-            <a href="register.php">Dont have an account?</a>
-            <script>
-                function mine(){
-                    alert("Email has been sent. Please create a new password.!!")
-                }
-            </script>
+<section class = 'container spad'>
+    <div class="container">        
+        <div class="row">
+            <div class="formBG signup-form col-lg-4 order-2">
+                <form action="includes/login.php" method="post">
+                <br>
+                    <h2>Login</h2>
+                    <p>Login to your account.</p>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" placeholder="Username" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success btn-lg btn-block" name="login">Login Now</button>
+                    </div>
+                </form>
+                <div class="text-center">Don't have an account? <a href="register.php">Register</a></div>
+                <div class="text-center">Forgot your password? <a href="#" onClick = "mine()">Reset?</a></div><br>
+                <script>
+                    function mine(){
+                        alert("Email has been sent. Please create a new password.!!")
+                    }
+                </script>
+            </div>
+            <div class="reg col-lg-8">
+                <p>Login</p>
+            </div>
         </div>
+
+    </div>    
 </section>
 <br>
 
