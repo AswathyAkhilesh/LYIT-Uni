@@ -39,7 +39,7 @@ if(isset($_POST['loginAdmin'])) {
     }
 
     if(password_verify($password,$db_password)) {
-        header("Location: index.php");
+        header("Location: ../index.php");
     } else if ($username == $db_username && $password == $db_password) {
         $_SESSION['db_id'] = $db_id;
         $_SESSION['db_username'] = $db_username;
@@ -56,6 +56,6 @@ if(isset($_POST['loginAdmin'])) {
         $_SESSION['db_country'] = $db_country;
         header("Location: index.php");
     } else {
-        header("Location: index.php");   
+        header("Location: login.php");   
     }
 }

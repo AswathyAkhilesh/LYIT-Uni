@@ -31,7 +31,7 @@ public class DBConnect {
     
     public void getData(){
         try{
-            String query = "select * from users where userRole = 'admin'"; //change student in php myadmin and here to admin
+            String query = "select * from users where userRole = 'admin'";
             rs = st.executeQuery(query);
             System.out.println("Records from Database");
             while (rs.next()){
