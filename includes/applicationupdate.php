@@ -1,8 +1,10 @@
 <?php include 'db.php'; ?>
+<?php include 'profile.php'; ?>
 <?php include 'course.php'; ?>
 <?php ob_start(); ?>
 <?php session_start(); ?>
 <?php 
+$courseID = $_POST['hiddenid'];
 if(isset($_POST['update'])) { 
     $firstname = $_POST['input-first-name'];
 	$middlename = $_POST['input-Middle-name'];
@@ -24,7 +26,7 @@ if(isset($_POST['update'])) {
     }
 	else
 	{
-		header("Location: ../application.php?id=$id");
+		header("Location: ../application.php?id=$courseID");
 	} 
 }
 ?>

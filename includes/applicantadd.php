@@ -1,4 +1,5 @@
 <?php include 'db.php'; ?>
+<?php include 'profile.php'; ?>
 <?php include 'course.php'; ?>
 <?php
 
@@ -17,7 +18,9 @@ if(isset($_POST['submit'])) {
  ('{$userID}', '{$courseID}', '{$firstname}', '{$coursename}')";
     $select_user_query = mysqli_query($connection ,$query);
     if(!$select_user_query) {
+        header("Location: ../application.php?id=$courseID");
         die("QUERY FAILED". mysqli_error($connection));
+        header("Location: ../application.php?id=alert");
     }
 	else
 	{

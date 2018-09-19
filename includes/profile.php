@@ -12,6 +12,7 @@ if(isset($_SESSION['db_id'])) {
     }
 
     while($row = mysqli_fetch_array($select_user_query)) {
+        $db_id = $row['userID']; // Display Result
         $db_firstName = $row['firstName']; // Display Result
 		$db_middleName = $row['middleName']; // Display Result
         $db_lastName = $row['lastName']; // Display Result
