@@ -98,9 +98,8 @@ form br { display: none; }
 				</label> 
 				</div>
 				
-				
 				<label for="dob" class="float"><strong>Date of Birth:</strong></label><br />
-				<input class="inp-text" name="dob" id="dob" type="date" value="<?php echo date('Y-m-d', strtotime($db_dob)) ?>" size="30" min="1950-01-01" max="2018-12-31" disabled />
+				<input class="inp-text" name="dob" id="dob" type="date" value="<?php echo ($db_dob=='0000-00-00 00:00:00')? NULL : date('Y-m-d', strtotime($db_dob)) ?>" size="30" min="1950-01-01" max="2018-12-31" disabled />
 				
 				<label for="e-mail" class="float"><strong>E-Mail:</strong></label><br />
 				<input class="inp-text" name="e-mail"  id="e-mail" type="text" size="30" value="<?php echo $db_email ?>" disabled />
