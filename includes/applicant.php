@@ -1,13 +1,14 @@
 <?php
 
 
-if(isset($_GET['id'])) {
+if(isset($_GET['id']) and isset($_GET['courseId'])) {
 
     $userID = $_GET['id'];
+	$courseID = $_GET['courseId'];
 
     //$query = "SELECT b.CourseName, b.Date, b.Time,a.* FROM users a inner join interviews b on a.userID = b.userID WHERE a.userID = {$userID}"; // Get user details
 	$query = "SELECT * from users WHERE userID = {$userID}";
-	$querycoursename = "SELECT CourseName,courseID from applicants WHERE userID = {$userID}";
+	$querycoursename = "SELECT CourseName,courseID from applicants WHERE userID = {$userID} and courseID = {$courseID}";
     $select_user_query = mysqli_query($connection ,$query);
 	$select_user_query_coursename = mysqli_query($connection ,$querycoursename);
     if(!$select_user_query) {
