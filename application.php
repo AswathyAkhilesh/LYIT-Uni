@@ -30,7 +30,7 @@
                 <p class="card-text"><strong>Surname:</strong> 
                 <?php if (empty($db_lastName)) { $count ++; echo "<strong style='color: Red;'>Must Be Updated</strong>"; } else { echo $db_lastName; } ?></p>
                 <p class="card-text"><strong>Date of Birth:</strong> 
-                <?php if ($db_dob === "") { $count ++; echo "<strong style='color: Red;'>Must Be Updated</strong>"; } else { echo date('d-M-Y', strtotime($db_dob)); } ?></p>
+                <?php if ($db_dob == "0000-00-00 00:00:00") { $count ++; echo "<strong style='color: Red;'>Must Be Updated</strong>"; } else { echo date('d-M-Y', strtotime($db_dob)); } ?></p>
                 <p class="card-text"><strong>Phone:</strong> 
                 <?php if ($db_phoneNumber === "") { $count ++; echo "<strong style='color: Red;'>Must Be Updated</strong>"; } else { echo "0" . $db_phoneNumber; } ?></p>
                 <p class="card-text"><strong>Email:</strong> 
