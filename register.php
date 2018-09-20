@@ -1,4 +1,3 @@
-<!-- Header -->
 <?php include ('includes/header.php'); ?>
 <!-- Header End - Do Not Remove -->
 
