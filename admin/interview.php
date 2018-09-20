@@ -1,4 +1,3 @@
-<!-- Header -->
 <?php include ('header.php'); ?>
 <?php include ('../includes/interview.php'); ?>
 <!-- Your Content Start-->
