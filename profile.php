@@ -134,6 +134,8 @@ form br { display: none; }
 				
 				<label for="country" class="float"><strong>Country:</strong></label><br />
 				<input class="inp-text" name="country"  id="country" type="text" size="30" value="<?php echo $db_country ?>" disabled />
+				<label for="qualification" class="float"><strong>Highest Qualification Achieved</strong></label><br />
+				<input class="inp-text" name="input-qualification"  id="input-qualification" type="text" size="30" value="<?php echo $db_highestQual ?>" disabled />
 				
 				
 		</fieldset>
