@@ -135,16 +135,17 @@ form br { display: none; }
 				<input class="inp-text" name="country"  id="country" type="text" size="30" value="<?php echo $db_country ?>" disabled />
 				<label for="qualification" class="float"><strong>Highest Qualification Achieved</strong></label><br />
 				<input class="inp-text" name="input-qualification"  id="input-qualification" type="text" size="30" value="<?php echo $db_highestQual ?>" disabled />
-				
+				<label for="experience" class="float"><strong>Work Experience if any</strong></label><br />
+				<input class="inp-text" name="input-experience"  id="input-experience" type="text" size="30" value="<?php echo $db_workExp ?>" disabled  />
 				
 		</fieldset>
 			
-		<fieldset>
+		<!--fieldset>
 		<legend>Resume Upload:</legend>
 				<label for="file-upload" class="float"><strong>Upload Resume:</strong></label><br />
 				<input class= "datafile" type="file" name="datafile" id="datafile" size="55" accept= ".pdf, .doc, .docx" /> *can accept only pdf or .docs file
 				
-		</fieldset>
+		</fieldset-->
 		
 		<!-- ============================== Fieldset 3 end ============================== -->
 		<!--<p><input class="upload-button" type="upload-button" alt="UPLOAD" id="upload-button" name="UPLOAD" value="Upload" disabled /></p>-->
