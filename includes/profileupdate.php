@@ -16,7 +16,8 @@ if(isset($_POST['update'])) {
     $eircode= $_POST['input-code'];
 	$country= $_POST['country'];
 	$highestQual= $_POST['input-qualification'];
-    $query = "UPDATE users SET firstName='{$firstname}',middleName='{$middlename}',lastName='{$lastname}',gender='{$gender}',email='{$email}',dob='{$dob}',phoneNumber={$mobileno},address='{$address}',city='{$city}',county='{$county}',eirCode='{$eircode}',country='{$country}',highestQual='{$highestQual}' where userID={$_SESSION['db_id']}";
+	$workExp= $_POST['input-experience'];
+    $query = "UPDATE users SET firstName='{$firstname}',middleName='{$middlename}',lastName='{$lastname}',gender='{$gender}',email='{$email}',dob='{$dob}',phoneNumber={$mobileno},address='{$address}',city='{$city}',county='{$county}',eirCode='{$eircode}',country='{$country}',highestQual='{$highestQual}',workExp='{$workExp}' where userID={$_SESSION['db_id']}";
     $select_user_query = mysqli_query($connection ,$query);
     if(!$select_user_query) {
         die("QUERY FAILED". mysqli_error($connection));
