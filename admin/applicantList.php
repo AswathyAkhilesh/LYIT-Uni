@@ -13,7 +13,7 @@
 <Section class="container spad">
 <br>
 <h2>Applicant List</h2>
-<p>The below grid contains the applicant list, to schedule invertiew for an applicant select an applicant and click on the "Schedule" button.</p>
+<p>The below grid contains the applicant list, to schedule interview for an applicant select an applicant and click on the "Schedule" button.</p>
 <table id="example" class="table table-striped table-bordered" style="width:100%">
    <thead>
       <tr>
