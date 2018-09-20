@@ -11,7 +11,9 @@ $(document).ready(function() {
         "columns": [
             { "data": null, "defaultContent": "" },
             { "data": "FirstName" },
-            { "data": "CourseName" }
+            { "data": "CourseName" },
+			
+			//added courseid today
            
         ],
         columnDefs: [ {
@@ -31,5 +33,5 @@ function viewcourse(){
 	var rowData = table.rows( { selected: true } ).data()[0];	
 	if(!rowData)
 		return;
-	window.location.href = "../admin/applicant.php?id=" + rowData.id;
+	window.location.href = "../admin/applicant.php?id=" + rowData.id+"&courseId="+ rowData.courseID;
 }
