@@ -31,7 +31,8 @@ $primaryKey = 'userID';
 $columns = array(
 	array( 'db' => 'userID', 'dt' => 'id' ),
     array( 'db' => 'FirstName', 'dt' => 'FirstName' ),
-    array( 'db' => 'CourseName', 'dt' => 'CourseName' )
+    array( 'db' => 'CourseName', 'dt' => 'CourseName' ),
+    array( 'db' => 'courseID', 'dt' => 'courseID' )
 
 );
  

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 17, 2018 at 09:40 PM
+-- Generation Time: Sep 21, 2018 at 01:04 AM
 -- Server version: 10.1.34-MariaDB
 -- PHP Version: 7.2.8
 
@@ -47,6 +47,31 @@ INSERT INTO `admin` (`adminID`, `adminName`, `adminEmail`, `adminPass`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `applicants`
+--
+
+CREATE TABLE `applicants` (
+  `applicantID` int(25) NOT NULL,
+  `userID` varchar(255) NOT NULL,
+  `courseID` varchar(255) NOT NULL,
+  `FirstName` varchar(20) NOT NULL,
+  `CourseName` varchar(40) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `applicants`
+--
+
+INSERT INTO `applicants` (`applicantID`, `userID`, `courseID`, `FirstName`, `CourseName`) VALUES
+(1, '1', '1', 'Aswathy', 'Master of Science in DevOps'),
+(2, '4', '1', 'Conor', 'Master of Science in DevOps'),
+(13, '5', '1', 'Matthew', 'Master of Science in DevOps'),
+(14, '3', '1', 'Liam', 'Master of Science in DevOps'),
+(15, '2', '1', 'Roshni', 'Master of Science in DevOps');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `courses`
 --
 
@@ -71,7 +96,7 @@ CREATE TABLE `courses` (
 --
 
 INSERT INTO `courses` (`id`, `coursecode`, `coursename`, `bannerdescription`, `coursedetails`, `entryrequirements`, `coursefees`, `jobs`, `duration`, `studymode`, `award`, `credit`, `applicationdeadline`) VALUES
-(1, 'COOD1', 'Master of Science in DevOps', 'DevOps, a new organizational and cultural way of organizing development and IT operations work, is spreading rapidly, driven by mounting evidence of its benefits to the business. But reaping these gains requires rethinking application security to deliver more secure code at DevOps speed.', '<br><br><b>Our Master of Science in Computing in DevOps is a one year, full-time or two year, part-time programme. DevOps is the practice of operations and development engineers participating together in the entire service lifestyle, from design through the development process to production support.\r\n         DevOps is characterised by operations staff harnessing the same techniques as developers for their systems work. Topics the course covers include: DevOps Software Engineering, Project Management and Deployment Pipelines.</b><br><br> Proposed Module for this year are as Follows:-  <br><br> DevOps Software Engineering -	Mandatory<br><br>OO Programming for Server Administration-Mandatory<br><br>Scripting the Deployment Pipeline-Mandatory<br><br>DevOps Project Management-Mandatory<br><br>Dissertation-Mandatory', '<b><br>Minimum Entry Requirements</b><br><br>\r\n         - Level 8 Honours Degree in Computing, or equivalent, second class honours (2.2), or Higher Diploma in Computing (Conversion Course into Computing).<br> \r\n         -If you do not have an honours degree but have relevant experience you may also be eligible to apply via Recognition of Prior Learning (RPL).  \r\n         <br><br>\r\n         <table class=\"cao-table\">\r\n            <tbody>\r\n               <tr>\r\n                  <th>Number of Places</th>\r\n                  <th>15</th>\r\n               </tr>\r\n            </tbody>\r\n         </table>', '<br><div style=\"padding-bottom:15px\"><b>The EU and NON EU citizens have got different fee structure</b></div>\r\n         <div style=\"color:#22206f;font-size:15px;padding-bottom:10px\">EU Fees: â‚¬5,000.00</div>\r\n         <div style=\"color:#22206f;font-size:15px\">Non-EU Fees: â‚¬9,000.00</div><br>', '<br>\r\n         <div>Career Pathways</div>\r\n         <p>The main employers are:</p>\r\n         <ul style=\"margin-left:30px;font-size:14px\">\r\n            <li>Software Companies</li>\r\n            <li>Multinational Companies</li>\r\n         </ul>\r\n		 <br>\r\n         <div>Graduate Careers</div>\r\n         <p>Former graduates are employed in the following capacities:</p>\r\n         <ul style=\"margin-left:30px;font-size:14px\">\r\n            <li>DevOps Engineer</li>\r\n            <li>Cloud DevOps Engineer</li>\r\n            <li>Systems Software Engineer</li>\r\n         </ul>', '1 and 2 year', 'Full-time and Part-time', 'Masters', 30, '24 August'),
+(1, 'COOD1', 'Master of Science in DevOps', 'DevOps, a new organizational and cultural way of organizing development and IT operations work, is spreading rapidly, driven by mounting evidence of its benefits to the business. But reaping these gains requires rethinking application security to deliver more secure code at DevOps speed.', '<br><br><b>Our Master of Science in Computing in DevOps is a one year, full-time or two year, part-time programme. DevOps is the practice of operations and development engineers participating together in the entire service lifestyle, from design through the development process to production support.\r\n         DevOps is characterised by operations staff harnessing the same techniques as developers for their systems work. Topics the course covers include: DevOps Software Engineering, Project Management and Deployment Pipelines.</b><br><br> Proposed Module for this year are as Follows:-  <br><br> DevOps Software Engineering -	Mandatory<br><br>OO Programming for Server Administration-Mandatory<br><br>Scripting the Deployment Pipeline-Mandatory<br><br>DevOps Project Management-Mandatory<br><br>Dissertation-Mandatory', '<b><br>Minimum Entry Requirements</b><br><br>\r\n         - Level 8 Honours Degree in Computing, or equivalent, second class honours (2.2), or Higher Diploma in Computing (Conversion Course into Computing).<br> \r\n         -If you do not have an honours degree but have relevant experience you may also be eligible to apply via Recognition of Prior Learning (RPL).  \r\n         <br><br>\r\n         <table class=\"cao-table\">\r\n            <tbody>\r\n               <tr>\r\n                  <th>Number of Places</th>\r\n                  <th>15</th>\r\n               </tr>\r\n            </tbody>\r\n         </table>', '<br><div style=\"padding-bottom:15px\"><b>The EU and NON EU citizens have got different fee structure</b></div>\r\n         <div style=\"color:#22206f;font-size:15px;padding-bottom:10px\">EU Fees: â‚¬5,000.00</div>\r\n         <div style=\"color:#22206f;font-size:15px\">Non-EU Fees: â‚¬9,000.00</div><br>', '<br>\r\n         <div>Career Pathways</div>\r\n         <p>The main employers are:</p>\r\n         <ul style=\"margin-left:30px;font-size:14px\">\r\n            <li>Software Companies</li>\r\n            <li>Multinational Companies</li>\r\n         </ul>\r\n		 <br>\r\n         <div>Graduate Careers</div>\r\n         <p>Former graduates are employed in the following capacities:</p>\r\n         <ul style=\"margin-left:30px;font-size:14px\">\r\n            <li>DevOps Engineer</li>\r\n            <li>Cloud DevOps Engineer</li>\r\n            <li>Systems Software Engineer</li>\r\n         </ul>', '1 and 2 year', 'Full-time and Part-time', 'Masters', 30, '26 August'),
 (2, 'COOD2', 'Applied Computing', '<span style=\"font-family: adelle-sans, sans-serif; font-size: 18px;\"><font color=\"#ffffcc\">This level 8 programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming.</font></span><br>', '<div class=\"\" style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: Oxygen, Helvetica, sans-serif; vertical-align: baseline; color: rgb(109, 109, 109);\"><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\"><b><br></b></p><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\"><b>This level 8 programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers.</b></p></div><div class=\"long-desc\" style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: Oxygen, Helvetica, sans-serif; vertical-align: baseline; color: rgb(109, 109, 109);\"><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\"><b>In addition it will develop the students knowledge in later years to give them a strong set of management skills required to work in and manage modern ICT organisations. All student will complete a major project which may be industry related</b></p></div>', '<p class=\"summary\" style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 17px; line-height: 27px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(0, 0, 0);\"><b>Minimum Entry Requirements</b></p><span style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 700; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: Oxygen, Helvetica, sans-serif; vertical-align: baseline; color: rgb(109, 109, 109);\">Leaving Certificate</span><span style=\"color: rgb(109, 109, 109); font-family: Oxygen, Helvetica, sans-serif; font-size: 14px;\"></span><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\">Minimum Six O6/H7&nbsp;<br style=\"box-sizing: inherit;\">Maths O6/H7&nbsp;<br style=\"box-sizing: inherit;\">English or Irish O6/H7&nbsp;<br style=\"box-sizing: inherit;\">At least two H5</p>', '<div style=\"padding-bottom: 15px;\"><span style=\"font-weight: bolder;\">The EU and NON EU citizens have got different fee structure</span></div><div style=\"color: rgb(34, 32, 111); font-size: 15px; padding-bottom: 10px;\">EU Fees: 5,000.00 Euros</div><div style=\"color: rgb(34, 32, 111); font-size: 15px;\">Non-EU Fees: 9,000.00 Euros</div>', '<h3 style=\"box-sizing: inherit; margin-top: 20px; margin-bottom: 10px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 39px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(34, 32, 111);\">Career Pathways</h3><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\">The main employers are:</p><ul style=\"box-sizing: inherit; margin-bottom: 18px; margin-left: 18px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: adelle-sans, sans-serif; vertical-align: baseline; list-style: square outside; color: rgb(109, 109, 109);\"><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Software Development Houses</li><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Banks and Insurance Companies</li></ul><h3 style=\"box-sizing: inherit; margin-top: 20px; margin-bottom: 10px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 39px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(34, 32, 111);\">Graduate Careers</h3><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\">Former graduates are employed in the following capacities:</p><ul style=\"box-sizing: inherit; margin-bottom: 18px; margin-left: 18px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: adelle-sans, sans-serif; vertical-align: baseline; list-style: square outside; color: rgb(109, 109, 109);\"><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Software Developer / Programmer</li><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Data Analyst / Scientist</li><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Mobile App Developer</li></ul>', '4 years', 'Full time', 'Bachelors', 20, '24 September'),
 (3, 'COOD3', 'Cloud Technology', '<span style=\"font-family: adelle-sans, sans-serif; font-size: 18px;\"><font color=\"#ffffff\">The Bachelor of Science (Hons) in Computing is a one year post level 7 degree which will provide you a range of both theoretical and practical skills required to participate fully in the rapidly growing cloud industry.&nbsp;</font></span><br>', '<div class=\"\" style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: Oxygen, Helvetica, sans-serif; vertical-align: baseline; color: rgb(109, 109, 109);\"><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\"><b><br></b></p><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\"><b>The Bachelor of Science (Hons) in Computing is a one year post level 7 degree which will provide you a range of both theoretical and practical skills required to participate fully in the rapidly growing cloud industry. The ethos of the course is to provide a strong core set of competencies in cloud computing - skills that are typically required by all companies working in IT.</b></p></div><div class=\"long-desc\" style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: Oxygen, Helvetica, sans-serif; vertical-align: baseline; color: rgb(109, 109, 109);\"><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\"><b>The emphasis in this degree programme will be on individual independent learning. You will require a high level of motivation and maturity and should be capable of working in a team and of completing large assignments and research projects.</b></p><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\"><b>The programme is designed to build on the knowledge gained on the level 7 BSc in Computing. It will broaden the scope and depth of this knowledge and give you the skills required to be a cloud technology specialist.</b></p><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\">Proposed Modules</p><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\">1.Software Engineering</p><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\"><br></p></div>', '<p class=\"summary\" style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 17px; line-height: 27px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(0, 0, 0);\"><b><br></b></p><p class=\"summary\" style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 17px; line-height: 27px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(0, 0, 0);\"><b>Minimum Entry Requirements</b></p><span style=\"color: rgb(109, 109, 109); font-family: Oxygen, Helvetica, sans-serif; font-size: 14px;\">Successful completion of the level 7 Bachelor of Science in Computing with Computer or an equivalent level 7 qualification with 180 ECTS credits and appropriate learning outcomes. If there are more applicants than there are places available, applicants will be selected on merit.</span><br>', '<div style=\"padding-bottom: 15px;\"><span style=\"font-weight: bolder;\"><br></span></div><div style=\"padding-bottom: 15px;\"><span style=\"font-weight: bolder;\">The EU and NON EU citizens have got different fee structure</span></div><div style=\"color: rgb(34, 32, 111); font-size: 15px; padding-bottom: 10px;\">EU Fees: 5,000.00 Euros</div><div style=\"color: rgb(34, 32, 111); font-size: 15px;\">Non-EU Fees: 9,000.00 Euros</div>', '<h3 style=\"box-sizing: inherit; margin-top: 20px; margin-bottom: 10px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 39px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(34, 32, 111);\">Career Pathways</h3><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\">The main employers are:</p><ul style=\"box-sizing: inherit; margin-bottom: 18px; margin-left: 18px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: adelle-sans, sans-serif; vertical-align: baseline; list-style: square outside; color: rgb(109, 109, 109);\"><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Banks &amp; Insurance Companies</li><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Education, Transport, Medicine, etc.</li><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">All types of Companies</li></ul><h3 style=\"box-sizing: inherit; margin-top: 20px; margin-bottom: 10px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 39px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(34, 32, 111);\">Graduate Careers</h3><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 18px; line-height: 29px; font-family: adelle-sans, sans-serif; vertical-align: baseline; color: rgb(64, 80, 87);\">Former graduates are employed in the following capacities:</p><ul style=\"box-sizing: inherit; margin-bottom: 18px; margin-left: 18px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: adelle-sans, sans-serif; vertical-align: baseline; list-style: square outside; color: rgb(109, 109, 109);\"><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Managing Data Centres</li><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Cloud Engineer</li><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Cloud Product Support Engineer</li></ul>', 'One Year', 'Full time', 'Bachelors', 20, '15 September'),
 (4, 'COOD4', 'Security & Digital Forensics', '<br><div><span style=\"font-size: 14px; text-align: justify;\"><font color=\"#ffffff\">Our Bachelor of Science in Computing with Computer Security and Digital Forensics equips you with the skills, methods and techniques that apply in Computer Security and Digital Forensics</font></span><br></div>', '<div><span style=\"color: rgb(102, 102, 102); font-family: Arial, Helvetica, sans-serif; font-size: 14px;\"><b><br></b></span></div><span style=\"color: rgb(102, 102, 102); font-family: Arial, Helvetica, sans-serif; font-size: 14px;\"><b>Computer Security is about securing computer systems against all types of unauthorised access. However, no matter how secure a computer systems is it will still have vulnerabilities. Digital Forensics is about detecting intruders, analysing what they have done to your computer system, tracking and identifying the intruder and creating a portfolio of evidence about the intruders activities to assist with a successful prosecution. This course teaches student the skills, methods and techniques used in Computer Security and Digital Forensics. Our aim is to provide the Irish computer industry with high quality experts in this rapidly growing field of computing. Our aim is to provide the Irish computer industry with high quality experts in this rapidly growing field of computing</b></span><br>', '<p class=\"summary\" style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; font-size: 17px; color: rgb(0, 0, 0); line-height: 27px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-family: adelle-sans, sans-serif; vertical-align: baseline;\"><span style=\"font-weight: bolder;\"><br></span></p><p class=\"summary\" style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; font-size: 17px; color: rgb(0, 0, 0); line-height: 27px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-family: adelle-sans, sans-serif; vertical-align: baseline;\"><span style=\"font-weight: bolder;\">Minimum Entry Requirements</span></p><span style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 700; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: Oxygen, Helvetica, sans-serif; vertical-align: baseline; color: rgb(109, 109, 109);\">Leaving Certificate</span><span style=\"color: rgb(109, 109, 109); font-family: Oxygen, Helvetica, sans-serif; font-size: 14px;\"></span><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; font-size: 18px; color: rgb(64, 80, 87); line-height: 29px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-family: adelle-sans, sans-serif; vertical-align: baseline;\">Minimum Six O6/H7&nbsp;<br style=\"box-sizing: inherit;\">Maths O6/H7&nbsp;<br style=\"box-sizing: inherit;\">English or Irish O6/H7&nbsp;<br style=\"box-sizing: inherit;\">At least two H5</p>', '<br><div><div style=\"padding-bottom: 15px;\"><span style=\"font-weight: bolder;\">The EU and NON EU citizens have got different fee structure</span></div><div style=\"color: rgb(34, 32, 111); font-size: 15px; padding-bottom: 10px;\">EU Fees: 5,000.00 Euros</div><div style=\"color: rgb(34, 32, 111); font-size: 15px;\">Non-EU Fees: 9,000.00 Euros</div></div>', '<h3 style=\"box-sizing: inherit; margin-top: 20px; margin-bottom: 10px; font-family: adelle-sans, sans-serif; line-height: 39px; color: rgb(34, 32, 111); padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; vertical-align: baseline;\">Career Pathways</h3><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; font-size: 18px; color: rgb(64, 80, 87); line-height: 29px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-family: adelle-sans, sans-serif; vertical-align: baseline;\">The main employers are:</p><ul style=\"box-sizing: inherit; margin-bottom: 18px; margin-left: 18px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: adelle-sans, sans-serif; vertical-align: baseline; list-style: square outside; color: rgb(109, 109, 109);\"><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Software Development Houses</li><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Banks and Insurance Companies</li></ul><h3 style=\"box-sizing: inherit; margin-top: 20px; margin-bottom: 10px; font-family: adelle-sans, sans-serif; line-height: 39px; color: rgb(34, 32, 111); padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; vertical-align: baseline;\">Graduate Careers</h3><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; font-size: 18px; color: rgb(64, 80, 87); line-height: 29px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-family: adelle-sans, sans-serif; vertical-align: baseline;\">Former graduates are employed in the following capacities:</p><ul style=\"box-sizing: inherit; margin-bottom: 18px; margin-left: 18px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: adelle-sans, sans-serif; vertical-align: baseline; list-style: square outside; color: rgb(109, 109, 109);\"><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Software Developer / Programmer</li><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Data Analyst / Scientist</li><li style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 17px; line-height: 1.5em; font-family: inherit; vertical-align: baseline;\">Mobile App Developer</li></ul>', 'One year', 'Full time', 'Bachelors', 20, '15 September'),
@@ -80,7 +105,7 @@ INSERT INTO `courses` (`id`, `coursecode`, `coursename`, `bannerdescription`, `c
 
 -- --------------------------------------------------------
 
-
+--
 -- Table structure for table `interviews`
 --
 
@@ -95,72 +120,14 @@ CREATE TABLE `interviews` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Indexes for dumped tables
+-- Dumping data for table `interviews`
 --
 
---
--- Indexes for table `interviews`
---
-ALTER TABLE `interviews`
-  ADD PRIMARY KEY (`interviewID`),
-  ADD UNIQUE KEY `userID` (`userID`,`courseID`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `interviews`
---
-ALTER TABLE `interviews`
-  MODIFY `interviewID` int(25) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-
-
--- --------------------------------------------------------
-
---
--- Table structure for table `applicants`
---
-
-CREATE TABLE `applicants` (
-  `applicantID` int(25) NOT NULL,
-  `userID` varchar(255) NOT NULL,
-  `courseID` varchar(255) NOT NULL,
-  `FirstName` varchar(20) NOT NULL,
-  `CourseName` varchar(40) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `applicants`
---
-
-INSERT INTO `applicants` (`applicantID`, `userID`, `courseID`, `FirstName`, `CourseName`) VALUES
-(1, '1', '12', 'Liam', 'Devops'),
-(2, '2', '12', 'Roshni', 'Devops'),
-(3, '3', '12', 'Conor', 'Devops'),
-(4, '4', '12', 'Aswathy', 'Devops'),
-(5, '5', '12', 'Matthew', 'Devops');
-
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `applicants`
---
-ALTER TABLE `applicants`
-  ADD PRIMARY KEY (`applicantID`),
-  ADD UNIQUE KEY `userID` (`userID`,`courseID`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `applicants`
---
-ALTER TABLE `applicants`
-  MODIFY `applicantID` int(25) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+INSERT INTO `interviews` (`interviewID`, `userID`, `courseID`, `date`, `Name`, `CourseName`, `Time`) VALUES
+(26, '1', '1', '2018-10-01', 'Aswathy', 'Master of Science in DevOps', '10:00'),
+(29, '4', '1', '2018-10-01', 'Conor', 'Master of Science in DevOps', '10:30'),
+(32, '3', '1', '2018-10-01', 'Liam', 'Master of Science in DevOps', '11:00'),
+(33, '5', '1', '2018-10-01', 'Matthew', 'Master of Science in DevOps', '11:30');
 
 -- --------------------------------------------------------
 
@@ -194,31 +161,82 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`userID`, `username`, `password`, `firstName`, `middleName`, `lastName`, `gender`, `email`, `dob`, `phoneNumber`, `address`, `city`, `county`, `eirCode`, `country`, `userRole`, `highestQual`, `workExp`) VALUES
-(1, 'liamwho', 'password', 'Liam', 'J', 'Whorriskey', 'male', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'Main Street', 'Letterkenny', 'Donegal', 'F92A324', 'Ireland', 'student', 'Level 9', 'yes'),
-(2, 'roshni', 'password', 'Roshni', 'A', 'Surname', 'female', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'Main Street', 'Letterkenny', 'Donegal', 'F92A324', 'Ireland', 'student', 'Level 9', 'yes'),
-(3, 'conor', 'password', 'Conor', 'A', 'Surname', 'male', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'Main Street', 'Letterkenny', 'Donegal', 'F92A324', 'Ireland', 'student', 'Level 9', 'yes'),
-(4, 'aswathy', 'password', 'Aswathy', 'A', 'Surname', 'female', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'Main Street', 'Letterkenny', 'Donegal', 'F92A324', 'Ireland', 'student', 'Level 9', 'yes'),
-(5, 'matthew', 'password', 'Matthew', 'A', 'Surname', 'male', 'liamwho@gmail.com', '1976-10-28 00:00:00', 864562252, 'Main Street', 'Letterkenny', 'Donegal', 'F92A324', 'Ireland', 'student', 'Level 9', 'yes');
+(1, 'aswathy', 'password', 'Aswathy', '', 'Akhilesh', 'female', 'aswathy@test.com', '2000-06-06 00:00:00', 478956125, 'Rose Villa', 'Galway', 'Limerick', 'C789', 'Ireland', '', 'Level 9', 'Yes'),
+(2, 'roshni', 'password', 'Roshni', '', 'Umesh', 'female', 'roshni@test.com', '2000-02-03 00:00:00', 4544487, 'Eden garden', 'Dublin', 'Dublin', 'RF4562', 'Ireland', '', 'Level 9', 'yes'),
+(3, 'liam', 'password', 'Liam', '', 'Whorisky', 'male', 'liam@test.com', '2000-02-14 00:00:00', 78956421, 'Ash field', 'Antrim', 'Antrim', 'GH455', 'Ireland', '', 'Level 9', 'Yes'),
+(4, 'conor', 'password', 'Conor', '', 'Dorrian', 'male', 'conor@test.com', '2000-12-14 00:00:00', 564656599, 'Mountain top', 'Louth', 'Louth', '5454', 'Ireland', '', 'Level 9', 'Yes'),
+(5, 'matthew', 'password', 'Matthew', '', 'Bergin', 'male', 'matthew@test.com', '2000-10-15 00:00:00', 664972229, 'Thornberry', 'Tralee', 'Tralee', 'FR45656', 'Ireland', '', 'Level 9', 'Yes');
 
 --
 -- Indexes for dumped tables
 --
 
 --
+-- Indexes for table `admin`
+--
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`adminID`);
+
+--
+-- Indexes for table `applicants`
+--
+ALTER TABLE `applicants`
+  ADD PRIMARY KEY (`applicantID`),
+  ADD UNIQUE KEY `userID` (`userID`,`courseID`);
+
+--
+-- Indexes for table `courses`
+--
+ALTER TABLE `courses`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `interviews`
+--
+ALTER TABLE `interviews`
+  ADD PRIMARY KEY (`interviewID`),
+  ADD UNIQUE KEY `userID` (`userID`,`courseID`);
+
+--
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
-  ADD PRIMARY KEY (`userID`);
+  ADD PRIMARY KEY (`userID`),
+  ADD UNIQUE KEY `email` (`email`);
 
 --
 -- AUTO_INCREMENT for dumped tables
 --
 
 --
+-- AUTO_INCREMENT for table `admin`
+--
+ALTER TABLE `admin`
+  MODIFY `adminID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `applicants`
+--
+ALTER TABLE `applicants`
+  MODIFY `applicantID` int(25) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+
+--
+-- AUTO_INCREMENT for table `courses`
+--
+ALTER TABLE `courses`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT for table `interviews`
+--
+ALTER TABLE `interviews`
+  MODIFY `interviewID` int(25) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+
+--
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `userID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `userID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
