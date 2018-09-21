@@ -72,9 +72,7 @@ $count_6 = mysqli_num_rows($select_all);
 			<div class="row">
 				<div class="col-lg-6 about-text">
 					<h5>About us</h5>
-					<p>Lorem ipsum dolor sitdoni amet, consectetur dont adipis elite. Vivamus interdum ultrices augue. Aenean dos cursus lania. Duis et fringilla leonardo. Mauris mattis phare sem, debut curus risus viverra sed.</p>
-					<h5 class="pt-4">Our history</h5>
-					<p>Led at felis arcu. Integer lorem lorem, tincidunt eu congue et, mattis ut ante. Nami suscipit, lectus id efficitur ornare, leo libero convalis nulla, vitae dignissim .</p>
+					<p style="text-align: justify;">Letterkenny Institute of Technology (LYIT) fosters one of the most progressive learning environments in Ireland. <br>Our reach is both local and international; attracting a diverse student body of more than 4,000 students from Ireland and 31 countries across the globe. They choose LYIT because of our unique ethos that harnesses academic excellence with career-focused practical experience. It’s an approach that positions our students for future success in line with their aspirations. We also foster close relationships with the wider local community. Our engagement and partnerships with indigenous and international businesses leaders strengthens our student’s prospects in tandem with the prosperity of the region’s economy. Our modern integrated campuses in Letterkenny and Killybegs aren’t just gateways to a bright future, but to one of the most breathtaking corners of the world - with Donegal named National Geographic’s ‘Coolest Place on the Planet 2017’. There’s just so much to discover. So take your time, and stay a while to explore our website and see why LYIT is the place to be.</p>
 					<ul class="about-list">
 						<li><i class="fa fa-check-square-o"></i> University Faculties organise teaching and research into individual subjects.</li>
 						<li><i class="fa fa-check-square-o"></i> The University is rich in history - its famous buildings attract visitors.</li>
@@ -162,13 +160,13 @@ $count_6 = mysqli_num_rows($select_all);
 						</thead>
 						<tbody>
 							<?php 
-								$query = "SELECT * FROM applicants LIMIT 6";
+								$query = "SELECT * FROM interviews LIMIT 6";
 								$select_all = mysqli_query($connection, $query);
 								while($row = mysqli_fetch_array($select_all)) {
 									echo "<tr>";
-									echo "<td>" . $row['FirstName'] . "</td>";
-									echo "<td>" . $row['CourseName'] . "</td>";
-									echo "<td>" . $row['CourseName'] . "</td>";
+									echo "<td>" . $row['Name'] . "</td>";
+									echo "<td>" . $row['date'] . "</td>";
+									echo "<td>" . $row['Time'] . "</td>";
 									echo "</tr>";
 								}
 							?>
