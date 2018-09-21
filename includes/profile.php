@@ -28,6 +28,6 @@ if(isset($_SESSION['db_id'])) {
         $db_country = $row['country']; // Display Result
         $db_userRole= $row['userRole']; // Display Result
 		$db_highestQual= $row['highestQual']; // Display Result
-		$db_workExp= $row['workExp']; // Display Result
+        $db_workExp= $row['workExp']; // Display Result
     }  
 }
