@@ -11,7 +11,7 @@
         $password= $_POST['password'];
 
         $query = "INSERT INTO users (username, password, firstName, lastName, email) VALUES ('$username', '$password', '$firstname', '$lastname', '$email')";
-
+        clearstatcache();
         $select_user_query = mysqli_query($connection ,$query);
         if(!$select_user_query) {
             die("QUERY FAILED". mysqli_error($connection));
