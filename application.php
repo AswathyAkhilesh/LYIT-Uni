@@ -4,6 +4,11 @@
 
 <section class="container spad">
 
+    <?php
+    if(!isset($_SESSION['db_userRole'])){
+		header("Location: login.php?login=false");
+	} ?>
+
     <form action="includes/applicationupdate.php" method="post">
 
     <?php $count = 0; ?>

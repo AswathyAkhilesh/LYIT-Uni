@@ -68,6 +68,12 @@ form br { display: none; }
 
 <body>
 <section class="container">
+
+    <?php
+    if(!isset($_SESSION['db_userRole'])){
+		header("Location: login.php?login=false");
+	} ?>
+
 	<!--  ==================== Added By Liam ==================== -->
 	<div class="container spad"><h2>
 		Welcome: <?php echo $db_firstName ?> 
