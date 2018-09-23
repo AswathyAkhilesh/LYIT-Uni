@@ -1,10 +1,11 @@
 <?php include ('includes/header.php'); ?>
+<?php include ('includes/nav.php'); ?>
 <?php include ('includes/course.php'); ?>
 <!-- Header End - Do Not Remove -->
 <link rel="stylesheet" href="css/course.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-<div class="container">
+<div class="container" style="padding-top: 20px;">
    <div class="jumbotron" style="background-image: url('img/course detail/header.jpg')">
       <h1 style="color:white"><?php echo $db_coursename ?></h1>
       <h2 style="color:white">

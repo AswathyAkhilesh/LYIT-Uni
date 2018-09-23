@@ -1,4 +1,6 @@
 <?php include ('includes/header.php'); ?>
+<?php include ('includes/nav.php'); ?>
+
 <?php include ('includes/profile.php'); ?>
 <!-- Header End - Do Not Remove -->
 <style type="text/css">

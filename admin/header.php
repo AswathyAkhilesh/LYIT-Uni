@@ -55,6 +55,8 @@
 		<div class="loader"></div>
 	</div>
 
+	
+
 	<!-- header section -->
 	<header class="header-section">
 		<div class="container">
@@ -75,18 +77,7 @@
 
 
 	<!-- Header section  -->
-	<nav class="nav-section sticky-top">
-		<div class="container">
-			<div class="nav-right">
-				<a href="login.php"><i class="fa fa-user"></i> Login</a>
-				<a href="../index.php"><i class="fa fa-home"></i> Frontend</a>
-			</div>
-			<ul class="main-menu">
-				<li><a href="index.php">Dashboard</a></li>
-				<li><a href="courselist.php">COURSES</a></li>
-				<li><a href="applicantlist.php">Applicants</a></li>
-				<li><a href="interviewlist.php">Interviews</a></li>
-			</ul>
-		</div>
-	</nav>
+	<?php include ('nav.php'); ?>
+
+
 	<!-- Header section end -->

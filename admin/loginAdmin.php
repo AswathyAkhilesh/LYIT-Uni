@@ -53,6 +53,7 @@ if(isset($_POST['loginAdmin'])) {
         $_SESSION['db_county'] = $db_county;
         $_SESSION['db_eirCode'] = $db_eirCode;
         $_SESSION['db_country'] = $db_country;
+        $_SESSION['userRole'] = $db_userRole;
         header("Location: index.php");
     } else {
         header("Location: login.php");   

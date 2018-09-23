@@ -1,4 +1,6 @@
 <?php include ('includes/header.php'); ?>
+<?php include ('includes/nav.php'); ?>
+
 <?php include ('includes/courseindex.php'); ?>
 	<!-- Hero section -->
 	<section class="hero-section">

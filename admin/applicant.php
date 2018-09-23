@@ -1,4 +1,6 @@
-<?php include ('header.php'); ?>
+<?php include ('../includes/header.php'); ?>
+<?php include ('includes/nav.php'); ?>
+
 <?php include ('../includes/applicant.php'); ?>
 
 <section Class="container spad">
