@@ -12,7 +12,7 @@ body { height: 100%; background-color: #FFFFFF; font: 1.2em Verdana, Arial, Helv
 
 /* ==================== Form style sheet ==================== */
 
-form { margin: 25px 0 0 29px; width: 750px; padding-bottom: 30px; padding-left: 200px;}
+form { margin: 25px 0 0 29px; width: 550px; padding-bottom: 30px; padding-left: 0px;}
 
 fieldset { margin: 0 0 22px 0; border: 1px solid #FFFFFF; padding: 12px 17px; background-color: #FFFFFF; }
 legend { font-size: 1.1em; background-color: #f6783a;; color: #FFFFFF; font-weight: bold; padding: 4px 8px; width:450px }
@@ -67,7 +67,7 @@ form br { display: none; }
 
 
 <body>
-
+<section class="container">
 	<!--  ==================== Added By Liam ==================== -->
 	<div class="container spad"><h2>
 		Welcome: <?php echo $db_firstName ?> 
@@ -75,6 +75,11 @@ form br { display: none; }
 		<small><?php echo $_SESSION['db_userRole'] ?></small>
 	</h2></div>
 	<!--  ==================== End Added By Liam ==================== -->
+
+	<div class="row">
+		<div class="col"><img class="card-img-top" src="img/person.jpg" alt="Card image cap"></div>
+		<div class="col">
+	
 
 	<!--form action="file:///C:/Users/Roshni/Desktop/division-blue/validation.html" method="post"-->
 	<form action="includes/profileupdate.php" method="post">
@@ -170,7 +175,10 @@ form br { display: none; }
 
 </script>
 
+		</div>
+    </div>
 
+</section>
 
 
 <!-- Your Content End-->
