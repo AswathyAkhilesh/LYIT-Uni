@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 21, 2018 at 01:04 AM
+-- Generation Time: Sep 23, 2018 at 11:09 PM
 -- Server version: 10.1.34-MariaDB
 -- PHP Version: 7.2.8
 
@@ -67,7 +67,10 @@ INSERT INTO `applicants` (`applicantID`, `userID`, `courseID`, `FirstName`, `Cou
 (2, '4', '1', 'Conor', 'Master of Science in DevOps'),
 (13, '5', '1', 'Matthew', 'Master of Science in DevOps'),
 (14, '3', '1', 'Liam', 'Master of Science in DevOps'),
-(15, '2', '1', 'Roshni', 'Master of Science in DevOps');
+(15, '2', '1', 'Roshni', 'Master of Science in DevOps'),
+(16, '3', '3', 'Liam', 'Cloud Technology'),
+(17, '3', '5', 'Liam', 'Private Cloud Technologies'),
+(18, '3', '2', 'Liam', 'Applied Computing');
 
 -- --------------------------------------------------------
 
@@ -161,11 +164,12 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`userID`, `username`, `password`, `firstName`, `middleName`, `lastName`, `gender`, `email`, `dob`, `phoneNumber`, `address`, `city`, `county`, `eirCode`, `country`, `userRole`, `highestQual`, `workExp`) VALUES
-(1, 'aswathy', 'password', 'Aswathy', '', 'Akhilesh', 'female', 'aswathy@test.com', '2000-06-06 00:00:00', 478956125, 'Rose Villa', 'Galway', 'Limerick', 'C789', 'Ireland', '', 'Level 9', 'Yes'),
-(2, 'roshni', 'password', 'Roshni', '', 'Umesh', 'female', 'roshni@test.com', '2000-02-03 00:00:00', 4544487, 'Eden garden', 'Dublin', 'Dublin', 'RF4562', 'Ireland', '', 'Level 9', 'yes'),
-(3, 'liam', 'password', 'Liam', '', 'Whorisky', 'male', 'liam@test.com', '2000-02-14 00:00:00', 78956421, 'Ash field', 'Antrim', 'Antrim', 'GH455', 'Ireland', '', 'Level 9', 'Yes'),
-(4, 'conor', 'password', 'Conor', '', 'Dorrian', 'male', 'conor@test.com', '2000-12-14 00:00:00', 564656599, 'Mountain top', 'Louth', 'Louth', '5454', 'Ireland', '', 'Level 9', 'Yes'),
-(5, 'matthew', 'password', 'Matthew', '', 'Bergin', 'male', 'matthew@test.com', '2000-10-15 00:00:00', 664972229, 'Thornberry', 'Tralee', 'Tralee', 'FR45656', 'Ireland', '', 'Level 9', 'Yes');
+(1, 'aswathy', 'password', 'Aswathy', '', 'Akhilesh', 'female', 'aswathy@test.com', '2000-06-06 00:00:00', 478956125, 'Rose Villa', 'Galway', 'Limerick', 'C789', 'Ireland', 'student', 'Level 9', 'Yes'),
+(2, 'roshni', 'password', 'Roshni', '', 'Umesh', 'female', 'roshni@test.com', '2000-02-03 00:00:00', 4544487, 'Eden garden', 'Dublin', 'Dublin', 'RF4562', 'Ireland', 'student', 'Level 9', 'yes'),
+(3, 'liam', 'password', 'Liam', '', 'Whorisky', 'male', 'liam@test.com', '2000-02-14 00:00:00', 78956421, 'Ash field', 'Antrim', 'Antrim', 'GH455', 'Ireland', 'student', 'Level 9', 'Yes'),
+(4, 'conor', 'password', 'Conor', '', 'Dorrian', 'male', 'conor@test.com', '2000-12-14 00:00:00', 564656599, 'Mountain top', 'Louth', 'Louth', '5454', 'Ireland', 'student', 'Level 9', 'Yes'),
+(5, 'matthew', 'password', 'Matthew', '', 'Bergin', 'male', 'matthew@test.com', '2000-10-15 00:00:00', 664972229, 'Thornberry', 'Tralee', 'Tralee', 'FR45656', 'Ireland', 'student', 'Level 9', 'Yes'),
+(8, 'liam', 'password', 'Liam', '', 'Whorisky', 'male', 'admin@test.com', '2000-02-14 00:00:00', 78956421, 'Ash field', 'Antrim', 'Antrim', 'GH455', 'Ireland', 'admin', 'Level 9', 'Yes');
 
 --
 -- Indexes for dumped tables
@@ -218,7 +222,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `applicants`
 --
 ALTER TABLE `applicants`
-  MODIFY `applicantID` int(25) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `applicantID` int(25) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `courses`
@@ -236,7 +240,7 @@ ALTER TABLE `interviews`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `userID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `userID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
