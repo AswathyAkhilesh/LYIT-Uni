@@ -1,0 +1,245 @@
+{
+  "id": "f0f04867-34bd-4cf6-aea3-aa9c2e2424a2",
+  "version": "1.1",
+  "name": "Untitled Project",
+  "url": "http://localhost",
+  "tests": [{
+    "id": "ec2e4028-13aa-44b9-91f6-04f79c784753",
+    "name": "FrontEnd",
+    "commands": [{
+      "id": "0f27e89e-530c-48ba-a376-07627beec506",
+      "comment": "",
+      "command": "open",
+      "target": "/LYIT-Uni/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51132ddd-3738-4dc0-a7db-26fba93eac94",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'login.php')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d517589-3bc8-48e6-82a9-d304e4e074ad",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "700e8298-7e4f-427a-a1c2-96a24dbfcdbc",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "roshni"
+    }, {
+      "id": "fc32f075-743f-4a44-a81a-1926d5b363d0",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd54f6f1-2605-4487-8f4a-8fc217c155c6",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "3263da57-b1f3-4c8d-822b-8007b2dec43f",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=button[name=\"login\"]", "css"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bd09c7f-ce3a-4477-9c71-06cf6de9b09e",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-button",
+      "targets": [
+        ["id=edit-button", "id"],
+        ["name=edit-button", "name"],
+        ["css=#edit-button", "css"],
+        ["xpath=//input[@id='edit-button']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc195991-9dbd-4e98-a155-02e61823420a",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-middle-name",
+      "targets": [
+        ["id=input-middle-name", "id"],
+        ["name=input-Middle-name", "name"],
+        ["css=#input-middle-name", "css"],
+        ["xpath=//input[@id='input-middle-name']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98f25c17-5355-449a-929e-ce1945f10903",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-middle-name",
+      "targets": [
+        ["id=input-middle-name", "id"],
+        ["name=input-Middle-name", "name"],
+        ["css=#input-middle-name", "css"],
+        ["xpath=//input[@id='input-middle-name']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "B"
+    }, {
+      "id": "8ac747a9-3dfe-4f0c-aa54-774d560b24ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=update", "name"],
+        ["css=#submit", "css"],
+        ["xpath=//input[@id='submit']", "xpath:attributes"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6096776-4df9-4dd6-937a-2253d1721eb7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=COURSES",
+      "targets": [
+        ["linkText=COURSES", "linkText"],
+        ["xpath=//a[contains(text(),'COURSES')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index.php#course')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c30fc423-11f0-4871-807a-90d68478a853",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//section[@id='course']/div/div[2]/div[4]/div[2]/div",
+      "targets": [
+        ["xpath=//section[@id='course']/div/div[2]/div[4]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db4e26e2-a26d-41de-834f-08d5c1e34908",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//section[@id='course']/div/div[2]/div[4]/div[2]/div",
+      "targets": [
+        ["xpath=//section[@id='course']/div/div[2]/div[4]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f63aa01b-1696-46dd-b082-0c4dd22cfa8d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'More Information')])[4]",
+      "targets": [
+        ["xpath=(//a[contains(text(),'More Information')])[4]", "xpath:link"],
+        ["xpath=//section[@id='course']/div/div[2]/div[4]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'course.php?id=1')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ffa62b8-4b38-4005-b712-e9a4d644c51e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=HOW TO APPLY",
+      "targets": [
+        ["linkText=HOW TO APPLY", "linkText"],
+        ["xpath=//a[contains(text(),'HOW TO APPLY')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#d')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da9b0a72-3db1-46bd-9ce5-f635042e88b6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Apply",
+      "targets": [
+        ["linkText=Apply", "linkText"],
+        ["xpath=//a[contains(text(),'Apply')]", "xpath:link"],
+        ["xpath=//div[@id='d']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'application.php?id=1')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2c7751e-fe28-4973-b506-693190f5441a",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=button[name=\"submit\"]", "css"],
+        ["xpath=//button[@name='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f573c3b9-1139-4159-bbe6-040211b53808",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'includes/logout.php')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5c1b16d5-8ff3-4822-95b1-3f72d7e08094",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ec2e4028-13aa-44b9-91f6-04f79c784753"]
+  }],
+  "urls": ["http://localhost/"],
+  "plugins": []
+}
