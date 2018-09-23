@@ -35,6 +35,14 @@
 </style>
 
 <section class = 'container spad'>
+    
+    <?php
+    if (isset($_GET['login']) && ($_GET['login'] == 'false')) { echo '<div class="alert alert-warning alert-dismissible fade show" role="alert"> 
+        <h4><strong>Restricted Area!</strong> Please register or login to access this area.</h4>
+        </button>
+      </div>';   
+    }?>
+
     <div class="container">        
         <div class="row">
             <div class="formBG signup-form col-lg-4 order-2">
@@ -70,6 +78,8 @@
 <br>
 
 <!-- Your Content End-->
+
+
 
 <!-- Footer -->
 <?php include ('includes/footer.php'); ?>
