@@ -1,5 +1,7 @@
 <!-- Header -->
 <?php include ('includes/header.php'); ?>
+<?php include ('includes/nav.php'); ?>
+
 <!-- Header End - Do Not Remove -->
 
 <!-- Your Content Start-->
