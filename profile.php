@@ -86,7 +86,37 @@ form br { display: none; }
 	<!--  ==================== End Added By Liam ==================== -->
 
 	<div class="row">
-		<div class="col"><img class="card-img-top" src="img/person.jpg" alt="Card image cap"></div>
+		<div class="col"><img class="card-img-top" src="img/person.jpg" alt="Card image cap">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">My Interviews</h5>
+					<table class="table table-hover table-bordered">
+						<thead class="thead-light">
+							<tr>
+							<th scope="col">Course</th>
+							<th scope="col">Date</th>
+							<th scope="col">Time</th>
+							</tr>
+						</thead>
+						<tbody>
+							<?php 
+								$id = $_SESSION['db_id'];
+								$query = "SELECT * FROM interviews WHERE userID = '{$id}'";
+								$select_all = mysqli_query($connection, $query);
+								while($row = mysqli_fetch_array($select_all)) {
+									echo "<tr>";
+									echo "<td>" . $row['CourseName'] . "</td>";
+									echo "<td>" . $row['date'] . "</td>";
+									echo "<td>" . $row['Time'] . "</td>";
+									echo "</tr>";
+								}
+							?>
+						</tbody>
+					</table>
+					<a href="index.php#course" class="site-btn text-white">View Courses</a>
+				</div>
+			</div>
+		</div>
 		<div class="col">
 	
 
