@@ -86,8 +86,8 @@
 	<section class="service-section spad">
 		<div class="container services">
 			<div class="section-title text-center">
-				<h3>OUR SERVICES</h3>
-				<p>We provides the opportunity to prepare for life</p>
+				<h3>WEB APPLICATIONS</h3>
+				<p>Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web.</p>
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-sm-6 service-item">
@@ -96,7 +96,7 @@
 					</div>
 					<div class="service-content">
 						<h4>HTML5</h4>
-						<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
+						<p>HTML 5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current major version of the HTML standard.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
@@ -105,7 +105,7 @@
 					</div>
 					<div class="service-content">
 						<h4>Angular</h4>
-						<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
+						<p>Angular is a TypeScript-based open-source front-end web application platform led by the Angular Team at Google and by a community of individuals and corporations.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
@@ -114,7 +114,7 @@
 					</div>
 					<div class="service-content">
 						<h4>NodeJS</h4>
-						<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
+						<p>Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
@@ -123,7 +123,7 @@
 					</div>
 					<div class="service-content">
 						<h4>Java</h4>
-						<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
+						<p>Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
@@ -132,7 +132,7 @@
 					</div>
 					<div class="service-content">
 						<h4>android</h4>
-						<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
+						<p>Android is a mobile OS by Google, based on a modified version of the Linux kernel and other open source software and designed primarily for touchscreen mobile devices such as smartphones and tablets</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
@@ -141,7 +141,7 @@
 					</div>
 					<div class="service-content">
 						<h4>JavaScript</h4>
-						<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
+						<p>JavaScript, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.</p>
 					</div>
 				</div>
 			</div>
@@ -163,17 +163,17 @@
 						<div class="enroll-list-item">
 							<span>1</span>
 							<h5>Login / Register</h5>
-							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue.</p>
+							<p>Simply register for an account, and click the activation link in the email we send to login to your profile..</p>
 						</div>
 						<div class="enroll-list-item">
 							<span>2</span>
 							<h5>Select Course</h5>
-							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue.</p>
+							<p>Browse the selection of courses available to you, if you meet the acceptance mark and your profile is uo to date "Click Apply".</p>
 						</div>
 						<div class="enroll-list-item">
 							<span>3</span>
 							<h5>Apply / Accept</h5>
-							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue.</p>
+							<p>Once we have reviwed your application, we will arrange an interview date and alert you by email.</p>
 						</div>
 					</div>
 				</div>
@@ -333,7 +333,7 @@
 
 
 	<!-- Gallery section -->
-	<div class="gallery-section">
+	<!-- <div class="gallery-section">
 		<div class="gallery">
 			<div class="grid-sizer"></div>
 			<div class="gallery-item gi-big set-bg" data-setbg="img/gallery/1.jpg">
@@ -361,7 +361,7 @@
 				<a class="img-popup" href="img/gallery/7.jpg"><i class="ti-plus"></i></a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- Gallery section -->
 
 
@@ -370,58 +370,58 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>LATEST NEWS</h3>
-				<p>Get latest breaking news & top stories today</p>
+				<p>LYIT granted 213 free Springboard Places for this coming academic year</p>
 			</div>
 			<div class="row">
 				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/blog/1.jpg"></div>
+						<div class="blog-thumb set-bg" data-setbg="img/blog/1-230x170.jpg"></div>
 						<div class="blog-content">
-							<h4>Parents who try to be their children’s best friends</h4>
+							<h4>LYIT granted 213 free Springboard Places.</h4>
 							<div class="blog-meta">
-								<span><i class="fa fa-calendar-o"></i> 12 Aug 2018</span>
-								<span><i class="fa fa-user"></i> Liam Who</span>
+							<span><i class="fa fa-calendar-o"></i> 24 Sept 20188</span>
+								<span><i class="fa fa-user"></i> Team 1</span>
 							</div>
-							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco lacus sit amet. Aenean interdus mid vitae sed accumsan...</p>
+							<p>Free upskilling and reskilling courses for unemployed and homemakers, and 90% funded for employed...</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/blog/2.jpg"></div>
+						<div class="blog-thumb set-bg" data-setbg="img/blog/2-230x170.jpg"></div>
 						<div class="blog-content">
-							<h4>Graduations could be delayed as external examiners</h4>
+							<h4>LYIT to compete in North West Colleges Regatta</h4>
 							<div class="blog-meta">
-								<span><i class="fa fa-calendar-o"></i> 12 Aug 2018</span>
-								<span><i class="fa fa-user"></i> Liam Who</span>
+							<span><i class="fa fa-calendar-o"></i> 24 Sept 20188</span>
+							<span><i class="fa fa-user"></i> Team 1</span>
 							</div>
-							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco lacus sit amet. Aenean interdus mid vitae sed accumsan...</p>
+							<p>The NW Colleges Regatta took place at Foyle Marina on Wednesday, 2 May 2018, and was the culmination of a short training programme ...</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/blog/3.jpg"></div>
+						<div class="blog-thumb set-bg" data-setbg="img/blog/3-230x170.jpg"></div>
 						<div class="blog-content">
-							<h4>Private schools adopt a Ucas style application system</h4>
+							<h4>Careers in Computing - Association of Computing Machinery</h4>
 							<div class="blog-meta">
-								<span><i class="fa fa-calendar-o"></i> 12 Aug 2018</span>
-								<span><i class="fa fa-user"></i> Liam Who</span>
+							<span><i class="fa fa-calendar-o"></i> 24 Sept 20188</span>
+							<span><i class="fa fa-user"></i> Team 1</span>
 							</div>
-							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco lacus sit amet. Aenean interdus mid vitae sed accumsan...</p>
+							<p>LYIT, in conjunction with the Association of Computing Machinery - Women, recently organised a two-day Celebration of Careers in Computing...</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/blog/4.jpg"></div>
+						<div class="blog-thumb set-bg" data-setbg="img/blog/4-230x170.jpg"></div>
 						<div class="blog-content">
-							<h4>Cambridge digs in at the top of university league table</h4>
+							<h4>LYIT students get chance to sign up early for Foyle Sailability</h4>
 							<div class="blog-meta">
-								<span><i class="fa fa-calendar-o"></i> 12 Aug 20188</span>
-								<span><i class="fa fa-user"></i> Liam Who</span>
+								<span><i class="fa fa-calendar-o"></i> 24 Sept 20188</span>
+								<span><i class="fa fa-user"></i> Team 1</span>
 							</div>
-							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco lacus sit amet. Aenean interdus mid vitae sed accumsan...</p>
+							<p>Foyle Sailability to introduce winter sail training programme for cross-border college students...</p>
 						</div>
 					</div>
 				</div>
