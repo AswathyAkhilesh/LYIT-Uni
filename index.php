@@ -127,7 +127,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
-				<div class="service-icon" style="font-size: 4rem; color: lightgreen">
+				<div class="service-icon" style="font-size: 4rem; color: green">
 				<i class="fab fa-android"></i>
 					</div>
 					<div class="service-content">
