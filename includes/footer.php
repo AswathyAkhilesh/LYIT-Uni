@@ -66,7 +66,7 @@
 		<div class="copyright">
 			<div class="container"><p>
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://lyit.ie" target="_blank">LYIT.edu</a></p>
-<a href="admin/"> Admin</a>
+<a href="admin/login.php"> Admin</a>
 			</div>		
 		</div>
 	</footer>
