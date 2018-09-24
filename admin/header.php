@@ -55,7 +55,14 @@
 		<div class="loader"></div>
 	</div>
 
-	
+	<?php
+    if(!isset($_SESSION['db_userRole'])){
+		header("Location: login.php?login=false");
+	} 
+	if($_SESSION['db_userRole'] == 'student'){
+		header("Location: login.php?login=false");
+	}
+	?>
 
 	<!-- header section -->
 	<header class="header-section">

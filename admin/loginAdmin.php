@@ -56,6 +56,6 @@ if(isset($_POST['loginAdmin'])) {
         $_SESSION['userRole'] = $db_userRole;
         header("Location: index.php");
     } else {
-        header("Location: login.php");   
+        header("Location: login.php?login=false");   
     }
 }
