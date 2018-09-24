@@ -8,10 +8,10 @@
 						<img src="img/logo-light.png" alt="LYIT.edu">
 						<p>orem ipsum dolor sit amet, consecter adipiscing elite. Donec minos varius, viverra justo ut, aliquet nisl.</p>
 						<div class="social pt-1">
-							<a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square"></i></a>
-							<a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
-							<a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-							<a href="http://www.google.com" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+							<a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+							<a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+							<a href="http://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+							<a href="http://www.google.com" target="_blank"><i class="fab fa-google-plus-square"></i></a>
 
 						</div>
 					</div>
@@ -65,7 +65,7 @@
 		<!-- copyright -->
 		<div class="copyright">
 			<div class="container"><p>
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://lyit.ie" target="_blank">LYIT.edu</a></p>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fas fa-heart"></i> by <a href="https://lyit.ie" target="_blank">LYIT.edu</a></p>
 <a href="admin/login.php"> Admin</a>
 			</div>		
 		</div>
