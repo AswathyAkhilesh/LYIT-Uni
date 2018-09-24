@@ -10,6 +10,13 @@
         header("Location: login.php?login=false");
     } ?>
 
+        <?php
+    if (isset($_GET['submitted']) && ($_GET['submitted'] == 'true')) { echo '<div class="alert alert-info alert-dismissible fade show" role="alert"> 
+        <h4><strong>Application Submitted...</strong> Please check your email for confirmation.</h4>
+        </button>
+      </div>';   
+    }?>
+
     <form action="includes/applicationupdate.php" method="post">
 
     <?php $count = 0; ?>
