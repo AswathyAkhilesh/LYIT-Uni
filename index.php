@@ -89,8 +89,8 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-sm-6 service-item">
-					<div class="service-icon">
-						<img src="img/services-icons/1.png" alt="1">
+					<div class="service-icon" style="font-size: 2.5rem; color: darkblue">
+						<i class="fa fa-graduation-cap"></i>
 					</div>
 					<div class="service-content">
 						<h4>Art Studio</h4>
@@ -98,8 +98,8 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
-					<div class="service-icon">
-						<img src="img/services-icons/2.png" alt="1">
+				<div class="service-icon" style="font-size: 2.5rem; color: darkblue">
+						<i class="fa fa-graduation-cap"></i>
 					</div>
 					<div class="service-content">
 						<h4>Great Facility</h4>
@@ -107,8 +107,8 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
-					<div class="service-icon">
-						<img src="img/services-icons/3.png" alt="1">
+				<div class="service-icon" style="font-size: 2.5rem; color: darkblue">
+						<i class="fa fa-graduation-cap"></i>
 					</div>
 					<div class="service-content">
 						<h4>Activity Hub</h4>
@@ -116,8 +116,8 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
-					<div class="service-icon">
-						<img src="img/services-icons/4.png" alt="1">
+				<div class="service-icon" style="font-size: 2.5rem; color: darkblue">
+						<i class="fa fa-graduation-cap"></i>
 					</div>
 					<div class="service-content">
 						<h4>Fully Qualified</h4>
@@ -125,8 +125,8 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
-					<div class="service-icon">
-						<img src="img/services-icons/5.png" alt="1">
+				<div class="service-icon" style="font-size: 2.5rem; color: darkblue">
+						<i class="fa fa-graduation-cap"></i>
 					</div>
 					<div class="service-content">
 						<h4>Flexible Schedule</h4>
@@ -134,8 +134,8 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
-					<div class="service-icon">
-						<img src="img/services-icons/6.png" alt="1">
+				<div class="service-icon" style="font-size: 2.5rem; color: darkblue">
+						<i class="fa fa-graduation-cap"></i>
 					</div>
 					<div class="service-content">
 						<h4>Chemistry Lab</h4>
