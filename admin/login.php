@@ -91,10 +91,21 @@
 	<!-- Header section end -->
 
 
+
 <!-- Your Content Start-->
 
 <section class="spad">
+
+
     <div class="comment-form container">
+
+	<?php
+    if (isset($_GET['login']) && ($_GET['login'] == 'false')) { echo '<div class="alert alert-warning alert-dismissible fade show" role="alert"> 
+        <h4><strong>Restricted Area!</strong> Please register or login to access this area.</h4>
+        </button>
+      </div>';   
+    }?>
+
             <h1>Login Here</h1><br>
             <form action="loginAdmin.php" method="post">
                 
