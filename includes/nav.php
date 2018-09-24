@@ -27,3 +27,10 @@
 		</div>
 	</nav>
 	<!-- Nav section end -->
+	<?php
+		if($_SESSION['db_userRole'] == 'admin'){
+			echo '<div class="alert alert-danger alert-dismissible fade show" role="alert" style="text-align: center;"> 
+			<h4><strong>NOTICE!</strong> This is the user area, you are logged in as admin.</h4>
+			</button>
+		  </div>';
+	}?>
