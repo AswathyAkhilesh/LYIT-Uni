@@ -79,6 +79,8 @@
 	</section>
 	<!-- Counter section end -->
 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
 
 	<!-- Services section -->
 	<section class="service-section spad">
@@ -89,56 +91,56 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-sm-6 service-item">
-					<div class="service-icon" style="font-size: 2.5rem; color: darkblue">
-						<i class="fa fa-graduation-cap"></i>
+					<div class="service-icon" style="font-size: 4rem; color: darkorange;">
+					<i class="fab fa-html5"></i>
 					</div>
 					<div class="service-content">
-						<h4>Art Studio</h4>
+						<h4>HTML5</h4>
 						<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
-				<div class="service-icon" style="font-size: 2.5rem; color: darkblue">
-						<i class="fa fa-graduation-cap"></i>
+				<div class="service-icon" style="font-size: 4rem; color: red">
+						<i class="fab fa-angular"></i>
 					</div>
 					<div class="service-content">
-						<h4>Great Facility</h4>
+						<h4>Angular</h4>
 						<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
-				<div class="service-icon" style="font-size: 2.5rem; color: darkblue">
-						<i class="fa fa-graduation-cap"></i>
+				<div class="service-icon" style="font-size: 4rem; color: darkgreen">
+				<i class="fab fa-node-js"></i>
 					</div>
 					<div class="service-content">
-						<h4>Activity Hub</h4>
+						<h4>NodeJS</h4>
 						<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
-				<div class="service-icon" style="font-size: 2.5rem; color: darkblue">
-						<i class="fa fa-graduation-cap"></i>
+				<div class="service-icon" style="font-size: 4rem; color: darkblue">
+				<i class="fab fa-java"></i>
 					</div>
 					<div class="service-content">
-						<h4>Fully Qualified</h4>
+						<h4>Java</h4>
 						<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
-				<div class="service-icon" style="font-size: 2.5rem; color: darkblue">
-						<i class="fa fa-graduation-cap"></i>
+				<div class="service-icon" style="font-size: 4rem; color: lightgreen">
+				<i class="fab fa-android"></i>
 					</div>
 					<div class="service-content">
-						<h4>Flexible Schedule</h4>
+						<h4>android</h4>
 						<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
-				<div class="service-icon" style="font-size: 2.5rem; color: darkblue">
-						<i class="fa fa-graduation-cap"></i>
+				<div class="service-icon" style="font-size: 4rem; color: orange">
+				<i class="fab fa-js-square"></i>
 					</div>
 					<div class="service-content">
-						<h4>Chemistry Lab</h4>
+						<h4>JavaScript</h4>
 						<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos cursus lania.</p>
 					</div>
 				</div>
