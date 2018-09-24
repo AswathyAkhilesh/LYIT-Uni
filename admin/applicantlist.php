@@ -24,7 +24,7 @@
    </thead>   
 </table>
 <p align="center">
-   <button type="button" id="view" class="btn btn-info">Schedule</button>
+   <button type="button" id="view" class="btn btn-info">Schedule Interview</button>
 </p>
 </section>
 <?php include ('footer.php'); ?>
